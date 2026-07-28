@@ -1,0 +1,33 @@
+ATLAS DAILY PUMP  2026-06-28 23:33  3 theses
+========================================================================
+
+ATTENTION (worst first)
+  MSTR compromised conv 3/10 - next: Assumption "Quantum computers reach ECDSA-breaking scale within the horizon" has no supporting evidence yet.
+  IONQ needs-review conv 6/10 - next: Assumption "IonQ specifically survives: not out-scaled by Google/IBM, not forced into a death-spiral raise" has no supporting evidence yet.
+  RXRX needs-review conv 4/10 - next: Assumption "AI/ML drug discovery can produce clinically successful drugs (unproven industry-wide)" has no supporting evidence yet.
+
+DEADLINES (overdue or within 90 days)
+  RXRX p2 (owner) due 2026-08-04 [36d]: At Q2 earnings, Recursion still discloses more than 18 months of cash runway
+
+FILINGS (material, last 7 days)
+
+  IONQ
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1824920/000119312526278249/xslF345X06/ownership.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1824920/000119312526278247/xslF345X06/ownership.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1824920/000119312526278246/xslF345X06/ownership.xml
+    2026-06-22  8-K      https://www.sec.gov/Archives/edgar/data/1824920/000119312526276342/ionq-20260616.htm
+
+  MSTR
+    2026-06-24  4        https://www.sec.gov/Archives/edgar/data/1050446/000130919126000031/xslF345X06/ownership.xml
+    2026-06-23  424B5    https://www.sec.gov/Archives/edgar/data/1050446/000119312526279602/d87847d424b5.htm
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1050446/000165166926000010/xslF345X06/ownership.xml
+    2026-06-22  8-K      https://www.sec.gov/Archives/edgar/data/1050446/000119312526276717/mstr-20260504.htm
+
+  RXRX
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000088/xslF345X06/wk-form4_1782160357.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000087/xslF345X06/wk-form4_1782160351.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000086/xslF345X06/wk-form4_1782160342.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000085/xslF345X06/wk-form4_1782160336.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000084/xslF345X06/wk-form4_1782160331.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000083/xslF345X06/wk-form4_1782160325.xml
+    2026-06-22  4        https://www.sec.gov/Archives/edgar/data/1601830/000160183026000082/xslF345X06/wk-form4_1782160319.xml

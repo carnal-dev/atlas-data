@@ -1,0 +1,41 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CANF","oneLiner":"Engine candidate: move -6.5%, vol 686.3x, -87.4% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"clinical-trial-failure-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-crisis","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"israel-geopolitical-risk","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-binary","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Piclidenoson receives FDA approval for psoriasis in next 12-18 months","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Phase III data fails to meet endpoints or is rejected by FDA; stock falls to delisting level."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Company can raise sufficient capital without massive dilution","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"No partnership or equity financing materializes within 6 months; bankruptcy risk becomes imminent."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Namodenoson shows efficacy in pancreatic cancer trial","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Phase IIa data disappoints or safety issues emerge; therapeutic thesis collapses."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Japanese patent for anti-obesity technology leads to licensing revenue","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"No partner license materializes in 12 months; patent itself has no cash value without validation in clinic."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Within 12 months, Can-Fite will either announce a significant licensing deal or partnership, or its stock will trade below $0.50 due to cash crisis.","dueDate":"2027-06-29","resolutionCriterion":"Check if a binding licensing/partnership agreement (with upfront or milestone payments) is announced within 12 months. If none and price < $0.50, prediction fails true side.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"clinical-trial-failure-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cash-runway-crisis"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-asset-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"israel-geopolitical-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-approval-binary"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Can-Fite will announce a licensing deal for Namodenoson (anti-obesity or pancreatic cancer) or Piclidenoson by Q1 2027, providing non-dilutive funding.","dueDate":"2027-03-29","resolutionCriterion":"Company publicly announces a partnership with upfront payment and/or milestones before March 31, 2027.","confidence":0.4,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Can-Fite is a pre-revenue Israeli biotech with two late-stage drug candidates. Its supply chain is thin (outsourced manufacturing, clinical CROs), making it highly dependent on regulatory and financin"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Can-Fite will file an NDA for Piclidenoson with FDA within 12 months, citing positive Phase III results.","dueDate":"2027-06-29","resolutionCriterion":"Check SEC filings for NDA submission for Piclidenoson for psoriasis.","confidence":0.4,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"obesity-drugs","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-07-02","id":"eng-pred-2026-07-02","statement":"Piclidenoson phase III psoriasis trial top-line data release within next 6 months","dueDate":"2027-01-02","resolutionCriterion":"Company issues press release with efficacy or safety results (e.g., PASI-75 response rate); stock moves >50%","confidence":0.65,"source":"engine"}

@@ -1,0 +1,120 @@
+{
+  "ticker": "RKLB",
+  "name": "Rocket Lab",
+  "identity": {
+    "sector": "Space (launch+systems)",
+    "theme": "Space",
+    "country": "USA",
+    "tags": [
+      "🛰️",
+      "🐢",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "Y",
+    "isException": true
+  },
+  "market": {
+    "price": 85.73,
+    "sharesOutM": 624.8,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 500,
+    "asOf": "2026-06-26",
+    "source": "price: Alpaca; financials: verify",
+    "provenance": {
+      "price": { "source": "market data feed", "confidence": "high", "asOf": "2026-06-26" },
+      "revenueTtmM": { "source": "company filings — pending verification", "confidence": "estimated", "asOf": "2026-05-01" }
+    }
+  },
+  "scores": {
+    "factors": {
+      "tam": 82,
+      "techMoat": 75,
+      "capitalAllocation": 70,
+      "financialHealth": 60,
+      "dilutionRisk": 40,
+      "manufacturing": 85,
+      "competitivePosition": 75,
+      "insiderOwnership": 55,
+      "govtTailwinds": 75,
+      "executionRisk": 50,
+      "valuation": 25
+    },
+    "differentiators": {
+      "replacementRisk": 88,
+      "realityCheck": 72,
+      "civImportance": 82
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.06,
+      "pLoss": 0.2
+    }
+  },
+  "thesis": {
+    "summary": "Clear #2 to SpaceX. Real launches/revenue; Neutron is the next leg. ~$54B cap = exception.",
+    "risks": "Exception >$10B · Rich valuation",
+    "confidence": "Medium",
+    "runway": "n/a — verify",
+    "catalyst": {
+      "text": "Neutron first launch; national-security launch awards; constellation",
+      "window": "2026",
+      "type": "FAA / Launch"
+    },
+    "profile": "",
+    "bull": "The clear #2 to SpaceX in Western launch, with an operational small-launch vehicle (Electron) generating real revenue and a fast-growing Space Systems business. Neutron, a reusable medium-lift rocket, opens a far larger market and national-security launch demand, giving Rocket Lab an end-to-end space company profile few competitors can match.",
+    "bear": "Valuation is rich relative to current revenue and the company is not yet consistently profitable, so the thesis leans heavily on Neutron executing on time — a first-of-its-kind reusable rocket with real technical and schedule risk. A delayed or troubled Neutron debut would compress the multiple sharply. Market cap >$10B makes this a size exception.",
+    "invalidationConditions": [
+      "Neutron's first launch slips materially or fails repeatedly",
+      "Electron cadence or Space Systems growth stalls",
+      "Capital needs force heavy dilution at depressed prices"
+    ],
+    "unknowns": [
+      "Path and timeline to sustained profitability is unclear",
+      "Neutron development cost-to-completion and first-flight date carry wide error bars",
+      "Long-term margin structure of Space Systems vs Launch is unproven"
+    ]
+  },
+  "evidence": [
+    {
+      "scoreKey": "realityCheck",
+      "claim": "Electron is an operational orbital launch vehicle with a multi-year flight record",
+      "source": "Company filings / FAA",
+      "sourceReliability": "high",
+      "claimConfidence": "very-high",
+      "asOf": "2026-05-01"
+    },
+    {
+      "scoreKey": "competitivePosition",
+      "claim": "Widely regarded as the leading Western small-launch provider after SpaceX",
+      "source": "Industry coverage",
+      "sourceReliability": "medium",
+      "claimConfidence": "high"
+    },
+    {
+      "scoreKey": "tam",
+      "claim": "Neutron targets the larger medium-lift / constellation deployment market",
+      "source": "Company guidance",
+      "sourceReliability": "medium",
+      "claimConfidence": "medium",
+      "asOf": "2026-03-01"
+    },
+    {
+      "scoreKey": "valuation",
+      "claim": "Trades at a high multiple of current revenue (>$10B market cap on ~$0.5B revenue)",
+      "source": "Atlas analysis (price × shares ÷ revenue)",
+      "sourceReliability": "high",
+      "claimConfidence": "high",
+      "asOf": "2026-06-26"
+    }
+  ],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-27"
+  }
+}

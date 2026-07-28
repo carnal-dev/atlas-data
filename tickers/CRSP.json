@@ -1,0 +1,71 @@
+{
+  "ticker": "CRSP",
+  "name": "CRISPR Therapeutics",
+  "identity": {
+    "sector": "Biotech (gene editing)",
+    "theme": "Biotech",
+    "country": "USA",
+    "tags": [
+      "🧬",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 54.88,
+    "sharesOutM": 96.4,
+    "cashM": 2440,
+    "debtM": 600,
+    "revenueTtmM": 130,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 80,
+      "techMoat": 82,
+      "capitalAllocation": 60,
+      "financialHealth": 78,
+      "dilutionRisk": 45,
+      "manufacturing": 55,
+      "competitivePosition": 72,
+      "insiderOwnership": 35,
+      "govtTailwinds": 40,
+      "executionRisk": 55,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 80,
+      "realityCheck": 58,
+      "civImportance": 82
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.1,
+      "pLoss": 0.18
+    }
+  },
+  "thesis": {
+    "summary": "The gene-editing pioneer with an APPROVED product (Casgevy, ~$43M/qtr and growing) + in-vivo pipeline + $2.4B cash. Best-in-theme biotech.",
+    "risks": "Casgevy ramp slow · Binary pipeline · Dilution",
+    "confidence": "High",
+    "runway": "strong ($2.4B cash)",
+    "catalyst": {
+      "text": "Casgevy commercial ramp (>500 patients); in-vivo pipeline readouts (H2)",
+      "window": "2026",
+      "type": "Commercial / Clinical"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

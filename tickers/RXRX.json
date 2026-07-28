@@ -1,0 +1,81 @@
+{
+  "ticker": "RXRX",
+  "name": "Recursion Pharmaceuticals",
+  "identity": {
+    "sector": "Biotech / AI drug disc.",
+    "theme": "Biotech",
+    "country": "USA",
+    "tags": [
+      "🧬",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "Y",
+    "isException": false
+  },
+  "market": {
+    "price": 3.515,
+    "sharesOutM": 530.6,
+    "cashM": 665,
+    "debtM": 0,
+    "revenueTtmM": 85,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q / IR",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 88,
+      "techMoat": 60,
+      "capitalAllocation": 55,
+      "financialHealth": 60,
+      "dilutionRisk": 35,
+      "manufacturing": 45,
+      "competitivePosition": 45,
+      "insiderOwnership": 50,
+      "govtTailwinds": 35,
+      "executionRisk": 40,
+      "valuation": 55
+    },
+    "differentiators": {
+      "replacementRisk": 50,
+      "realityCheck": 38,
+      "civImportance": 70
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.32,
+      "pUp10x": 0.12,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "AI drug discovery platform + robotic labs. No approved drug yet; revenue missed.",
+    "risks": "Binary (clinical) · Dilution",
+    "confidence": "High",
+    "runway": "into early 2028",
+    "catalyst": {
+      "text": "Pivotal readouts (REC-617, REC-4881); Roche/Genentech milestones",
+      "window": "2026-27",
+      "type": "Clinical / Partner"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-28T06:58:18.682Z"
+  },
+  "evidence": [
+    {
+      "scoreKey": "executionRisk",
+      "claim": "Stockholders elected directors with strong majority support (~88% for Najat Khan, ~87% for Franziska Michor of votes cast), indicating confidence in board.",
+      "source": "SEC 8-K",
+      "sourceReliability": "high",
+      "claimConfidence": "high",
+      "asOf": "2026-06-17"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "ticker": "UUUU",
+  "name": "Energy Fuels",
+  "identity": {
+    "sector": "Nuclear (uranium) + REE",
+    "theme": "Nuclear fuel cycle",
+    "country": "USA",
+    "tags": [
+      "⚛️",
+      "🪨",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 14.18,
+    "sharesOutM": 242.0,
+    "cashM": 910,
+    "debtM": 0,
+    "revenueTtmM": 70,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 72,
+      "capitalAllocation": 58,
+      "financialHealth": 72,
+      "dilutionRisk": 40,
+      "manufacturing": 82,
+      "competitivePosition": 70,
+      "insiderOwnership": 40,
+      "govtTailwinds": 85,
+      "executionRisk": 50,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 90,
+      "realityCheck": 60,
+      "civImportance": 88
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.42,
+      "pUp10x": 0.12,
+      "pLoss": 0.18
+    }
+  },
+  "thesis": {
+    "summary": "Only conventional US uranium mill (White Mesa) + emerging heavy-REE separation. Real uranium revenue.",
+    "risks": "Uranium price · REE-ramp execution · Dilution",
+    "confidence": "High",
+    "runway": "strong ($910M liquidity)",
+    "catalyst": {
+      "text": "White Mesa REE separation ramp (first terbium); uranium production",
+      "window": "2026",
+      "type": "Production / DOE"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

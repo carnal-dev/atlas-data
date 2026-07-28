@@ -1,0 +1,39 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"FBYD","oneLiner":"Engine candidate: move -4.9%, vol 20.2x, -44.8% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"creative-talent-bottleneck","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-market-access","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tourism-demand-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-geopolitical-exposure","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Company can raise ongoing capital at reasonable cost","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Credit tightens or equity markets reject additional offerings (e.g., insider selling, no underwriting)"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Key talent/creative team remains intact","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Founder/lead designer departs or key studio is poached"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Demand for themed entertainment/hotel development recovers or holds","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Recession cuts travel spending; key project cancelations"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No major contractual loss or IP dispute","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Licensing partner pulls out or litigation impairs project"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"FBYD will trade below $12 within 12 months as bear factors dominate, assuming no acquisition.","dueDate":"2027-06-29","resolutionCriterion":"Close price below $12 on any day after 12 months from now, or above $12 (false).","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"creative-talent-bottleneck"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"capital-market-access"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"tourism-demand-cycle"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"china-geopolitical-exposure"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Q2 2026 earnings (mid-August 2026) will show revenue below consensus due to project delays; stock drops >10%.","dueDate":"2026-09-29","resolutionCriterion":"FBYD reports Q2 2026 revenue; if below $20M and/or negative free cash flow, prediction true.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"FBYD is a themed entertainment and hospitality developer with high fixed costs and project-based revenue. Supply chain is concentrated on creative talent, IP rights, and construction partners; demand "}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"commercial-real-estate","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-discretionary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-access","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"external-financing","kind":"dependency","source":"engine"}

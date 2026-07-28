@@ -1,0 +1,114 @@
+{
+  "summary": "FBT is an equal-weight biotech ETF whose performance mirrors the NYSE Arca Biotechnology Index. Its supply-chain risk is purely financial and regulatory: sector concentration, FDA approval binary, and interest-rate sensitivity. The fund's returns depend on the aggregate health of innovative biotech firms, not physical inputs.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "NYSE Arca Biotechnology Index constituents",
+        "whyNeeded": "FBT tracks this index; its return equals index return minus fees.",
+        "concentration": "moderate (equal-weight reduces single-stock risk, but sector is concentrated in biotech)",
+        "fragility": "medium (sector-wide shocks like FDA policy change or rate hikes affect all holdings)"
+      },
+      {
+        "node": "Capital markets access for small biotech",
+        "whyNeeded": "Many index firms are small, pre-revenue; they need equity/debt financing to survive.",
+        "concentration": "high (dependent on investor risk appetite and interest rates)",
+        "fragility": "high (tightening credit or risk-off sentiment can cause cash-runway failures)"
+      },
+      {
+        "node": "FDA approval pipeline",
+        "whyNeeded": "Approvals drive stock prices of individual holdings; index moves on aggregate approval sentiment.",
+        "concentration": "high (FDA is sole regulator for US drug approvals)",
+        "fragility": "high (policy change or slowdown can depress entire sector)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "FDA regulatory process",
+        "why": "Single point of failure for drug commercialization; delays or denials hit many holdings."
+      },
+      {
+        "node": "Federal Reserve interest rate decisions",
+        "why": "Biotech valuations are highly sensitive to discount rates; rate hikes compress multiples."
+      }
+    ],
+    "customers": [
+      {
+        "node": "ETF investors (retail and institutional)",
+        "why": "Demand for FBT shares determines fund flows and secondary market price."
+      }
+    ],
+    "geographic": "US-centric (NYSE Arca index is US-listed biotech firms; global exposure minimal)",
+    "substitutes": [
+      "iShares Biotechnology ETF (IBB)",
+      "SPDR S&P Biotech ETF (XBI)",
+      "Individual biotech stocks"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "capital-markets-access",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Rising interest rates compress biotech valuations, causing FBT to underperform.",
+    "FDA approval cadence slows or policy becomes more restrictive, hurting index constituents.",
+    "M&A activity drops sharply, removing a key support for small biotech stock prices.",
+    "Sector rotation out of growth/risk assets leads to sustained outflows from biotech ETFs."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Interest rates remain low/stable",
+      "breaksIf": "Fed hikes or signals prolonged higher rates, crushing biotech valuations."
+    },
+    {
+      "assumption": "FDA maintains current approval cadence and policy continuity",
+      "breaksIf": "FDA slows approvals or changes drug review standards, increasing clinical risk."
+    },
+    {
+      "assumption": "M&A activity stays at or above expected levels",
+      "breaksIf": "M&A drought removes acquisition premium support for small biotech stocks."
+    },
+    {
+      "assumption": "Index composition remains equal-weight and focused on innovative biotech",
+      "breaksIf": "Index rebalance shifts to larger, less volatile firms, altering risk profile."
+    }
+  ],
+  "prediction": {
+    "statement": "FBT will react to the next FOMC rate decision (July 2026); a rate cut will lift FBT, a hold will keep it range-bound, a hike will drop it.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Compare FBT price change on FOMC day vs. S&P 500; if FBT outperforms on a cut, underperforms on a hike, prediction holds.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No specific holdings list or weights available in facts.",
+    "No data on recent fund flows or expense ratio.",
+    "No information on index rebalancing schedule."
+  ],
+  "verifyThese": [
+    "Check NYSE Arca Biotechnology Index current composition and equal-weight methodology.",
+    "Verify recent FDA approval trends and any policy changes.",
+    "Confirm next FOMC meeting date and market expectations for rate decision."
+  ],
+  "diminishingReturns": "Stopped at the index level because FBT is a diversified ETF; tracing individual biotech supply chains (e.g., drug ingredients, CROs) adds no material insight for a 1-2 year horizon."
+}

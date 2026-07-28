@@ -1,0 +1,70 @@
+{
+  "ticker": "IONQ",
+  "name": "IonQ",
+  "identity": {
+    "sector": "Quantum",
+    "theme": "Quantum",
+    "country": "USA",
+    "tags": [
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "plan",
+    "isException": true
+  },
+  "market": {
+    "price": 51.77,
+    "sharesOutM": 373.3,
+    "cashM": 2030,
+    "debtM": 30,
+    "revenueTtmM": 50,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / stockanalysis",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 88,
+      "techMoat": 70,
+      "capitalAllocation": 55,
+      "financialHealth": 75,
+      "dilutionRisk": 35,
+      "manufacturing": 55,
+      "competitivePosition": 60,
+      "insiderOwnership": 35,
+      "govtTailwinds": 65,
+      "executionRisk": 40,
+      "valuation": 25
+    },
+    "differentiators": {
+      "replacementRisk": 72,
+      "realityCheck": 35,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.28,
+      "pUp10x": 0.08,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "Trapped-ion quantum leader, $2B cash, acquisitive. ~$19B cap = exception; pre-commercial.",
+    "risks": "Exception >$10B · Pre-revenue",
+    "confidence": "High",
+    "runway": ">3 yrs",
+    "catalyst": {
+      "text": "Oxford Ionics integration; logical-qubit milestones; bookings",
+      "window": "2026",
+      "type": "Tech / Bookings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "summary": "Chaince Digital Holdings is a small-cap advisory firm pivoting to DeFi (USDC Yield Vault) and space-based AI. Its supply chain is intangible, relying on DeFi protocols, cloud infrastructure, and regulatory compliance. The stock's near-term catalyst is vault adoption, but execution risk is high.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "DeFi Protocol (Morpho)",
+        "whyNeeded": "Core technology for USDC Yield Vault",
+        "concentration": "High: single protocol dependency",
+        "fragility": "High: protocol risk, smart contract risk"
+      },
+      {
+        "node": "Cloud Infrastructure (AWS/GCP)",
+        "whyNeeded": "Compute and storage for AI operations",
+        "concentration": "Medium: few providers",
+        "fragility": "Medium: potential service outages"
+      },
+      {
+        "node": "Regulatory Compliance",
+        "whyNeeded": "Operate in multiple jurisdictions (US, HK, Singapore)",
+        "concentration": "High: depends on evolving regulations",
+        "fragility": "High: geopolitical shifts"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Morpho Protocol",
+        "why": "Single point of failure for yield vault; if Morpho suffers exploit or liquidity crisis, vault collapses."
+      },
+      {
+        "node": "Funding for Space AI",
+        "why": "Capital-intensive initiative; no committed funding yet, fragile to market conditions."
+      }
+    ],
+    "customers": [
+      {
+        "node": "US Retail and Institutional Investors",
+        "whyNeeded": "Primary capital source for USDC Yield Vault"
+      },
+      {
+        "node": "Government and Private Space Entities",
+        "whyNeeded": "Potential clients for space-based AI infrastructure"
+      }
+    ],
+    "geographic": "Operations in US, Hong Kong, Singapore, Greater China; regulatory exposure across these regions.",
+    "substitutes": "Other DeFi yield vaults (e.g., Aave, Compound), traditional AI cloud services from AWS/GCP/Azure"
+  },
+  "exposures": [
+    {
+      "tag": "crypto-exposure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "digital-asset-holdings-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "crypto-regulatory-risk",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "space-launch",
+      "kind": "theme"
+    },
+    {
+      "tag": "fintech",
+      "kind": "theme"
+    },
+    {
+      "tag": "institutional-adoption",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": "USDC Yield Vault fails to attract deposits due to competing vaults or security concerns; space AI remains unfunded; advisory business declines from lack of IPOs; stock dilutes further.",
+  "loadBearing": [
+    {
+      "assumption": "USDC Yield Vault scales to meaningful AUM (e.g., $50M+) within 12 months",
+      "breaksIf": "Vault deposits remain negligible (<$5M) or suffer a hack/exploit."
+    },
+    {
+      "assumption": "Space AI initiative secures external funding or partnership",
+      "breaksIf": "No funding materializes within 18 months; capital raised via dilutive equity."
+    },
+    {
+      "assumption": "Core advisory business generates positive cash flow",
+      "breaksIf": "Advisory revenue drops as IPO market stays weak; expenses outstrip income."
+    },
+    {
+      "assumption": "No adverse US-China geopolitical events affecting operations",
+      "breaksIf": "New sanctions or trade restrictions disrupt HK/Singapore activities."
+    }
+  ],
+  "prediction": {
+    "statement": "Chaince reports Q3 2026 earnings with USDC Yield Vault AUM disclosed; if AUM exceeds $20M, stock rallies; if below $5M, it declines.",
+    "horizonMonths": 4,
+    "resolutionCriterion": "Q3 2026 earnings release (expected Nov 2026) shows vault AUM and advisory revenue.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "No financial data (revenue, cash, debt)",
+    "No details on advisory pipeline or IPO activity",
+    "No information on space AI team or technology readiness"
+  ],
+  "verifyThese": [
+    "Current AUM of USDC Yield Vault",
+    "Exact terms of Morpho partnership",
+    "Status of space AI funding applications",
+    "Advisory revenue trend in 2026"
+  ],
+  "diminishingReturns": "Deeper dependencies (e.g., Morpho's dependency on Ethereum, AWS's dependency on chip supply) do not change the investment picture because the company's risk is primarily adoption and funding, not physical supply constraints."
+}

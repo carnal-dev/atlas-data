@@ -1,0 +1,70 @@
+{
+  "ticker": "PLUG",
+  "name": "Plug Power",
+  "identity": {
+    "sector": "Energy (hydrogen)",
+    "theme": "Energy",
+    "country": "USA",
+    "tags": [
+      "💡"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 2.515,
+    "sharesOutM": 1389.0,
+    "cashM": 802,
+    "debtM": 747,
+    "revenueTtmM": 700,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 78,
+      "techMoat": 50,
+      "capitalAllocation": 25,
+      "financialHealth": 35,
+      "dilutionRisk": 10,
+      "manufacturing": 70,
+      "competitivePosition": 55,
+      "insiderOwnership": 25,
+      "govtTailwinds": 70,
+      "executionRisk": 30,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 68,
+      "realityCheck": 45,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.09,
+      "pLoss": 0.4
+    }
+  },
+  "thesis": {
+    "summary": "Vertically integrated hydrogen (real plants) but 1.39B shares, $747M debt, deep burn. Dilution/bankruptcy test.",
+    "risks": "Catastrophic dilution · Cash burn · Going-concern history",
+    "confidence": "High",
+    "runway": "~5 qtrs burn",
+    "catalyst": {
+      "text": "DOE loan deployment; electrolyzer/plant ramp; margin improvement",
+      "window": "2026",
+      "type": "DOE / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

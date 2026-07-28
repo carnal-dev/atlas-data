@@ -1,0 +1,121 @@
+{
+  "ticker": "MP",
+  "name": "MP Materials",
+  "identity": {
+    "sector": "Mining / Rare earths",
+    "theme": "Rare earths",
+    "country": "USA",
+    "tags": [
+      "🪨",
+      "🐢",
+      "💰"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 54.36,
+    "sharesOutM": 178.0,
+    "cashM": 1740,
+    "debtM": 1050,
+    "revenueTtmM": 300,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {
+      "price": { "source": "market data feed", "confidence": "high", "asOf": "2026-06-26" },
+      "revenueTtmM": { "source": "Q1'26 10-Q", "confidence": "high", "asOf": "2026-05-01" },
+      "cashM": { "source": "Q1'26 10-Q balance sheet", "confidence": "high", "asOf": "2026-05-01" }
+    }
+  },
+  "scores": {
+    "factors": {
+      "tam": 70,
+      "techMoat": 70,
+      "capitalAllocation": 65,
+      "financialHealth": 70,
+      "dilutionRisk": 60,
+      "manufacturing": 92,
+      "competitivePosition": 80,
+      "insiderOwnership": 45,
+      "govtTailwinds": 90,
+      "executionRisk": 50,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 95,
+      "realityCheck": 75,
+      "civImportance": 92
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.1,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Only scaled US rare-earth mine + magnet plant. DoD price-floor backed.",
+    "risks": "Commodity price · China price-war",
+    "confidence": "High",
+    "runway": "strong",
+    "catalyst": {
+      "text": "Independence magnet plant ramp; DoD price-floor & Apple deliveries; 10X facility",
+      "window": "2026",
+      "type": "Manufacturing / DoD"
+    },
+    "profile": "",
+    "bull": "Owner of Mountain Pass, the only scaled rare-earth mine in the US, now integrating downstream into separated oxides and NdFeB magnets — the part of the supply chain China dominates. A Department of Defense agreement underpinning a price floor and offtake materially de-risks the build-out and makes MP the cornerstone of US rare-earth reshoring.",
+    "bear": "Rare-earth prices are set by a market China can flood at will, and a price war could pressure margins even with a DoD floor. The magnet thesis depends on executing a first-of-scale US magnet plant on time and on budget — manufacturing ramps of this kind frequently disappoint. Revenue is still concentrated in concentrate sales while the downstream ramps.",
+    "invalidationConditions": [
+      "China sustains a rare-earth price war that overwhelms the DoD price-floor economics",
+      "The Independence magnet plant ramp slips materially or misses spec/yield",
+      "The DoD price-floor / offtake arrangement is curtailed"
+    ],
+    "unknowns": [
+      "Through-cycle margin once China pricing dynamics are accounted for",
+      "Magnet-plant yield, cost curve, and qualification timeline at commercial scale",
+      "Customer concentration of downstream magnet offtake beyond anchor agreements"
+    ]
+  },
+  "evidence": [
+    {
+      "scoreKey": "competitivePosition",
+      "claim": "Operates Mountain Pass, the only scaled rare-earth mining & processing site in the US",
+      "source": "Company filings",
+      "sourceReliability": "high",
+      "claimConfidence": "very-high",
+      "asOf": "2026-05-01"
+    },
+    {
+      "scoreKey": "govtTailwinds",
+      "claim": "Department of Defense agreement supporting a price floor and domestic magnet capacity",
+      "source": "DoD / company announcement",
+      "sourceReliability": "high",
+      "claimConfidence": "high",
+      "asOf": "2025-07-01"
+    },
+    {
+      "scoreKey": "replacementRisk",
+      "claim": "Physical mining + separation + magnet manufacturing — capital and permitting intensive, not software-replaceable",
+      "source": "Atlas analysis",
+      "sourceReliability": "medium",
+      "claimConfidence": "high"
+    },
+    {
+      "scoreKey": "manufacturing",
+      "claim": "Building integrated NdFeB magnet production (Independence facility)",
+      "source": "Company filings",
+      "sourceReliability": "high",
+      "claimConfidence": "medium",
+      "asOf": "2026-03-01"
+    }
+  ],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-27"
+  }
+}

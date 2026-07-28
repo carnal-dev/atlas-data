@@ -1,0 +1,104 @@
+{
+  "summary": "JFrog is a software supply chain platform company, not a hardware manufacturer. Its supply chain is digital: cloud infrastructure, developer tools, and cybersecurity dependencies. Fragility is low because its inputs are commoditized cloud compute and open-source components, but concentration in cloud hyperscalers and a single-product heritage (Artifactory) are risks.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "cloud infrastructure (AWS, Azure, GCP)",
+        "whyNeeded": "hosting and scaling of JFrog's SaaS platform",
+        "concentration": "high (3 hyperscalers dominate)",
+        "fragility": "medium (switching costs moderate, but price hikes or outages hurt)"
+      },
+      {
+        "node": "open-source software components (e.g., databases, libraries)",
+        "whyNeeded": "core building blocks of the DevOps platform",
+        "concentration": "low (many alternatives, but some critical packages have single maintainers)",
+        "fragility": "low (supply chain attacks are a risk, but not a supply disruption)"
+      },
+      {
+        "node": "developer talent",
+        "whyNeeded": "engineering and support staff",
+        "concentration": "low (global talent pool)",
+        "fragility": "low (high margins allow competitive compensation)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "cloud hyperscaler concentration",
+        "why": "JFrog's SaaS revenue depends on AWS/Azure/GCP; any one could raise prices or degrade service"
+      },
+      {
+        "node": "Artifactory dependency",
+        "why": "single product generates majority of revenue; a major bug or security incident would be existential"
+      }
+    ],
+    "customers": [
+      {
+        "node": "enterprise DevOps teams",
+        "why": "primary buyers; budgets tied to software development spend"
+      },
+      {
+        "node": "regulated industries (finance, healthcare, government)",
+        "why": "need software supply chain security, a growing tailwind"
+      }
+    ],
+    "geographic": "~60% US, rest EMEA/APAC; low geopolitical concentration risk",
+    "substitutes": [
+      "GitLab, GitHub Actions, Sonatype, Snyk, in-house solutions"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "cloud-infrastructure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cybersecurity",
+      "kind": "theme"
+    },
+    {
+      "tag": "software-margins",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Cloud cost inflation compresses gross margins below 70%",
+    "Open-source alternatives (e.g., Sonatype Nexus) erode pricing power",
+    "Enterprise IT spending slowdown cuts new logo growth",
+    "Security incident in Artifactory triggers customer churn"
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Cloud infrastructure costs remain stable or decline as a % of revenue",
+      "breaksIf": "Hyperscalers raise prices or JFrog's usage grows faster than optimization"
+    },
+    {
+      "assumption": "Enterprise demand for software supply chain security continues to grow",
+      "breaksIf": "Macro downturn causes IT budget freezes or shift to cheaper alternatives"
+    },
+    {
+      "assumption": "Artifactory remains the dominant package repository with no major competitor",
+      "breaksIf": "GitHub/GitLab bundle a free equivalent that gains critical mass"
+    },
+    {
+      "assumption": "No catastrophic security vulnerability in JFrog's own platform",
+      "breaksIf": "A zero-day exploit in Artifactory leads to widespread customer data loss"
+    }
+  ],
+  "prediction": {
+    "statement": "Next quarterly earnings (Q2 2026, expected early August 2026) will show revenue growth of ~20% YoY and non-GAAP operating margin above 15%, driven by enterprise upsells and security product attach rates.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Reported revenue growth and non-GAAP operating margin vs. consensus estimates",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No data on JFrog's cloud provider contracts or cost structure",
+    "No breakdown of revenue by product (Artifactory vs. newer security tools)",
+    "No customer concentration data"
+  ],
+  "verifyThese": [
+    "Check JFrog's latest 10-K for cloud infrastructure cost as % of revenue",
+    "Verify if any single customer accounts for >10% of revenue",
+    "Confirm Gartner Magic Quadrant leader status details and competitive positioning"
+  ],
+  "diminishingReturns": "Stopped at cloud hyperscalers and open-source components; deeper hops (e.g., GPU supply for cloud data centers) are irrelevant because JFrog does not run AI training workloads at scale."
+}

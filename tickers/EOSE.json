@@ -1,0 +1,71 @@
+{
+  "ticker": "EOSE",
+  "name": "Eos Energy Enterprises",
+  "identity": {
+    "sector": "Energy (LD storage)",
+    "theme": "Energy",
+    "country": "USA",
+    "tags": [
+      "💡",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 6.03,
+    "sharesOutM": 339.5,
+    "cashM": 600,
+    "debtM": null,
+    "revenueTtmM": 120,
+    "asOf": "2026-06-26",
+    "source": "Q4'25/Q1'26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 78,
+      "techMoat": 55,
+      "capitalAllocation": 50,
+      "financialHealth": 50,
+      "dilutionRisk": 30,
+      "manufacturing": 78,
+      "competitivePosition": 50,
+      "insiderOwnership": 35,
+      "govtTailwinds": 80,
+      "executionRisk": 45,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 75,
+      "realityCheck": 58,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.35,
+      "pUp10x": 0.11,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "US zinc long-duration battery, real factory. Rev +445% YoY; shaky balance-sheet history.",
+    "risks": "Balance-sheet history · Dilution",
+    "confidence": "High",
+    "runway": "DOE loan-backed",
+    "catalyst": {
+      "text": "Battery Line 2 (4 GWh) ramp by year-end; DOE loan tranches; orders",
+      "window": "2026",
+      "type": "Manufacturing / DOE"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

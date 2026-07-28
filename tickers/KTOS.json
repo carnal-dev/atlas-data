@@ -1,0 +1,72 @@
+{
+  "ticker": "KTOS",
+  "name": "Kratos Defense",
+  "identity": {
+    "sector": "Defense (drones/hypersonics)",
+    "theme": "Defense",
+    "country": "USA",
+    "tags": [
+      "🏛",
+      "🐢",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 49.045,
+    "sharesOutM": 187.5,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 1200,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 65,
+      "capitalAllocation": 60,
+      "financialHealth": 65,
+      "dilutionRisk": 45,
+      "manufacturing": 82,
+      "competitivePosition": 65,
+      "insiderOwnership": 35,
+      "govtTailwinds": 88,
+      "executionRisk": 50,
+      "valuation": 40
+    },
+    "differentiators": {
+      "replacementRisk": 85,
+      "realityCheck": 78,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.09,
+      "pLoss": 0.12
+    }
+  },
+  "thesis": {
+    "summary": "Affordable-mass defense: drones, hypersonics, propulsion. Real backlog; a hair under A.",
+    "risks": "Rich valuation · Dilution",
+    "confidence": "Medium",
+    "runway": "n/a — verify",
+    "catalyst": {
+      "text": "Hypersonic & drone awards; Golden Dome / missile-defense; engine programs",
+      "window": "2026",
+      "type": "DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

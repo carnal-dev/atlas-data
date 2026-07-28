@@ -1,0 +1,115 @@
+{
+  "summary": "Clarivate's supply chain is data-centric: it relies on content from major publishers and patent offices, which are concentrated and fragile, and on cloud infrastructure. Customer willingness to pay for premium analytics is the key demand risk. The main fragility is content agreement stability.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "journal-publisher-content",
+        "whyNeeded": "Core data for Web of Science and research analytics",
+        "concentration": "High (Elsevier, Springer Nature, Wiley, Taylor & Francis dominate)",
+        "fragility": "High – any publisher termination or price hike would severely impact product"
+      },
+      {
+        "node": "patent-office-data",
+        "whyNeeded": "IP analytics and patent tracking",
+        "concentration": "Moderate (USPTO, EPO, JPO, etc. – government sources, typically reliable)",
+        "fragility": "Low to medium – access is usually public but could be delayed or restricted"
+      },
+      {
+        "node": "cloud-infrastructure",
+        "whyNeeded": "Hosting, computing, and storage for analytics platform",
+        "concentration": "High (AWS, Azure, GCP – oligopoly)",
+        "fragility": "Medium – manageable via multi-cloud but cost spikes or outages hurt"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "publisher-content-agreements",
+        "why": "If a major publisher (e.g., Elsevier) renegotiates unfavorably or exits, Web of Science loses coverage, destroying value"
+      },
+      {
+        "node": "cloud-provider-pricing",
+        "why": "Sharp price increases or data egress fees could compress margins; limited switching speed"
+      },
+      {
+        "node": "customer-retention",
+        "why": "Academic and corporate budget cuts could trigger cancellations, especially for premium products"
+      }
+    ],
+    "customers": [
+      {
+        "node": "academic-institutions",
+        "why": "Primary buyers of Web of Science and research tools; sensitive to library budgets"
+      },
+      {
+        "node": "corporate-r-and-d-and-pharma",
+        "why": "Use analytics for competitive intelligence and IP management; budget-driven"
+      },
+      {
+        "node": "ip-firms-and-corporations",
+        "why": "IP portfolio management (IPfolio); recurring revenue from large enterprises"
+      }
+    ],
+    "geographic": [
+      "Revenue broadly global but concentrated in US, UK, Europe, and Asia-Pacific; English-language content dependency"
+    ],
+    "substitutes": [
+      "Scopus (Elsevier), Google Scholar, open-access databases, in-house analytics by large R&D firms"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "cloud-infrastructure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "software-margins",
+      "kind": "theme"
+    },
+    {
+      "tag": "cybersecurity",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Major publisher terminates or renegotiates content agreement, gutting Web of Science value.",
+    "Academic and corporate budget cuts cause churn faster than cost savings, leading to revenue decline.",
+    "Open-access and AI-driven alternatives erode premium pricing power, compressing margins.",
+    "High debt from past acquisitions (Clarivate has ~$4B debt) leads to liquidity crisis if revenue drops."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Content agreements stable with major publishers",
+      "breaksIf": "A top publisher (e.g., Elsevier) terminates or demands fees that wipe out margins"
+    },
+    {
+      "assumption": "Customers continue to pay for premium analytics",
+      "breaksIf": "Global recession or shift to free alternatives causes subscription cancellations"
+    },
+    {
+      "assumption": "Cloud infrastructure costs manageable",
+      "breaksIf": "Cloud provider raises prices >20% or data volume grows faster than revenue"
+    },
+    {
+      "assumption": "IP filings maintain current levels",
+      "breaksIf": "Global recession reduces patent filings, lowering demand for IP analytics tools"
+    }
+  ],
+  "prediction": {
+    "statement": "Q3 2026 earnings (late Oct) revenue slightly below consensus due to macro pressure on academic budgets, with flat to slightly down subscription revenue.",
+    "horizonMonths": 4,
+    "resolutionCriterion": "Compare reported Q3 revenue vs. consensus; if within 2% of estimate, prediction is neutral; if below by >2%, bearish correct.",
+    "confidence": 0.55
+  },
+  "gaps": [
+    "No financial data (revenue breakdown, debt, margins, churn)",
+    "No details on content contract durations or renewal dates",
+    "No customer concentration data (top 10 customers share)",
+    "No competitor financials or market share data"
+  ],
+  "verifyThese": [
+    "Check if any major publisher has announced changes to content access agreements with Clarivate",
+    "Verify Clarivate's debt level and interest coverage ratio",
+    "Check recent earnings transcripts for guidance on cloud costs and customer retention"
+  ],
+  "diminishingReturns": "Stopped at publisher and patent office content and cloud providers. Deeper hops (e.g., publishers' paper supply chain, cloud hardware) do not change the investment picture because Clarivate's exposure is to data access and cost of cloud, not to the physical inputs of those providers."
+}

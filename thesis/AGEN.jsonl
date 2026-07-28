@@ -1,0 +1,25 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AGEN","oneLiner":"Engine candidate: move 5.2%, vol 8.1x, -58.7% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"bot-bal-trial-data-catalyst","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cdmo-concentration-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-financing-crunch","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"mss-crc-market-competition","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"BOT/BAL will show meaningful survival benefit in MSS CRC at ESMO GI 2026","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Data are flat or negative; stock could lose 50%+ in days"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Company can secure funding/partnership for continued operations","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"No new financing by Q4 2026; cash below minimum for 12 months"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"CDMO relationship is stable and not disrupted","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Manufacturing delay or quality issue halts trial supply; timeline slips"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Retrocyte Display platform is de-risked and production-scalable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Platform fails GMP batch or yields insufficient titers; program delayed"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Agenus will present three-year survival data from the Phase 1b BOT+BAL study in MSS CRC at ESMO GI 2026 (scheduled summer/fall 2026), likely showing median OS improvement but sparking volatile trading","dueDate":"2026-09-29","resolutionCriterion":"Data release date is confirmed; after release, stock movement >10% on the day indicates market judgment of efficacy.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Agenus is a clinical-stage biotech dependent on successful trial data for its BOT/BAL combo in MSS CRC; its supply chain is thin but relies on outsourced CROs/CDMOs and patent-protected antibody platf"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"bot-bal-trial-data-catalyst"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cdmo-concentration-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"capital-markets-financing-crunch"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"mss-crc-market-competition"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"external-financing","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"clinical-trial-materials","kind":"dependency","source":"engine"}

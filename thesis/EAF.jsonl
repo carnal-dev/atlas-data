@@ -1,0 +1,35 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"EAF","oneLiner":"Engine candidate: move -1.6%, vol 9.3x, -64.6% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"needle-coke-supply-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eaf-steel-demand-cyclicality","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"graphite-electrode-pricing-power","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"trade-policy-on-coke-imports","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"EAF steel production share continues to rise globally (60%+ by 2030).","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Blast furnace steelmaking stays dominant or shrinks due to carbon policy favoring non-EAF routes."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Needle coke supply remains available at stable prices from current refiners.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Phillips 66 or Mitsubishi refineries undergo long-term shutdowns or allocate coke elsewhere."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"GrafTech maintains its high-margin competitive position via proprietary electrode technology.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Chinese producers replicate quality at lower cost and gain major US/EU market share."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Global steel demand does not contract >15% in the next 2 years.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Recession or trade war slashes steel output, collapsing electrode prices below cash cost."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"EAF stock will trade below $5 within 12 months due to 2027 steel demand slowdown and needle coke margin compression.","dueDate":"2027-06-29","resolutionCriterion":"If price closes below $5 on any trading day in June 2027, prediction true; else false.","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"needle-coke-supply-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eaf-steel-demand-cyclicality"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"graphite-electrode-pricing-power"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"trade-policy-on-coke-imports"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"GrafTech Q2 2026 earnings (early Aug) will show improved EPS vs Q1 loss, driven by stable steel demand and EAF share gains","dueDate":"2026-09-29","resolutionCriterion":"Actual Q2 EPS beats consensus estimate (currently negative) and revenue grows sequentially","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"GrafTech International (EAF) is a leading producer of graphite electrodes essential for EAF steelmaking. Its supply chain is critically dependent on petroleum needle coke, a concentrated input from fe"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"raw-materials-cost","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariffs-trade-war","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-demand","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"industrial-metals","kind":"theme","source":"engine"}

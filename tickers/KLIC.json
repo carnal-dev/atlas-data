@@ -1,0 +1,71 @@
+{
+  "ticker": "KLIC",
+  "name": "Kulicke & Soffa",
+  "identity": {
+    "sector": "Semiconductors (adv. packaging)",
+    "theme": "Semiconductors",
+    "country": "USA",
+    "tags": [
+      "💰",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 124.8,
+    "sharesOutM": 53.0,
+    "cashM": 500,
+    "debtM": 0,
+    "revenueTtmM": 800,
+    "asOf": "2026-06-26",
+    "source": "Q2 FY26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 65,
+      "capitalAllocation": 65,
+      "financialHealth": 72,
+      "dilutionRisk": 65,
+      "manufacturing": 62,
+      "competitivePosition": 65,
+      "insiderOwnership": 40,
+      "govtTailwinds": 35,
+      "executionRisk": 58,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 70,
+      "realityCheck": 68,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.33,
+      "pUp10x": 0.07,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Wire-bonding leader pivoting into advanced packaging (TCB) for AI/HBM assembly. Profitable semicap.",
+    "risks": "Cyclical · Insider selling noted",
+    "confidence": "Medium",
+    "runway": "net cash, profitable",
+    "catalyst": {
+      "text": "Thermo-compression bonding (TCB) ramp for AI/HBM; ~$400M TCB target FY27",
+      "window": "2026",
+      "type": "Customer / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

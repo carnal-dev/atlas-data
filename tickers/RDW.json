@@ -1,0 +1,72 @@
+{
+  "ticker": "RDW",
+  "name": "Redwire",
+  "identity": {
+    "sector": "Space (infrastructure + UAS)",
+    "theme": "Space",
+    "country": "USA",
+    "tags": [
+      "🛰️",
+      "🏛",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 10.905,
+    "sharesOutM": 238.8,
+    "cashM": 145,
+    "debtM": 90,
+    "revenueTtmM": 470,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 72,
+      "techMoat": 60,
+      "capitalAllocation": 48,
+      "financialHealth": 52,
+      "dilutionRisk": 30,
+      "manufacturing": 70,
+      "competitivePosition": 58,
+      "insiderOwnership": 40,
+      "govtTailwinds": 75,
+      "executionRisk": 50,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 75,
+      "realityCheck": 60,
+      "civImportance": 75
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.1,
+      "pLoss": 0.22
+    }
+  },
+  "thesis": {
+    "summary": "Space infrastructure & components, now multi-domain after buying Edge Autonomy (drones/UAS). Real ~$470M revenue, big backlog; very dilutive.",
+    "risks": "Heavy dilution (ATM) · Integration · Losses",
+    "confidence": "High",
+    "runway": "cash $145M",
+    "catalyst": {
+      "text": "Edge Autonomy (UAS) integration; space-infrastructure backlog; defense multi-domain",
+      "window": "2026",
+      "type": "NASA / DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

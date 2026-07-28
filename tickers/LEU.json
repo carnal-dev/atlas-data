@@ -1,0 +1,120 @@
+{
+  "ticker": "LEU",
+  "name": "Centrus Energy",
+  "identity": {
+    "sector": "Nuclear (enrichment/HALEU)",
+    "theme": "Nuclear fuel cycle",
+    "country": "USA",
+    "tags": [
+      "⚛️",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 165.74,
+    "sharesOutM": 19.67,
+    "cashM": 1870,
+    "debtM": 1210,
+    "revenueTtmM": 400,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {
+      "price": { "source": "market data feed", "confidence": "high", "asOf": "2026-06-26" },
+      "revenueTtmM": { "source": "Q1'26 10-Q", "confidence": "high", "asOf": "2026-05-01" },
+      "cashM": { "source": "Q1'26 10-Q balance sheet", "confidence": "high", "asOf": "2026-05-01" }
+    }
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 85,
+      "capitalAllocation": 70,
+      "financialHealth": 78,
+      "dilutionRisk": 55,
+      "manufacturing": 88,
+      "competitivePosition": 85,
+      "insiderOwnership": 35,
+      "govtTailwinds": 92,
+      "executionRisk": 50,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 93,
+      "realityCheck": 80,
+      "civImportance": 88
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.45,
+      "pUp10x": 0.12,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Only US-owned enricher; sole domestic HALEU source. Profitable, strategically irreplaceable.",
+    "risks": "Capital intensity · Valuation",
+    "confidence": "High",
+    "runway": "strong (profitable)",
+    "catalyst": {
+      "text": "$900M HALEU task-order definitive agreement; enrichment capacity expansion",
+      "window": "2026",
+      "type": "DOE / Supply"
+    },
+    "profile": "",
+    "bull": "The only US-owned-and-operated uranium enrichment company and the first to produce HALEU from a US-licensed centrifuge cascade — putting Centrus at the center of the advanced-reactor fuel supply chain with strong, bipartisan government backing as the West de-risks dependence on Russian enrichment.",
+    "bear": "HALEU demand is contingent on advanced reactors actually deploying on schedule; reactor timelines historically slip, which would starve the thesis of revenue. Scaling enrichment is extremely capital-intensive, and a large share of near-term revenue depends on continued government funding.",
+    "invalidationConditions": [
+      "The DOE HALEU program is cancelled, defunded, or not renewed",
+      "A competitor obtains a US license to enrich HALEU at commercial scale",
+      "Advanced-reactor deployment timelines slip materially across the major customers"
+    ],
+    "unknowns": [
+      "Long-term customer concentration beyond US government programs is unclear",
+      "Capex required to reach commercial HALEU scale is not fully defined",
+      "Timeline for cascade scale-up to commercial enrichment volume is unproven"
+    ]
+  },
+  "evidence": [
+    {
+      "scoreKey": "techMoat",
+      "claim": "Only US-owned-and-operated uranium enrichment company",
+      "source": "Company filings / DOE",
+      "sourceReliability": "high",
+      "claimConfidence": "high",
+      "asOf": "2026-05-01"
+    },
+    {
+      "scoreKey": "competitivePosition",
+      "claim": "First to produce HALEU from a US-licensed centrifuge cascade (Piketon, OH)",
+      "source": "Company announcement / NRC",
+      "sourceReliability": "high",
+      "claimConfidence": "high",
+      "asOf": "2024-01-01"
+    },
+    {
+      "scoreKey": "govtTailwinds",
+      "claim": "Operates under DOE HALEU Availability Program contracts",
+      "source": "DOE / 8-K",
+      "sourceReliability": "very-high",
+      "claimConfidence": "high",
+      "asOf": "2026-02-15"
+    },
+    {
+      "scoreKey": "replacementRisk",
+      "claim": "Enrichment is a physical centrifuge-cascade process, not a software-replaceable capability",
+      "source": "Atlas analysis",
+      "sourceReliability": "medium",
+      "claimConfidence": "high"
+    }
+  ],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-27"
+  }
+}

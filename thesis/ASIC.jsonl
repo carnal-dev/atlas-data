@@ -1,0 +1,22 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ASIC","oneLiner":"Engine candidate: move 10.6%, vol 5.6x, 0.8% off 52w-high [near-high+vol3x move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"reinsurance-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"catastrophe-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"climate-change-claims","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"insurance-cycle-hardening","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Reinsurance remains available at reasonable cost.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Major catastrophe triggers reinsurance market dislocation, sharply raising costs."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Claims frequency and severity stay within modeled expectations.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Unexpected surge in claims (e.g., secondary perils) depletes reserves."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Premium growth continues as SMB economy expands.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Recession reduces demand for insurance or increases lapses."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Company maintains adequate capital and liquidity.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Large loss event or rating downgrade forces capital raise at dilutive terms."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Next catalyst: Q2 2026 earnings report (expected Aug 2026) will show combined ratio and premium growth.","dueDate":"2026-09-29","resolutionCriterion":"Combined ratio below 100% and premium growth >5% YoY would be positive; above 105% or negative growth negative.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Ategrity Specialty Holdings is a US P&C insurer for SMBs. Its supply chain is capital-intensive, reliant on reinsurance and data. Near 52w high with high volume, but thin facts limit depth."}
+{"type":"TagRemoved","at":"2026-06-29","tag":"reinsurance-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"catastrophe-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"climate-change-claims"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"insurance-cycle-hardening"}

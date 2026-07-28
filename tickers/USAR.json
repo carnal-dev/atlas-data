@@ -1,0 +1,71 @@
+{
+  "ticker": "USAR",
+  "name": "USA Rare Earth",
+  "identity": {
+    "sector": "Mining / Rare earths (magnets)",
+    "theme": "Rare earths",
+    "country": "USA",
+    "tags": [
+      "🪨",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 20.45,
+    "sharesOutM": 160.0,
+    "cashM": 1750,
+    "debtM": 0,
+    "revenueTtmM": null,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / PIPE & Serra Verde",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 70,
+      "techMoat": 70,
+      "capitalAllocation": 55,
+      "financialHealth": 72,
+      "dilutionRisk": 30,
+      "manufacturing": 75,
+      "competitivePosition": 68,
+      "insiderOwnership": 45,
+      "govtTailwinds": 82,
+      "executionRisk": 45,
+      "valuation": 40
+    },
+    "differentiators": {
+      "replacementRisk": 88,
+      "realityCheck": 42,
+      "civImportance": 90
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.14,
+      "pLoss": 0.25
+    }
+  },
+  "thesis": {
+    "summary": "Building a US mine-to-magnet rare-earth chain (Stillwater magnets + Serra Verde). $1.75B cash; pre-production. The asymmetric US-magnet bet alongside MP.",
+    "risks": "Pre-production · Heavy M&A dilution · Execution",
+    "confidence": "Medium",
+    "runway": "strong ($1.75B cash)",
+    "catalyst": {
+      "text": "Stillwater magnet plant ramp (600 MTPA by Q4'26); Serra Verde acquisition; mine-to-magnet integration",
+      "window": "2026",
+      "type": "Manufacturing"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

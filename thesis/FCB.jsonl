@@ -1,0 +1,29 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"FCB","oneLiner":"Engine candidate: move -0.3%, vol 9.4x, -46.7% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"florida-real-estate-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"deposit-competition","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-capital-requirements","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"wholesale-funding-reliance","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Florida economy remains stable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Hurricane, recession, or housing crash in Florida"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Net interest margin expands or holds","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Fed cuts rates sharply or deposit competition squeezes spreads"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Credit quality remains good","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Rise in non-performing loans due to local economic stress"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Deposit base stays sticky","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Significant deposit outflow to higher-yielding alternatives"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"FCB reports Q2 2025 earnings; focus on net interest margin and loan growth.","dueDate":"2026-09-29","resolutionCriterion":"Earnings beat or miss consensus estimates; stock reaction >5%","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"FCB Financial Holdings is a regional bank concentrated in Florida. Its financial supply chain relies on deposits and wholesale funding for lending, with key fragility in Florida real estate exposure a"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"florida-real-estate-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"interest-rate-sensitivity"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"deposit-competition"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-capital-requirements"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"wholesale-funding-reliance"}
+{"type":"TagAdded","at":"2026-07-02","tag":"commercial-real-estate","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"housing-market","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"credit-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"banking-regulation","kind":"geopolitical","source":"engine"}

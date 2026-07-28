@@ -1,0 +1,70 @@
+{
+  "ticker": "NVTS",
+  "name": "Navitas Semiconductor",
+  "identity": {
+    "sector": "Semiconductors (GaN/SiC)",
+    "theme": "Semiconductors",
+    "country": "USA",
+    "tags": [
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 17.26,
+    "sharesOutM": 230.8,
+    "cashM": 223,
+    "debtM": 0,
+    "revenueTtmM": 46,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 55,
+      "capitalAllocation": 45,
+      "financialHealth": 60,
+      "dilutionRisk": 40,
+      "manufacturing": 25,
+      "competitivePosition": 45,
+      "insiderOwnership": 35,
+      "govtTailwinds": 45,
+      "executionRisk": 40,
+      "valuation": 20
+    },
+    "differentiators": {
+      "replacementRisk": 50,
+      "realityCheck": 38,
+      "civImportance": 70
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.1,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "GaN/SiC power semis (fabless). Revenue fell 39% YoY; valuation extreme. Speculative inflection bet.",
+    "risks": "Revenue declining · Fabless · Very rich (P/S ~87x)",
+    "confidence": "High",
+    "runway": "cash $223M",
+    "catalyst": {
+      "text": "High-power GaN/SiC design-win conversion; AI-datacenter & EV ramps",
+      "window": "2026",
+      "type": "Customer / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

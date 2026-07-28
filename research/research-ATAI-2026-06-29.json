@@ -1,0 +1,118 @@
+{
+  "summary": "ATAI is a clinical-stage biopharma with a minimal supply chain reliant on a few CDMOs for custom-synthesized psychedelic APIs. The critical risk is binary clinical/regulatory outcomes for lead asset BPL-003, not upstream material constraints. Near-term catalysts include Phase 2/3 data and Russell index inclusion, but cash runway and single-asset concentration dominate the investment picture.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Custom-synthesized psychedelic API (BPL-003 drug substance)",
+        "whyNeeded": "Active pharmaceutical ingredient for lead intranasal formulation",
+        "concentration": "High – few CDMOs with GMP capability for controlled psychedelic compounds",
+        "fragility": "Medium – switching CDMOs is slow and costly, but multiple vendors exist"
+      },
+      {
+        "node": "Intranasal delivery device components",
+        "whyNeeded": "Proprietary device for BPL-003 administration",
+        "concentration": "Moderate – specialized but not unique suppliers",
+        "fragility": "Low – alternative device manufacturers available"
+      },
+      {
+        "node": "Clinical trial services (CROs, labs)",
+        "whyNeeded": "Conduct Phase 2/3 trials for BPL-003",
+        "concentration": "Low – many CROs available",
+        "fragility": "Low – standard outsourcing"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "FDA regulatory pathway for psychedelic therapies",
+        "why": "Novel class; agency stance and trial design are single points of failure for approval"
+      },
+      {
+        "node": "Cash runway through 2027",
+        "why": "No approved product revenue; any delay or cost overrun forces dilution or restructuring"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Patients with treatment-resistant depression (TRD) and other mental health conditions",
+        "why": "Primary end-market for BPL-003 if approved"
+      },
+      {
+        "node": "Psychiatric prescribers and clinics",
+        "why": "Downstream demand depends on adoption by healthcare providers"
+      },
+      {
+        "node": "Payers (insurance, government)",
+        "why": "Reimbursement decisions determine commercial viability"
+      }
+    ],
+    "geographic": "Operations in US, Germany, Canada; clinical trials likely multi-country; supply chain CDMOs may be in US/Europe",
+    "substitutes": "Other psychedelic therapies (COMP360, MM120), conventional antidepressants, ketamine clinics; low switching costs for patients if BPL-003 fails"
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "institutional-adoption",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "BPL-003 Phase 2/3 fails to meet primary endpoint (e.g., depression scale improvement vs placebo), wiping out lead asset value.",
+    "FDA imposes additional safety or efficacy requirements, delaying approval by years and exhausting cash.",
+    "Cash burn accelerates; company forced to dilute at low stock price or sell assets at distressed valuation.",
+    "Competing psychedelic therapies (e.g., COMPASS Pathways' COMP360) gain approval first, capturing market share."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "BPL-003 Phase 2/3 data will be positive",
+      "breaksIf": "Trial misses primary endpoint or shows safety issues; stock collapses on binary risk"
+    },
+    {
+      "assumption": "FDA maintains supportive stance for psychedelic therapies",
+      "breaksIf": "FDA issues negative guidance, requests additional trials, or rejects similar drug; delays/costs increase"
+    },
+    {
+      "assumption": "Company maintains cash runway through 2027 without dilution",
+      "breaksIf": "Operating costs exceed budget or trial costs rise; equity offering dilutes existing holders"
+    },
+    {
+      "assumption": "Russell index inclusion attracts institutional buying",
+      "breaksIf": "Index inclusion already priced in or fails to generate sustained demand; stock reverts"
+    }
+  ],
+  "prediction": {
+    "statement": "ATAI announces top-line results from BPL-003 Phase 2/3 trial in treatment-resistant depression within 6 months.",
+    "horizonMonths": 6,
+    "resolutionCriterion": "Company issues press release with primary endpoint data (e.g., change in MADRS score) – positive (statistically significant) or negative.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No specific CDMO names or contract terms on file",
+    "No details on BPL-003 manufacturing scale-up or cost",
+    "No information on patent protection or exclusivity period"
+  ],
+  "verifyThese": [
+    "Check if ATAI has disclosed CDMO partners for BPL-003 in SEC filings",
+    "Verify cash runway guidance from latest 10-Q or earnings call",
+    "Confirm exact timing of BPL-003 data readout from clinicaltrials.gov"
+  ],
+  "diminishingReturns": "Stopped at CDMO and FDA dependencies because deeper hops (e.g., CDMO's raw chemical suppliers) do not change the investment picture – the dominant risks are clinical trial success and regulatory approval, not upstream material availability."
+}

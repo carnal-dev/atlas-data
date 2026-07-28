@@ -1,0 +1,103 @@
+{
+  "summary": "Crescent Biopharma is a pre-revenue, single-asset biotech whose supply chain is minimal and outsourced to a CDMO. Its entire near-term valuation rides on ASCO 2026 data for CR-001, making it a binary clinical-risk play with cash-runway and dilution risks.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "CR-001 (PD-1xVEGF bispecific antibody)",
+        "whyNeeded": "Only clinical asset; basis of current market cap",
+        "concentration": "Single asset (100%)",
+        "fragility": "Extreme; any negative data or delay destroys valuation"
+      },
+      {
+        "node": "CDMO manufacturing services",
+        "whyNeeded": "Produces clinical supply of CR-001",
+        "concentration": "Likely single CDMO (undisclosed)",
+        "fragility": "High; a single supplier failure or quality issue halts trial"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "CR-001 clinical data at ASCO 2026",
+        "why": "Only catalyst; no other pipeline assets near data; outcome binary"
+      },
+      {
+        "node": "Cash runway",
+        "why": "No revenue; must fund operations through data; any overrun forces dilutive raise"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Oncology patients / physicians (downstream)",
+        "why": "Ultimate demand if CR-001 is approved; no pre-revenue customers"
+      }
+    ],
+    "geographic": [
+      "US-based headquarters; CDMO likely US or contract; no material geographic concentration revealed"
+    ],
+    "substitutes": [
+      "PD-1 inhibitors + VEGF inhibitors given as separate combos (e.g., Keytruda + Avastin)",
+      "Other PD-1xVEGF bispecifics in development (e.g., from larger pharma)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "CR-001 data at ASCO 2026 fails to show superiority over PD-1+VEGF combos, stock collapses to near cash value (~$2-3/share).",
+    "Cash burn forces dilutive offering before data, crushing existing shareholders.",
+    "CDMO delays or quality issues push data readout past ASCO, raising uncertainty and dilutive risk.",
+    "Competing PD-1xVEGF bispecific or combo regimens achieve superior efficacy, rendering CR-001 non-differentiated."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "CR-001 trial data at ASCO 2026 will be positive and differentiated",
+      "breaksIf": "Data show only modest efficacy or no clear advantage over standard-of-care combos"
+    },
+    {
+      "assumption": "Cash runway extends >12 months without dilutive raise",
+      "breaksIf": "Trial costs overrun, or management decides to raise earlier, causing dilution"
+    },
+    {
+      "assumption": "Single CDMO can deliver sufficient clinical supply on schedule",
+      "breaksIf": "CDMO fails a quality audit, faces raw material shortage, or delays batch release"
+    },
+    {
+      "assumption": "PD-1xVEGF bispecific class is not preempted by existing combo therapies",
+      "breaksIf": "Physicians continue preferring separated PD-1 + VEGF regimens, limiting bispecific adoption"
+    }
+  ],
+  "prediction": {
+    "statement": "By ASCO 2026 (late May-early June), CR-001 clinical data will be released; positive data drives stock above $30, negative data below $5.",
+    "horizonMonths": 11,
+    "resolutionCriterion": "Check stock price within 5 trading days after ASCO 2026 abstract release/presentation.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "No detailed financial statements (cash balance, burn rate) to model dilution timeline.",
+    "Identity and track record of CDMO not disclosed.",
+    "No details on CR-001 trial design, endpoints, or comparator arm.",
+    "No information on IP/patent protection for CR-001."
+  ],
+  "verifyThese": [
+    "Check Crescent Biopharma Q4 2025 earnings filing for cash runway.",
+    "Look up CR-001 trial registration (ClinicalTrials.gov) for design details.",
+    "Search for any disclosed CDMO relationship (press releases, contracts).",
+    "Monitor competitor PD-1xVEGF bispecific data (e.g., from Summit or others) prior to ASCO."
+  ],
+  "diminishingReturns": "Stopped at CR-001 and CDMO because deeper hops (e.g., CDMO's raw materials) do not change the investment picture: the binary driver is clinical data, not supply-chain disruption. Supply-chain risk is secondary to trial risk."
+}

@@ -1,0 +1,123 @@
+{
+  "summary": "Bloom Energy makes solid-oxide fuel cells for on-site power, heavily dependent on natural gas supply and rare-earth materials in its electrolytic layers. Its key risk is concentrated upstream nickel/cobalt sourcing and single-source balance-of-plant components; demand is tied to data-center and industrial uptime, making it vulnerable to an AI capex slowdown.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Nickel oxide, lanthanum-strontium manganite (cathode materials)",
+        "whyNeeded": "Core solid-oxide stack requires rare-earth and specialty metals for performance and durability",
+        "concentration": "High: ~70% of global nickel refinement in Indonesia/China; rare-earth processing ~90% in China",
+        "fragility": "High: geopolitical/trade-war risk; price volatility from EV battery demand competes for nickel"
+      },
+      {
+        "node": "Yttria-stabilized zirconia (YSZ) electrolyte",
+        "whyNeeded": "Key electrolyte layer in fuel cell; sourced from few specialty ceramic suppliers",
+        "concentration": "Moderate: limited specialist vendors (e.g., CeramTec, Tosoh) but substitutes via alternative formulations possible",
+        "fragility": "Moderate: single-sourcing risk per product variant, but tech flexibility allows reformulation over 6-12 months"
+      },
+      {
+        "node": "Natural gas (fuel input for most installations)",
+        "whyNeeded": "Primary fuel for Bloom Energy Servers; price and availability drive operating cost",
+        "concentration": "Diverse: US shale gas (spot/renewable nat gas) but pipeline/infrastructure access is project-specific",
+        "fragility": "Low-Moderate: supply diversified, but region-specific price spikes (winter storms) can hurt margins"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Single-source balance-of-plant (BoP) components (power inverters, heat exchangers)",
+        "why": "Proprietary designs limit qualified vendors; any disruption from key component maker (e.g., Danfoss) halts production"
+      },
+      {
+        "node": "Rare-earth oxide processing (lanthanum, yttrium)",
+        "why": "Over 90% of rare-earth processing in China; export controls or price spikes directly raise stack cost"
+      },
+      {
+        "node": "Tariffs on Chinese nickel and cobalt imports",
+        "why": "US trade policy could double input costs; no quick domestic substitute for high-purity nickel"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Data-center operators (hyperscalers: Google, Equinix, etc.)",
+        "why": "Largest demand driver for on-site fuel cells; 24/7 reliability for AI/cloud workloads; contracts are long-term"
+      },
+      {
+        "node": "Industrial/utility behind-the-meter power needs",
+        "why": "Manufacturing facilities, hospitals, campuses seeking backup or primary power; lower growth but stable"
+      },
+      {
+        "node": "International utility-scale projects (e.g., South Korea)",
+        "why": "Regulatory support for fuel cells; but geopolitical/subsidy risk and currency exposure"
+      }
+    ],
+    "geographic": [
+      "Inputs concentrated in China and Indonesia; manufacturing in US (California, Delaware); customer installations primarily in US data centers, some in South Korea and Europe."
+    ],
+    "substitutes": [
+      "Battery storage + grid (lower up-front cost, but less reliable for 24/7 uptime); natural gas turbines (lower efficiency, higher emissions); nuclear microreactors (higher cost, longer timeline)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "rare-earth-china-dependency",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-source-boP",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "natgas-price-volatility",
+      "kind": "dependency"
+    },
+    {
+      "tag": "data-center-capex-cycle",
+      "kind": "theme"
+    },
+    {
+      "tag": "hydrogen-transition-policy",
+      "kind": "geopolitical"
+    }
+  ],
+  "bearCase": [
+    "Tariffs or export controls on nickel/cobalt/rare-earths push stack cost up 20-30%, eroding margin and competitiveness.",
+    "A single-source BoP supplier has a 6-month disruption (e.g., factory fire), halting delivery of all systems and triggering order cancellations.",
+    "AI/cloud capex slows in 2026/27 due to overbuild or regulation; data-center contract pipeline dries up, forcing revenue miss.",
+    "Natural gas price spikes (e.g., winter storm Uri repeat) make fuel cell operating cost uncompetitive vs grid for critical loads.",
+    "South Korean subsidy cuts reduce international volume by 40%+."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Rare-earth/nickel supply remains available at current prices +-10%.",
+      "breaksIf": "China imposes rare-earth export quotas or US tariffs on Chinese processed nickel, cratering gross margin."
+    },
+    {
+      "assumption": "No major disruption at single-source BoP supplier.",
+      "breaksIf": "A 6-month+ interruption at that supplier (e.g., natural disaster or labor strike) stops all shipments."
+    },
+    {
+      "assumption": "US data-center construction and AI-driven power demand continue growing >15% y/y.",
+      "breaksIf": "Hyperscalers pause new data-center buildouts due to AI bubble concerns or regulatory overhang."
+    },
+    {
+      "assumption": "South Korean RD&D subsidy program continues at current levels.",
+      "breaksIf": "Government budget cuts or shift to hydrogen reduce 2026-27 orders."
+    }
+  ],
+  "prediction": {
+    "statement": "Q2 2026 earnings (late August 2026) will show >25% y/y revenue growth but gross margin compression to 23-25% from 27% due to nickel/rare-earth cost headwinds, causing stock to fail to recover and trade down to $200-210.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Actual Q2 revenue growth and gross margin reported in next quarterly result; if revenue growth <20% or gross margin <23%, prediction confirmed.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No on-file data on exact BoP suppliers or contract terms",
+    "No specific customer concentration details (top 3 customers % revenue)",
+    "No breakdown of input cost pass-through in contracts"
+  ],
+  "verifyThese": [
+    "Verify top rare-earth supplier contract terms and whether Bloom holds 12+ month inventory",
+    "Check HPC/SA articles 2026-06-25 to -28 for details on the 22% plunge 'mechanical' claim",
+    "Confirm identity of BoP single-source supplier and geolocation of factory"
+  ],
+  "diminishingReturns": "Stopped at rare-earth and BoP component level; deeper hops (e.g., yttrium mine ownership or inverter transistor supply) do not change investment picture because price/availability shocks dominate and have no quick substitutes regardless of sub-sub-supplier."
+}

@@ -1,0 +1,38 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"FBT","oneLiner":"Engine candidate: move 2.0%, vol 21.1x, 0.5% off 52w-high [near-high+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-policy-and-approvals","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"m-a-activity-level","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"drug-pricing-regulation","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Biotech sector valuations remain supported by low/stable interest rates.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Fed hikes or holds rates above 5% for 12+ months; biotech (long-duration) reprices down 20-30%."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"FDA maintains current approval cadence and policy continuity.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Bipartisan drug-pricing or FDA reform slows approvals by >6 months; holdings miss revenue guidance."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"No wave of M&A below expected levels (consolidation keeps small biotech afloat).","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Large pharma capital allocation pivots to in-house pipelines or non-biotech; small-cap biotech liquidity dries up."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Underlying index composition remains equal-weight and focused on innovative biotech.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Index methodology changes (unlikely) or multiple constituents delist/go bankrupt; tracking error spikes."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"FBT price will underperform IBB by >5% over 18 months due to its higher exposure to small-cap biotech facing funding stress.","dueDate":"2027-12-29","resolutionCriterion":"Compare FBT total return vs IBB total return over 18 months from today; underperformance >5% confirms prediction.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"fda-policy-and-approvals"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"interest-rate-sensitivity"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"m-a-activity-level"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"drug-pricing-regulation"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"The next scheduled rebalance of the NYSE Arca Biotechnology Index (expected end of September 2026) will remove at least 2 underperforming small-cap biotechs and add 2 recent IPO biotech names with str","dueDate":"2026-09-29","resolutionCriterion":"Observe actual index rebalance composition changes vs. current holdings; confirm that removals/additions match prediction and that FBT NAV adjusts accordingly.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"FBT is an equal-weight biotech ETF whose performance depends entirely on the NYSE Arca Biotechnology Index. Its supply-chain risk is entirely financial and regulatory: sector concentration, FDA approv"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-access","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"external-financing","kind":"dependency","source":"engine"}

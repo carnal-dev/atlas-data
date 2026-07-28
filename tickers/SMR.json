@@ -1,0 +1,72 @@
+{
+  "ticker": "SMR",
+  "name": "NuScale Power",
+  "identity": {
+    "sector": "Nuclear (SMR)",
+    "theme": "Nuclear reactors",
+    "country": "USA",
+    "tags": [
+      "⚛️",
+      "🚀",
+      "💡"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 10.085,
+    "sharesOutM": 346.1,
+    "cashM": 890,
+    "debtM": 0,
+    "revenueTtmM": 25,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 85,
+      "techMoat": 60,
+      "capitalAllocation": 50,
+      "financialHealth": 68,
+      "dilutionRisk": 40,
+      "manufacturing": 55,
+      "competitivePosition": 58,
+      "insiderOwnership": 35,
+      "govtTailwinds": 82,
+      "executionRisk": 38,
+      "valuation": 35
+    },
+    "differentiators": {
+      "replacementRisk": 82,
+      "realityCheck": 38,
+      "civImportance": 88
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.12,
+      "pLoss": 0.25
+    }
+  },
+  "thesis": {
+    "summary": "The first NRC-certified SMR design. ~$1B liquidity, but pre-commercial with a cancelled-project history. OKLO's listed comparator.",
+    "risks": "Pre-commercial · Prior project cancellation · Dilution",
+    "confidence": "High",
+    "runway": "~$1B liquidity",
+    "catalyst": {
+      "text": "First PPA/equipment contracts; NRC-certified design deployment; data-center interest",
+      "window": "2026-27",
+      "type": "NRC / PPA"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

@@ -1,0 +1,17 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"FROG","oneLiner":"Engine candidate: move 11.1%, vol 11.0x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cybersecurity","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"software-margins","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Cloud infrastructure costs remain stable or decline as a % of revenue","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Hyperscalers raise prices or JFrog's usage grows faster than optimization"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Enterprise demand for software supply chain security continues to grow","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Macro downturn causes IT budget freezes or shift to cheaper alternatives"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Artifactory remains the dominant package repository with no major competitor","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"GitHub/GitLab bundle a free equivalent that gains critical mass"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No catastrophic security vulnerability in JFrog's own platform","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"A zero-day exploit in Artifactory leads to widespread customer data loss"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Next quarterly earnings (Q2 2026, expected early August 2026) will show revenue growth of ~20% YoY and non-GAAP operating margin above 15%, driven by enterprise upsells and security product attach rat","dueDate":"2026-08-29","resolutionCriterion":"Reported revenue growth and non-GAAP operating margin vs. consensus estimates","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"JFrog is a software supply chain platform company, not a hardware manufacturer. Its supply chain is digital: cloud infrastructure, developer tools, and cybersecurity dependencies. Fragility is low bec"}

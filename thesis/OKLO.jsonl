@@ -1,0 +1,7 @@
+{"type":"ThesisOpened","at":"2026-07-02","ticker":"OKLO","oneLiner":"SMR optionality; fuel secured, pre-revenue","timeHorizon":"2-5y"}
+{"type":"ConvictionSet","at":"2026-07-02","level":5,"because":["Atlas Top-20 speculative basket, 2026-07-02"]}
+{"type":"TagAdded","at":"2026-07-02","tag":"nuclear-power","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"atlas-top20-2026h2","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-07-02","id":"top20-2yr-profit","source":"engine","statement":"OKLO delivers a positive total return over the 2-year hold from the 2026-07-01 close of $52.45.","dueDate":"2028-07-01","resolutionCriterion":"On 2028-07-01, resolve CORRECT if OKLO's split/dividend-adjusted price is above $52.45, else INCORRECT.","confidence":0.52}
+{"type":"PredictionMade","at":"2026-07-02","id":"top20-2yr-alpha","source":"engine","statement":"OKLO outperforms the S&P 500 (SPY) over the 2-year hold from 2026-07-01.","dueDate":"2028-07-01","resolutionCriterion":"On 2028-07-01, resolve CORRECT if OKLO's total return since 2026-07-01 exceeds SPY's over the same window (SPY 2026-07-01 close $745.76), else INCORRECT.","confidence":0.5}
+{"type":"TagAdded","at":"2026-07-02","tag":"atlas-top20-2026h2","kind":"theme","source":"engine"}

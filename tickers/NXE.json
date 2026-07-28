@@ -1,0 +1,71 @@
+{
+  "ticker": "NXE",
+  "name": "NexGen Energy",
+  "identity": {
+    "sector": "Nuclear (uranium)",
+    "theme": "Nuclear fuel cycle",
+    "country": "Canada",
+    "tags": [
+      "⚛️",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 9.69,
+    "sharesOutM": 660.0,
+    "cashM": 600,
+    "debtM": 0,
+    "revenueTtmM": null,
+    "asOf": "2026-06-26",
+    "source": "2026 / CNSC",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 72,
+      "techMoat": 82,
+      "capitalAllocation": 60,
+      "financialHealth": 70,
+      "dilutionRisk": 40,
+      "manufacturing": 75,
+      "competitivePosition": 75,
+      "insiderOwnership": 45,
+      "govtTailwinds": 70,
+      "executionRisk": 45,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 90,
+      "realityCheck": 42,
+      "civImportance": 88
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.42,
+      "pUp10x": 0.12,
+      "pLoss": 0.2
+    }
+  },
+  "thesis": {
+    "summary": "Arrow = largest dev-stage uranium deposit in Canada, world-class grade. Pre-production; CNSC license granted.",
+    "risks": "Pre-production · Construction · Dilution",
+    "confidence": "Medium",
+    "runway": "strong (C$950M raise + uranium)",
+    "catalyst": {
+      "text": "CNSC construct license (approved Mar'26); Rook I construction; offtake",
+      "window": "2026-28",
+      "type": "CNSC / Build"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

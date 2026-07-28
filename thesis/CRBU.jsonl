@@ -1,0 +1,38 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CRBU","oneLiner":"Engine candidate: move 7.0%, vol 7.2x, -52.5% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"gmp-viral-vector-bottleneck","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crispr-ip-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"clinical-trial-execution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-burn-financing-need","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cdmo-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"allogeneic-cell-therapy-regulation","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"CB-010 (anti-CD19) achieves registrational efficacy comparable to autologous CAR-T in second-line LBCL.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Pivotal data shows inferior CR rate or durability, or safety signal (GVHD/long-term cytopenias) unacceptable."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"CRBU has sufficient cash runway to reach pivotal data readouts (mid-2027).","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Unexpected trial expansion costs or manufacturing scale-up forces dilutive financing before value inflection."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"GMP viral vector supply remains adequate for clinical and early commercial demand.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"CDMO capacity crunch or quality failure delays trial enrollment or registration."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Within 12 months, CRBU's stock will trade above $3.00 if CB-010/011 pivotal data is positive; otherwise below $1.00.","dueDate":"2027-06-29","resolutionCriterion":"Price reaches >$3.00 or <$1.00 within 12 months; judgement based on stock closing price on maturing date.","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"gmp-viral-vector-bottleneck"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"crispr-ip-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"clinical-trial-execution-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cash-burn-financing-need"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cdmo-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"allogeneic-cell-therapy-regulation"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-holdings-concentration","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"CB-010 pivotal trial enrollment completes and top-line efficacy data (ORR, CR rate) expected in Q1 2027.","dueDate":"2027-03-01","resolutionCriterion":"Company announces data or completes enrollment; stock price moves >10% on announcement.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"CRBU is a clinical-stage biotech developing allogeneic CAR-T therapies. Its supply chain is concentrated on viral vectors and CRISPR components; downstream demand depends on pivotal trial success. Cas"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Updated CB-010 durability and response data (e.g., at ASH 2026) will show CR rate ≥ 50% with median DOR ≥ 12 months, supporting registration filing.","dueDate":"2026-12-29","resolutionCriterion":"True if presented data meets or exceeds these thresholds; false if CR rate < 40% or DOR < 9 months, or study discontinued.","confidence":0.6,"source":"engine"}

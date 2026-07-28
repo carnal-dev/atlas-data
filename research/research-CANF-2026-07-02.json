@@ -1,0 +1,110 @@
+{
+  "summary": "Can-Fite is a pre-revenue Israeli biotech with two late-stage drugs (Piclidenoson, Namodenoson). Its supply chain is thin (outsourced manufacturing, CROs), making it highly dependent on FDA approval, financing, and partnership deals. The single biggest fragility is binary regulatory outcome and cash runway.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "active pharmaceutical ingredients (API) for A3 adenosine receptor agonists",
+        "whyNeeded": "needed to manufacture Piclidenoson and Namodenoson",
+        "concentration": "high (likely sourced from one or two CDMOs; no diversified supplier base mentioned)",
+        "fragility": "high"
+      },
+      {
+        "node": "clinical research organizations (CROs) for trial management",
+        "whyNeeded": "conduct Phase III psoriasis trial and Phase IIa pancreatic cancer trial",
+        "concentration": "moderate (multiple CROs exist but switch cost is high)",
+        "fragility": "medium"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "FDA regulatory decision on Piclidenoson for psoriasis",
+        "why": "single most important binary event; no alternative approval pathway"
+      }
+    ],
+    "customers": [
+      {
+        "node": "patients with moderate-to-severe psoriasis (primary target for Piclidenoson)",
+        "why": "estimated US market ~$10B; but drug requires payer coverage"
+      },
+      {
+        "node": "patients with pancreatic cancer (Namodenoson, Phase IIa ongoing)",
+        "why": "high unmet need but small trial; pivotal data not yet available"
+      }
+    ],
+    "geographic": [
+      "Israel (HQ, R&D); manufacturing likely in India or China (typical for small biotechs)",
+      "Japan patent allowance suggests licensing for anti-obesity technology"
+    ],
+    "substitutesOrResilience": [
+      "Piclidenoson may compete with Otezla (apremilast) and biologics; if it fails, pipeline has only Namodenoson",
+      "Namodenoson has separate MOA but shares same A3AR target class; no broad platform resilience"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "obesity-drugs",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "FDA rejects Piclidenoson for psoriasis over efficacy or safety (Phase III data not yet published)",
+    "Company burns cash rapidly and cannot raise funds without massive dilution, leading to NASDAQ delisting",
+    "Namodenoson phase IIa survival data is not statistically significant and fails to secure partnership",
+    "Japanese anti-obesity patent yields no licensing revenue because drug is not developed for that indication"
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Piclidenoson gets FDA approval for psoriasis within 12-18 months",
+      "breaksIf": "FDA requires additional trial or data does not meet endpoints; stock would collapse"
+    },
+    {
+      "assumption": "Company can raise capital without massive dilution",
+      "breaksIf": "cash runway <6 months and market conditions worsen; would need to issue shares at distressed price"
+    },
+    {
+      "assumption": "Namodenoson shows meaningful efficacy in pancreatic cancer trial",
+      "breaksIf": "phase IIa results show no survival benefit over placebo; devalues pipeline"
+    },
+    {
+      "assumption": "Japanese anti-obesity patent leads to licensing revenue",
+      "breaksIf": "no partner licenses the technology; patent alone generates zero revenue"
+    }
+  ],
+  "prediction": {
+    "statement": "Piclidenoson phase III psoriasis trial top-line data release within next 6 months",
+    "horizonMonths": 6,
+    "resolutionCriterion": "Company issues press release with efficacy or safety results (e.g., PASI-75 response rate); stock moves >50%",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No details on API supply contracts or backup suppliers",
+    "No information on manufacturing location or CDMO relationship",
+    "Cash balance and burn rate not available from provided facts"
+  ],
+  "verifyThese": [
+    "Phase III psoriasis trial enrollment completion and data readout timeline",
+    "Cash and cash equivalents as of last quarterly report",
+    "Any supply chain disruptions from Israel's political situation"
+  ],
+  "diminishingReturns": "Stopped at CROs and API suppliers because deeper hops (e.g., API raw material chemical suppliers) are generic chemicals with many alternatives; no further material fragility for investment decision."
+}

@@ -1,0 +1,114 @@
+{
+  "summary": "Elemental Royalty is a gold royalty/streaming firm with no operational supply chain; its revenue depends entirely on gold prices and operator mine output. Index inclusion and NCIB provide near-term price support, but the business is a pure play on gold and single-asset concentration risk.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "gold price",
+        "whyNeeded": "Royalty revenue is a percentage of gold sales; price directly drives cash flow.",
+        "concentration": "high",
+        "fragility": "high"
+      },
+      {
+        "node": "operator production",
+        "whyNeeded": "Royalty payments depend on mines operated by third parties; any disruption cuts revenue.",
+        "concentration": "medium",
+        "fragility": "medium"
+      },
+      {
+        "node": "capital markets access",
+        "whyNeeded": "Royalty acquisitions require equity/debt financing; closed markets halt growth.",
+        "concentration": "medium",
+        "fragility": "medium"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "operator mine uptime",
+        "why": "Single operator failure (e.g., strike, shutdown) directly cuts royalty income; no substitute."
+      },
+      {
+        "node": "gold price floor",
+        "why": "Below $2000/oz, royalty economics weaken; no hedge if price drops sharply."
+      }
+    ],
+    "customers": [
+      {
+        "node": "gold bullion buyers",
+        "why": "End-market is gold demand (jewelry, central banks, ETFs); price set by global market."
+      },
+      {
+        "node": "operator counterparties",
+        "why": "Royalty agreements with mining companies; their production and sales are the revenue source."
+      }
+    ],
+    "geographic": [
+      "Global gold mining operations; royalty portfolio spans multiple countries (unspecified)."
+    ],
+    "substitutes": [
+      "Gold ETFs, physical gold, futures; royalty stream is illiquid vs. direct gold exposure."
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "gold",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "inflation-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "capital-markets-access",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Gold price falls below $2000/oz due to Fed tightening or strong dollar, crushing royalty revenue.",
+    "Operator production misses guidance from operational issues (e.g., grade, costs, strikes).",
+    "Index inclusion and NCIB effects fade; stock drifts down on low liquidity and no growth catalyst.",
+    "Royalty acquisition pipeline dries up if capital markets close; no new assets to diversify."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Gold price stays above $2000/oz.",
+      "breaksIf": "Fed rate hikes or recession fears push gold below $2000; royalty cash flow drops."
+    },
+    {
+      "assumption": "Operator mines run at planned production.",
+      "breaksIf": "Mine shutdown, strike, or grade issues cut output; royalty payments fall."
+    },
+    {
+      "assumption": "Capital markets remain open for royalty acquisitions.",
+      "breaksIf": "Credit crunch or equity market downturn halts funding; growth stalls."
+    },
+    {
+      "assumption": "Index inclusion and NCIB provide price support.",
+      "breaksIf": "Index rebalancing ends or NCIB completes; buying pressure vanishes."
+    }
+  ],
+  "prediction": {
+    "statement": "Elemental Royalty reports Q2 2026 earnings in August; revenue and cash flow will reflect operator production and gold price ~$2300/oz.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "EPS and royalty revenue vs consensus; any production miss or guidance cut.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No details on royalty portfolio composition or operator names.",
+    "No data on gold price sensitivity or breakeven levels.",
+    "No information on debt or cash runway for acquisitions."
+  ],
+  "verifyThese": [
+    "Verify operator production guidance for Q2 2026.",
+    "Check gold price average Q2 2026 vs $2000/oz floor.",
+    "Confirm NCIB buyback volume and remaining authorization."
+  ],
+  "diminishingReturns": "Stopped at operator production and gold price; deeper hops (e.g., gold mining inputs) are immaterial for royalty firm."
+}

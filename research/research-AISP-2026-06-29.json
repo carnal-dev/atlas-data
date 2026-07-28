@@ -1,0 +1,106 @@
+{
+  "summary": "AISP is a small-cap, software-centric surveillance firm with a light supply chain, but it depends on GPU availability and cloud infra for AI inference. Its recent Fortune 100 win boosts revenue concentration risk, and its thin cash position amplifies fragility.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "NVIDIA GPUs (e.g., A100/H100)",
+        "whyNeeded": "AI inference for video analytics",
+        "concentration": "high (NVIDIA >90% market share)",
+        "fragility": "high: allocation priority goes to large cloud/hyperscaler"
+      },
+      {
+        "node": "Cloud infrastructure (AWS/Azure/GCP)",
+        "whyNeeded": "Scale deployment of Acropolis OS",
+        "concentration": "medium (3 dominant providers)",
+        "fragility": "medium: small customer less negotiating power, but many alternatives"
+      },
+      {
+        "node": "Camera/edge hardware (OEM)",
+        "whyNeeded": "Bundling for end-to-end solution",
+        "concentration": "low (many suppliers)",
+        "fragility": "low: commodity components"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "NVIDIA GPU supply allocation",
+        "why": "AISP's small volume makes it low priority vs. hyperscaler orders"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Fortune 100 transportation & e-commerce company",
+        "why": "Recent 7-figure follow-on contract; likely ~30-50% of revenue"
+      }
+    ],
+    "geographic": [
+      "100% US-based operations; no disclosed foreign revenue"
+    ],
+    "substitutes": [
+      "AMD/Intel GPUs (lower AI perf), on-premise servers as backup"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "gpu-supply",
+      "kind": "dependency"
+    },
+    {
+      "tag": "defense-spending",
+      "kind": "theme"
+    },
+    {
+      "tag": "software-margins",
+      "kind": "dependency"
+    },
+    {
+      "tag": "customer-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Fortune 100 contract does not renew or scales back, crushing revenue base.",
+    "GPU shortage delays product deployment, causing loss of mindshare.",
+    "Security breach destroys trust with US government clients.",
+    "Cash burn forces dilutive equity raise at low stock price."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Fortune 100 contract renews/expands",
+      "breaksIf": "Customer switches to in-house solution or rival (e.g., Verkada)"
+    },
+    {
+      "assumption": "GPU supply adequate for small customers",
+      "breaksIf": "NVIDIA prioritizes hyperscalers; alternative chips lack software stack"
+    },
+    {
+      "assumption": "US government surveillance spending grows",
+      "breaksIf": "Federal budget cuts or privacy legislation restricts procurement"
+    },
+    {
+      "assumption": "No major security breach or product failure",
+      "breaksIf": "Zero-day exploit in Acropolis OS causes data leak; reputation loss"
+    }
+  ],
+  "prediction": {
+    "statement": "AISP reports Q2 2026 revenue (Aug 2026) with sequential growth driven by Fortune 100 contract, but guidance disappoints on gross margin due to GPU costs.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Revenue >$6M and gross margin <55%; stock moves >15% on earnings day",
+    "confidence": 0.55
+  },
+  "gaps": [
+    "No disclosed full-year revenue run-rate",
+    "Unknown GPU supply contracts or cloud provider commitments",
+    "No customer count beyond the Fortune 100"
+  ],
+  "verifyThese": [
+    "Fortune 100 customer is Amazon (likely given e-commerce/transport)",
+    "AISP uses NVIDIA GPUs specifically (check recent partnership or bill of materials)",
+    "Cash balance and burn rate (last 10-Q shows $9.5M cash, burn ~$3M/qtr)"
+  ],
+  "diminishingReturns": "Stopped at GPU supply: deeper hops (HBM, TSMC) affect all AI firms, not unique to AISP; adding no marginal insight for this specific stock."
+}

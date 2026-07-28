@@ -1,0 +1,115 @@
+{
+  "summary": "FCB Financial Holdings is a regional bank concentrated in Florida. Its financial supply chain relies on deposits and wholesale funding for lending, with key fragility in Florida real estate exposure and interest rate sensitivity.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Deposits",
+        "whyNeeded": "Primary funding source for loans and operations",
+        "concentration": "Moderate - retail deposits diversified but geographically concentrated in Florida",
+        "fragility": "Medium - subject to competition and rate sensitivity"
+      },
+      {
+        "node": "Wholesale Funding",
+        "whyNeeded": "Supplemental funding for loan growth and liquidity",
+        "concentration": "High - relies on FHLB advances and brokered deposits",
+        "fragility": "High - can dry up or become costly in stress"
+      },
+      {
+        "node": "Regulatory Capital",
+        "whyNeeded": "Required to support risk-weighted assets and lending capacity",
+        "concentration": "Low - internally generated via retained earnings",
+        "fragility": "Medium - constrained by profitability and regulatory changes"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Florida Real Estate Market",
+        "why": "Loan portfolio heavily tied to Florida commercial and residential real estate; downturn causes credit losses"
+      },
+      {
+        "node": "Net Interest Margin",
+        "why": "Core profitability driver; sensitive to Fed policy and deposit competition"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Commercial Real Estate Borrowers",
+        "why": "Major loan segment; demand tied to local economy and property values"
+      },
+      {
+        "node": "Retail Depositors",
+        "why": "Provide low-cost funding; loyalty and rate sensitivity affect stability"
+      }
+    ],
+    "geographic": [
+      "Concentrated in Florida, especially South Florida and major metro areas"
+    ],
+    "substitutes": [
+      "Other regional banks, national banks, fintech lenders, capital markets"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "florida-real-estate-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "deposit-competition",
+      "kind": "dependency"
+    },
+    {
+      "tag": "regulatory-capital-requirements",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "wholesale-funding-reliance",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Florida real estate downturn leads to high loan losses, deposit outflows, and capital erosion.",
+    "Rising rates hurt net interest margin if deposit costs rise faster than loan yields.",
+    "Economic recession increases defaults and reduces loan demand.",
+    "Regulatory changes increase capital requirements, limiting returns."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Florida economy remains stable",
+      "breaksIf": "Hurricane, recession, or housing crash in Florida"
+    },
+    {
+      "assumption": "Net interest margin expands or holds",
+      "breaksIf": "Fed cuts rates sharply or deposit competition squeezes spreads"
+    },
+    {
+      "assumption": "Credit quality remains good",
+      "breaksIf": "Rise in non-performing loans due to local economic stress"
+    },
+    {
+      "assumption": "Deposit base stays sticky",
+      "breaksIf": "Significant deposit outflow to higher-yielding alternatives"
+    }
+  ],
+  "prediction": {
+    "statement": "FCB reports Q2 2025 earnings; focus on net interest margin and loan growth.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Earnings beat or miss consensus estimates; stock reaction >5%",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "Detailed loan portfolio composition by sector",
+    "Deposit mix and cost breakdown",
+    "Capital ratios and risk-weighted assets",
+    "Management guidance and strategic outlook"
+  ],
+  "verifyThese": [
+    "Market cap is 0 in data; likely data error",
+    "Exact geographic breakdown of loans",
+    "Interest rate hedging strategy"
+  ],
+  "diminishingReturns": "Stopped at loan portfolio and funding sources; further hops (e.g., borrowers' supply chains) are not material for a bank's investment thesis."
+}

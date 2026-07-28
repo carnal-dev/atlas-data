@@ -1,0 +1,46 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AREC","oneLiner":"Engine candidate: move 11.8%, vol 4.2x, -70.7% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"met-coal-price","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"steel-demand-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"central-appalachia-permits","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"norfolk-southern-rail","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"rare-earth-reagent-supply","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-china-trade-policy","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"russell-index-inclusion","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Met coal prices remain above $150/ton for AREC to be cash-flow positive.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Global steel output drops >10% or China exports surge, crashing prices."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Marion rare-earth facility reaches commercial production by 2027.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Technical hurdles or lack of reagent supply delays it beyond 2028."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Norfolk Southern rail service remains uninterrupted.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Labor strike or derailment blocks AREC's primary transport route for >2 weeks."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"US policy supports domestic critical minerals processing (IRA, DoD contracts).","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Change in administration or budget cuts eliminate subsidies/loans."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AREC stock will trade below $1.50 within 12 months if met coal prices fall below $130/ton for a quarter.","dueDate":"2027-06-29","resolutionCriterion":"Observe AREC closing price <$1.50 on any day after met coal quarterly average <$130/ton.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"met-coal-price"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"steel-demand-cycle"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"central-appalachia-permits"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"norfolk-southern-rail"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"rare-earth-reagent-supply"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-china-trade-policy"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"russell-index-inclusion"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"geopolitical","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AREC Q3 2026 earnings (Nov 2026) show coal EBITDA positive if met coal price stays above $150/ton, else cash burn accelerates.","dueDate":"2026-11-29","resolutionCriterion":"Q3 EBIDTA positive vs negative; stock reaction relative to met coal index.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Met coal and rare-earth processor AREC hinges on coal prices staying above $150/ton for cash flow and on Marion rare-earth facility reaching commercial production by 2027. Supply chain is concentrated"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"rare-earths","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"oil-price","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"freight-shipping","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"industrial-metals","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-binary","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariffs-trade-war","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-demand","kind":"dependency","source":"engine"}

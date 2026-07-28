@@ -1,0 +1,72 @@
+{
+  "ticker": "ALM",
+  "name": "Almonty Industries",
+  "identity": {
+    "sector": "Mining (tungsten)",
+    "theme": "Critical minerals",
+    "country": "Canada/Korea",
+    "tags": [
+      "🪨",
+      "🏛",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 16.24,
+    "sharesOutM": 290.0,
+    "cashM": 260,
+    "debtM": null,
+    "revenueTtmM": 90,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 6-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 60,
+      "techMoat": 75,
+      "capitalAllocation": 58,
+      "financialHealth": 65,
+      "dilutionRisk": 45,
+      "manufacturing": 80,
+      "competitivePosition": 75,
+      "insiderOwnership": 45,
+      "govtTailwinds": 88,
+      "executionRisk": 55,
+      "valuation": 40
+    },
+    "differentiators": {
+      "replacementRisk": 90,
+      "realityCheck": 65,
+      "civImportance": 85
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.11,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Owns Sangdong — one of the largest, highest-grade tungsten deposits, ex-China. Defense-critical metal; revenue +221%. Best-in-theme critical minerals.",
+    "risks": "Tungsten price · Sangdong ramp · Valuation · FX",
+    "confidence": "Medium",
+    "runway": "cash $260M, EBITDA+",
+    "catalyst": {
+      "text": "Sangdong tungsten mine ramp (just commissioned); DoD/Western offtake; China export curbs",
+      "window": "2026",
+      "type": "Production / DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

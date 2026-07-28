@@ -1,0 +1,105 @@
+{
+  "summary": "Ategrity Specialty Holdings is a US P&C insurer for SMBs. Its supply chain is capital-intensive, reliant on reinsurance and data. Near 52w high with high volume, but thin facts limit depth.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Reinsurance",
+        "whyNeeded": "Transfers catastrophic risk; essential for solvency and capacity.",
+        "concentration": "High: top 10 reinsurers control ~70% of market.",
+        "fragility": "High: capacity can tighten post-catastrophe, raising costs."
+      },
+      {
+        "node": "Claims Data & Analytics",
+        "whyNeeded": "Pricing, underwriting, and loss reserving depend on accurate data.",
+        "concentration": "Moderate: multiple vendors (ISO, Verisk) but switching costs high.",
+        "fragility": "Moderate: data breaches or model errors could misprice risk."
+      },
+      {
+        "node": "Capital Markets",
+        "whyNeeded": "Access to debt/equity for surplus and growth.",
+        "concentration": "Low: many sources, but cost varies with credit cycle.",
+        "fragility": "Low: generally liquid, but can tighten in crises."
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Reinsurance Renewals",
+        "why": "Annual renewals set terms; a hard market could spike costs and reduce coverage."
+      },
+      {
+        "node": "Catastrophe Exposure",
+        "why": "Concentrated US SMB exposure to hurricanes, wildfires; single event could overwhelm capital."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Small & Medium Businesses (US)",
+        "why": "Core end-market; demand tied to economic activity and regulatory requirements."
+      }
+    ],
+    "geographic": [
+      "Entirely US-based, with likely concentration in coastal/high-risk states."
+    ],
+    "substitutes": [
+      "Other P&C insurers (e.g., Travelers, Chubb), self-insurance, captives."
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "reinsurance-dependency",
+      "kind": "dependency"
+    },
+    {
+      "tag": "catastrophe-risk",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "climate-change-claims",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "insurance-cycle-hardening",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Rising loss costs from inflation and climate events could erode margins.",
+    "Intense competition from larger carriers may pressure premiums.",
+    "Interest rate cuts could reduce investment income, hurting profitability."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Reinsurance remains available at reasonable cost.",
+      "breaksIf": "Major catastrophe triggers reinsurance market dislocation, sharply raising costs."
+    },
+    {
+      "assumption": "Claims frequency and severity stay within modeled expectations.",
+      "breaksIf": "Unexpected surge in claims (e.g., secondary perils) depletes reserves."
+    },
+    {
+      "assumption": "Premium growth continues as SMB economy expands.",
+      "breaksIf": "Recession reduces demand for insurance or increases lapses."
+    },
+    {
+      "assumption": "Company maintains adequate capital and liquidity.",
+      "breaksIf": "Large loss event or rating downgrade forces capital raise at dilutive terms."
+    }
+  ],
+  "prediction": {
+    "statement": "Next catalyst: Q2 2026 earnings report (expected Aug 2026) will show combined ratio and premium growth.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Combined ratio below 100% and premium growth >5% YoY would be positive; above 105% or negative growth negative.",
+    "confidence": 0.3
+  },
+  "gaps": [
+    "No financial statements, loss ratios, or reinsurance counterparty details.",
+    "Unknown geographic concentration within US.",
+    "Lack of management guidance or historical performance."
+  ],
+  "verifyThese": [
+    "Check Ategrity's latest 10-Q for combined ratio and reinsurance structure.",
+    "Confirm if ASIC is the correct ticker for Ategrity Specialty Holdings (yes, per live data).",
+    "Review analyst reports for specific SMB exposure and competitive position."
+  ],
+  "diminishingReturns": "Deeper hops (e.g., reinsurer's retrocession) add little for investment decision; stop at reinsurance market level."
+}

@@ -1,0 +1,133 @@
+{
+  "summary": "Rocket Lab's vertically integrated space systems and upcoming Neutron rocket target growing small satellite launch demand. Supply-chain depth is moderate: key inputs include engines, carbon composites, and electronics, with some single-source risks. Profitability by 2028 depends on Neutron success and sustained space systems revenue growth.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Rutherford/Archimedes engines",
+        "whyNeeded": "Primary propulsion for Electron and Neutron rockets",
+        "concentration": "High (in-house production, but relies on rare-earth magnets for turbopumps)",
+        "fragility": "Medium"
+      },
+      {
+        "node": "Carbon composite structures",
+        "whyNeeded": "Lightweight airframe and fairings",
+        "concentration": "Medium (multiple suppliers, but specialized aerospace-grade materials)",
+        "fragility": "Low"
+      },
+      {
+        "node": "Avionics and electronics",
+        "whyNeeded": "Guidance, navigation, control, and telemetry",
+        "concentration": "Medium (some custom ASICs, but general components from multiple vendors)",
+        "fragility": "Low"
+      },
+      {
+        "node": "Rare-earth magnets",
+        "whyNeeded": "Used in electric-pump-fed engines (Rutherford)",
+        "concentration": "High (China dominates ~90% of rare-earth processing)",
+        "fragility": "High"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Rare-earth magnet supply",
+        "why": "Single-source dependency on Chinese processing for engine turbopumps; any trade disruption halts Electron production."
+      },
+      {
+        "node": "Neutron first-stage landing gear",
+        "why": "Novel design with few qualified suppliers; delays could push first launch beyond 2027."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Small satellite operators (e.g., Planet, Iridium)",
+        "why": "Primary launch demand for Electron; Iridium deal provides recurring revenue."
+      },
+      {
+        "node": "U.S. government (NASA, DoD)",
+        "why": "Key contracts for launch and spacecraft components; high-value, stable demand."
+      },
+      {
+        "node": "Commercial space systems buyers",
+        "why": "Spacecraft components and satellite buses; growing segment."
+      }
+    ],
+    "geographic": [
+      "Long Beach, CA (HQ, manufacturing)",
+      "New Zealand (launch site)",
+      "Virginia, USA (launch site)",
+      "Suppliers: rare-earth magnets from China, composites from US/Europe"
+    ],
+    "substitutes": [
+      "Other small launchers (e.g., Astra, Virgin Orbit, Firefly)",
+      "Rideshare on Falcon 9 (SpaceX)",
+      "In-house satellite propulsion (if launch fails)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "space-launch",
+      "kind": "theme"
+    },
+    {
+      "tag": "aerospace-supply-chain",
+      "kind": "dependency"
+    },
+    {
+      "tag": "rare-earths",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "geopolitical-sanctions",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "customer-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Neutron first launch fails or is delayed past 2028, destroying profitability timeline.",
+    "Rare-earth magnet supply disrupted by US-China trade war, halting Electron production.",
+    "SpaceX introduces a reusable small launcher, undercutting Rocket Lab's market.",
+    "Space systems revenue growth slows as government budgets tighten or competition increases."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Neutron achieves first launch by 2027 with >=80% success",
+      "breaksIf": "Technical failure, regulatory delay, or funding shortfall pushes launch to 2028+."
+    },
+    {
+      "assumption": "Small satellite launch demand grows at 15% CAGR through 2030",
+      "breaksIf": "Satellite constellation buildout slows due to interest rates or alternative tech (e.g., high-altitude platforms)."
+    },
+    {
+      "assumption": "Key suppliers maintain delivery schedules for Neutron components",
+      "breaksIf": "Rare-earth magnet export restrictions or composite supplier bankruptcy cause delays."
+    },
+    {
+      "assumption": "FAA licenses for Neutron launches granted without delays",
+      "breaksIf": "Environmental review or safety concerns cause multi-year licensing holdup."
+    }
+  ],
+  "prediction": {
+    "statement": "Rocket Lab announces a firm contract for Neutron's first commercial launch customer by Q2 2027.",
+    "horizonMonths": 12,
+    "resolutionCriterion": "Company press release or SEC filing confirms a binding launch agreement for Neutron with a named customer.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No detailed supplier list or concentration data for Neutron components.",
+    "No financial breakdown of space systems vs launch revenue.",
+    "No information on rare-earth magnet inventory or alternative sourcing plans."
+  ],
+  "verifyThese": [
+    "Check Rocket Lab's 10-K for supplier concentration and rare-earth magnet sourcing.",
+    "Verify insider net buying direction (Form 4 filings show changes but not net).",
+    "Confirm Iridium deal terms and revenue impact from recent headlines."
+  ],
+  "diminishingReturns": "Stopped at rare-earth magnets and engine supply because deeper hops (e.g., rare-earth mining in China) do not change the investment picture: the bottleneck is already clear and any further detail on specific mines or processing plants would not alter the risk assessment for a 3-5 year horizon."
+}

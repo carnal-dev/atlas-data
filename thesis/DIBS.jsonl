@@ -1,0 +1,30 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"DIBS","oneLiner":"Engine candidate: move 14.2%, vol 11.7x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"information-asymmetry","kind":"other","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"liquidity-risk","kind":"other","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"DIBS has a real business with identifiable supply chain.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"company is shell, pre-revenue, or phantom; then all supply-chain reasoning invalid."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Current price and vol reflect latent positive catalyst.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"move is from manipulation, pump, or index rebalance; then thesis is false signal."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Sufficient liquidity to exit position in 1-2y.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"trading halts, delisting, or bid-ask spread widens to >20%; then risk of total lock."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Within 12 months, DIBS will either release operational data confirming a supply chain or trade below $0.01.","dueDate":"2027-06-29","resolutionCriterion":"Check company filings: if materially new business facts appear, prediction favors bull; else, stock price < $0.01 for 5 consecutive days.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"information-asymmetry"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"liquidity-risk"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DIBS Q2 2026 earnings (early Aug) will show revenue growth <5% YoY and no net profit, disappointing post-spike expectations.","dueDate":"2026-09-29","resolutionCriterion":"Reported Q2 revenue YoY change and EPS sign; stock moves <3% on print implies catalyst absent.","confidence":0.4,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"DIBS is an online luxury marketplace with a lightweight asset model; its supply chain is primarily digital and service-based, with no physical production chokepoints. Concentration risk lies in seller"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"e-commerce","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-discretionary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"advertising-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"inflation-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}

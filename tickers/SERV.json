@@ -1,0 +1,71 @@
+{
+  "ticker": "SERV",
+  "name": "Serve Robotics",
+  "identity": {
+    "sector": "Robotics (delivery)",
+    "theme": "Robotics",
+    "country": "USA",
+    "tags": [
+      "🤖",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 5.91,
+    "sharesOutM": 76.0,
+    "cashM": 197,
+    "debtM": 0,
+    "revenueTtmM": 26,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 45,
+      "capitalAllocation": 50,
+      "financialHealth": 65,
+      "dilutionRisk": 35,
+      "manufacturing": 50,
+      "competitivePosition": 45,
+      "insiderOwnership": 40,
+      "govtTailwinds": 30,
+      "executionRisk": 40,
+      "valuation": 30
+    },
+    "differentiators": {
+      "replacementRisk": 55,
+      "realityCheck": 38,
+      "civImportance": 50
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.32,
+      "pUp10x": 0.12,
+      "pLoss": 0.35
+    }
+  },
+  "thesis": {
+    "summary": "Autonomous sidewalk delivery robots (Uber Eats). Rev +578% off a tiny base; well-funded but early.",
+    "risks": "Tiny revenue · Unproven economics · Valuation",
+    "confidence": "High",
+    "runway": "cash $197M",
+    "catalyst": {
+      "text": "Fleet scale-up with Uber Eats; new-market launches; unit economics",
+      "window": "2026",
+      "type": "Commercial"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

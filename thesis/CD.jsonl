@@ -1,0 +1,41 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CD","oneLiner":"Engine candidate: move 9.9%, vol 19.9x, -87.0% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"no-data","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"gpu-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-regulation","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"space-launch-bottleneck","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-china-tension","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Chaince successfully launches and scales USDC Yield Vault","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Poor adoption, security breach, or regulatory prohibition"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Space-based AI initiative receives funding and partnership","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Lack of investor interest or launch provider delay"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Core advisory business remains stable with positive cash flow","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Recession or loss of key clients"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No adverse US-China geopolitical events affecting operations","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Sanctions or trade barriers restricting cross-border advisory"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Chaince Digital stock price will reach $10.00 within 12 months, driven by successful crypto vault launch and progress in space AI.","dueDate":"2027-06-29","resolutionCriterion":"Close price >= $10.00 on any trading day within 12 months from today.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"no-data"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"gpu-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"crypto-regulation"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"space-launch-bottleneck"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-china-tension"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"geopolitical","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Chaince Digital announces first institutional deposit >$5M in USDC Yield Vault or signs a space AI partnership within 3 months.","dueDate":"2026-09-29","resolutionCriterion":"Company press release or 8-K filing confirming vault AUM milestone or space agreement.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Chaince Digital Holdings is a small-cap advisory firm pivoting to DeFi (USDC Yield Vault) and space-based AI. The stock has high volatility and drawdown, with near-term catalysts dependent on vault ad"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-exposure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-holdings-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-regulatory-risk","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"space-launch","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fintech","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"institutional-adoption","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"regulatory-compliance","kind":"dependency","source":"engine"}

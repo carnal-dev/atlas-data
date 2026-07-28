@@ -1,0 +1,27 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CHYM","oneLiner":"Engine candidate: move 11.2%, vol 4.8x, -47.5% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"partner-bank-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"visa-mastercard-duopoly","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-risk","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-acquisition-cost","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-consumer-health","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Partner banks maintain current relationships on favorable terms","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Any of top two banks terminates or demands higher fees"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"No major regulatory changes limiting fee income or requiring costly compliance","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"CFPB or state regulators cap overdraft/interchange fees or impose stricter oversight"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Customer acquisition costs remain stable as user base grows","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Digital ad costs spike or conversion drops due to competition"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Arrears on early paycheck advances stay low","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Unemployment rises significantly among low-income users"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Chime's Q2 2026 earnings (expected early Aug 2026) will show revenue and user growth in line with or above guidance of $2.7B annual revenue run-rate.","dueDate":"2026-08-29","resolutionCriterion":"Reported quarterly revenue exceeds $675M (quarterly run of $2.7B) and monthly active users grow >5% QoQ","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Chime Financial is a US digital neobank targeting low-to-moderate income consumers, partnering with FDIC-insured banks. Its supply chain relies on a few issuer banks, payment networks, and cloud infra"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"partner-bank-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"visa-mastercard-duopoly"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"customer-acquisition-cost"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-consumer-health"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"regulatory-compliance","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"payment-networks","kind":"dependency","source":"engine"}

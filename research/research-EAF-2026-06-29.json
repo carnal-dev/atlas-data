@@ -1,0 +1,88 @@
+{
+  "summary": "GrafTech is a graphite electrode supplier for electric arc furnace (EAF) steelmaking. Its chain is deeply concentrated: it depends on petroleum needle coke, a byproduct with few refiner sources. This creates a critical bottleneck. The thesis rests on rising EAF share and stable needle coke supply.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Petroleum needle coke",
+        "whyNeeded": "Key raw material for graphite electrode manufacture; few substitutes.",
+        "concentration": "Very high (supply dominated by 3-4 refiners, mostly US/China)",
+        "fragility": "High (any refiner outage or allocation shift disrupts electrode output)"
+      },
+      {
+        "node": "Graphite electrode manufacturing capacity",
+        "whyNeeded": "Company's core output; requires proprietary furnace technology and skilled labor.",
+        "concentration": "Medium (GrafTech is a top producer but competitors exist)",
+        "fragility": "Medium (maintenance, furnace reline downtime can cause supply tightness)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Petroleum needle coke supply",
+        "why": "Single family of inputs from few refiners; no large-scale alternative."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Electric arc furnace steel producers (e.g. Nucor, Steel Dynamics)",
+        "why": "Primary demand source; EAF production share growth drives electrode volume."
+      }
+    ],
+    "geographic": "Inputs: US and China refiners; Production: owned facilities in US, Europe, Asia; Customers: global, concentrated in EAF steelmaking regions.",
+    "substitutes": "Limited: carbon-based alternatives like synthetic graphite or recycled electrodes, but none match needle-coke electrodes for large-scale EAF performance."
+  },
+  "exposures": [
+    {
+      "tag": "raw-materials-cost",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "tariffs-trade-war",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "china-demand",
+      "kind": "theme"
+    },
+    {
+      "tag": "industrial-metals",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": "Global steel demand contracts sharply, EAF share growth stalls, needle coke prices soar on tight supply, or GrafTech loses a key customer/contract. The stock's 86% drawdown from 52-wk high already prices in some problems, but further weakness if steel downturn deepens.",
+  "loadBearing": [
+    {
+      "assumption": "EAF steel production share continues rising globally to 60%+ by 2030",
+      "breaksIf": "Infrastructure stimulus shifts to blast furnace; carbon price policies backfire; or scrappage rates fall."
+    },
+    {
+      "assumption": "Needle coke supply available at stable prices",
+      "breaksIf": "Refinery outage, geopolitical sanctions on China/US trade, or demand from other uses (e.g. batteries) bids up price."
+    },
+    {
+      "assumption": "GrafTech maintains high-margin competitive position",
+      "breaksIf": "Competitor introduces superior electrode technology; customer self-supplies; or product quality issue emerges."
+    },
+    {
+      "assumption": "Global steel demand does not contract >15% in next 2 years",
+      "breaksIf": "Recession, trade war escalation, or rapid substitution by aluminum/composites."
+    }
+  ],
+  "prediction": {
+    "statement": "Q2 2026 earnings report (August 2026) likely shows revenue decline y/y and a loss, driven by lower electrode volumes and persistent needle coke costs; management may cut guidance.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Reported revenue <$180m (vs Q1 2026) and EBITDA margin <10%.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No data on needle coke contract duration/pricing terms.",
+    "Current EAF share vs blast furnace – exact recent figures missing.",
+    "Segregated revenue by region/product – unconfirmed."
+  ],
+  "verifyThese": [
+    "Verify if GrafTech's needle coke supply contracts have been extended recently.",
+    "Verify global EAF share of steel production in 2025-2026 and IEA/WSA forecasts.",
+    "Check any recent tariff changes on graphite electrodes or needle coke between US and China.",
+    "Verify competitor capacity expansions or technology shifts (e.g., SGL Carbon, Tokai Carbon)."
+  ],
+  "diminishingReturns": "Stopped at needle coke refiners and end-market EAF producers; deeper hops (e.g., coke refiners' crude supply) do not change the investment picture because the bottleneck remains the number of coke suppliers, not their crude feedstock diversity."
+}

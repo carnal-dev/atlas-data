@@ -1,0 +1,71 @@
+{
+  "ticker": "MRCY",
+  "name": "Mercury Systems",
+  "identity": {
+    "sector": "Defense electronics / EW",
+    "theme": "Defense",
+    "country": "USA",
+    "tags": [
+      "🏛",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 104.69,
+    "sharesOutM": 60.0,
+    "cashM": 332,
+    "debtM": 640,
+    "revenueTtmM": 943,
+    "asOf": "2026-06-26",
+    "source": "Q3 FY26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 70,
+      "techMoat": 65,
+      "capitalAllocation": 50,
+      "financialHealth": 60,
+      "dilutionRisk": 60,
+      "manufacturing": 75,
+      "competitivePosition": 65,
+      "insiderOwnership": 40,
+      "govtTailwinds": 85,
+      "executionRisk": 50,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 80,
+      "realityCheck": 68,
+      "civImportance": 78
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.35,
+      "pUp10x": 0.07,
+      "pLoss": 0.12
+    }
+  },
+  "thesis": {
+    "summary": "Trusted defense-electronics supplier (EW, secure processing). Real $940M revenue; turnaround taking hold.",
+    "risks": "Turnaround execution · Debt",
+    "confidence": "High",
+    "runway": "profitable-ish",
+    "catalyst": {
+      "text": "EW & secure-processing awards; margin turnaround; backlog conversion",
+      "window": "2026",
+      "type": "DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

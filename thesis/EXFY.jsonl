@@ -1,0 +1,38 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"EXFY","oneLiner":"Engine candidate: move 14.9%, vol 4.4x, -38.6% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-provider-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"payment-network-oligopoly","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ai-api-vendor-lock","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-churn-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tender-offer-outcome","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Cloud infrastructure remains reliable and cost-stable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Major outage or price hike >20% forces margin compression or service disruption"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Payment network access continues on current terms","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Visa/Mastercard change fee structure or delist Expensify due to compliance issues"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Customer retention stabilizes after tender offer","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Churn accelerates due to uncertainty or competitor poaching"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"AI MCP feature drives new sales or upsells","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Adoption <5% of existing customers within 12 months; no revenue impact"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Expensify will be acquired or taken private within 12 months at a price above $2.00 per share, driven by tender offer and low valuation.","dueDate":"2027-06-29","resolutionCriterion":"If a definitive acquisition agreement or going-private transaction is announced by June 2027 at ≥$2.00/share, prediction true; else false.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cloud-provider-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"payment-network-oligopoly"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ai-api-vendor-lock"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"customer-churn-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"tender-offer-outcome"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Expensify Q2 2026 earnings (Aug 2026) will show flat sequential revenue and churn above 25% due to tender-induced disruption.","dueDate":"2026-09-29","resolutionCriterion":"Reported Q2 revenue vs Q1 2026; churn rate disclosed or implied by user count","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Expensify is a cloud-based expense management SaaS with low switching costs and dependency on cloud infrastructure and payment networks. Its recent tender offer reduced headcount, while AI MCP feature"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"payments","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"software-margins","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cybersecurity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"payment-networks","kind":"dependency","source":"engine"}

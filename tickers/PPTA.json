@@ -1,0 +1,72 @@
+{
+  "ticker": "PPTA",
+  "name": "Perpetua Resources",
+  "identity": {
+    "sector": "Mining (antimony+gold)",
+    "theme": "Critical minerals",
+    "country": "USA",
+    "tags": [
+      "🪨",
+      "🏛",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 21.47,
+    "sharesOutM": 125.0,
+    "cashM": 669.5,
+    "debtM": 0,
+    "revenueTtmM": null,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / EXIM",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 60,
+      "techMoat": 80,
+      "capitalAllocation": 65,
+      "financialHealth": 70,
+      "dilutionRisk": 55,
+      "manufacturing": 80,
+      "competitivePosition": 78,
+      "insiderOwnership": 45,
+      "govtTailwinds": 92,
+      "executionRisk": 45,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 92,
+      "realityCheck": 38,
+      "civImportance": 85
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.42,
+      "pUp10x": 0.13,
+      "pLoss": 0.2
+    }
+  },
+  "thesis": {
+    "summary": "Only major US antimony source (defense-critical, China-banned) + 4.2Moz gold. Fully financed, building.",
+    "risks": "Pre-production (2029) · Construction/permitting",
+    "confidence": "High",
+    "runway": "cash $670M + EXIM $2.7B loan",
+    "catalyst": {
+      "text": "Construction ramp; EXIM loan close; antimony offtake; first production ~2029",
+      "window": "2026-29",
+      "type": "Construction / DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

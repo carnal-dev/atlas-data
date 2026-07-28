@@ -1,0 +1,39 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ARQ","oneLiner":"Engine candidate: move 2.6%, vol 10.6x, -70.3% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"coal-plant-retirement-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"epa-mats-rule","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-facility-production","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"coal-waste-feedstock-price","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-basin-geography","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"environmental-regulation-theme","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"US coal-fired generation stays above 150 GW for 1-2 years","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"EPA issues looser mercury rule or major plant closures (e.g., TVA, Duke) cut capacity to under 120 GW"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"EPA MATS rule remains in force or strengthened","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Congress rolls back rule or new EPA head weakens enforcement; then utilities stop buying carbon"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Arq secures coal-waste feedstock at stable/declining cost","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"coal mine closures reduce supply; spot prices double"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No catastrophic operational failure at Corbin plant","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"fire/flood/explosion shuts facility >6 weeks; no backup capacity"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ARQ stock will trade above $4.00 within 12 months if EPA maintains MATS compliance deadlines and coal retirements stay below 5 GW/yr.","dueDate":"2027-06-29","resolutionCriterion":"Compare price closing price >$4.00 vs <=$4.00 on anniversary date; use normal trading session close.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"coal-plant-retirement-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"epa-mats-rule"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-facility-production"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"coal-waste-feedstock-price"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-basin-geography"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"environmental-regulation-theme"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"bottleneck","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Q2 2026 earnings (Aug release) will show revenue growth vs Q1 as utility inventory rebuilds ahead of fall MATS compliance season; EBITDA turns positive.","dueDate":"2026-09-29","resolutionCriterion":"Q2 2026 revenue > $25M and EBITDA > $0 (if disclosed) or management guidance implies profitability.","confidence":0.45,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Arq is a niche activated carbon producer dependent on coal-fired power plants for demand and coal waste for feedstock. Its deep drawdown reflects cyclical and regulatory risk; the thesis bets on susta"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"raw-materials-cost","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"energy-transition","kind":"theme","source":"engine"}

@@ -1,0 +1,35 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CNVS","oneLiner":"Engine candidate: move 17.5%, vol 68.5x, -57.4% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"content-licensing-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"platform-distribution-bottleneck","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ad-market-cyclicality","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"small-cap-liquidity-risk","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Current distribution partnerships (e.g., Hulu) remain stable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Hulu or other major partner drops Cineverse content due to contract non-renewal or competitive shift"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Content library acquisition cost stays low enough for positive unit economics","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Content licensing costs rise sharply or exclusive deals offered to competitors"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Ad-supported revenue grows or at least holds","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"U.S. ad market enters recession (e.g., CPMs drop >20%) causing AVOD revenue to decline"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No need for dilutive capital raise","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Cash burn forces equity issuance at depressed price >15% dilution"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Within 12 months, CNVS stock will trade below $2.00 (at least -36% from $3.15) as streaming competition and ad weakness erode revenue.","dueDate":"2027-06-29","resolutionCriterion":"Share price closes below $2.00 on any trading day before 2027-07-01.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"content-licensing-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"platform-distribution-bottleneck"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ad-market-cyclicality"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"small-cap-liquidity-risk"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Next quarterly earnings (Q1 FY2027) will show revenue miss or weak guidance due to ad market softness.","dueDate":"2026-09-29","resolutionCriterion":"Reported revenue below consensus or lowered FY2027 guidance; stock drops >10%.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Cineverse is a small-cap streaming tech firm with proprietary platform, SVOD/AVOD channels, and distribution via Hulu. Its supply chain is thin: content licensing and ad demand are the critical inputs"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"streaming-competition","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"advertising-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-discretionary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}

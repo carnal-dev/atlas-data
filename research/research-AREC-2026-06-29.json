@@ -1,0 +1,144 @@
+{
+  "summary": "AREC is a metallurgical coal and rare-earth processor with a fragile supply chain concentrated on coal prices above $150/ton and the Marion rare-earth facility reaching commercial production by 2027. Its upstream inputs are undiversified (single rail carrier, single rare-earth plant), and downstream demand depends on steel and defense markets. The stock's near-term catalyst is the Marion facility update, but execution risk and coal price sensitivity dominate.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Metallurgical coal reserves (Appalachia)",
+        "whyNeeded": "Core raw material for steel-making; AREC's primary revenue source.",
+        "concentration": "Moderate – multiple mines but regionally concentrated in Appalachia.",
+        "fragility": "Medium – dependent on mining permits, labor, and coal quality."
+      },
+      {
+        "node": "Rare-earth ore/concentrate (for Marion facility)",
+        "whyNeeded": "Feedstock for critical minerals refining; facility not yet commercial.",
+        "concentration": "High – likely sourced from a few suppliers or captive mine; no diversification yet.",
+        "fragility": "High – single facility, unproven commercial scale, reliant on consistent ore supply."
+      },
+      {
+        "node": "Norfolk Southern rail service",
+        "whyNeeded": "Transports coal from mines to customers; assumed uninterrupted.",
+        "concentration": "High – single rail carrier for key routes.",
+        "fragility": "High – any disruption (strike, weather, derailment) halts shipments."
+      },
+      {
+        "node": "Processing chemicals and energy (for rare-earth refining)",
+        "whyNeeded": "Required for separation and purification of rare-earth elements.",
+        "concentration": "Moderate – chemicals are commodity but specialized reagents may have few suppliers.",
+        "fragility": "Medium – price volatility or supply chain disruption could impact costs."
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Marion critical minerals refining facility",
+        "why": "Single point of failure for rare-earth processing; not yet commercial; any delay or technical issue blocks revenue from that segment."
+      },
+      {
+        "node": "Norfolk Southern rail",
+        "why": "Only viable rail option for coal transport; no alternative mode (trucking too costly) in the short term."
+      },
+      {
+        "node": "Met coal price above $150/ton",
+        "why": "Cash flow positive only above that threshold; price drop below would make coal operations unprofitable."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Steel manufacturers (domestic and export)",
+        "whyNeeded": "Primary buyers of met coal; demand tied to steel production and global economy.",
+        "concentration": "Moderate – several steel mills but cyclical demand."
+      },
+      {
+        "node": "Defense and technology sectors (for rare earths)",
+        "whyNeeded": "Potential customers for refined rare-earth elements; contracts not yet secured.",
+        "concentration": "High – few large buyers (e.g., DoD, magnet manufacturers); customer concentration risk."
+      }
+    ],
+    "geographic": [
+      "Coal operations in Appalachia (Kentucky, West Virginia); rare-earth facility in Marion, Indiana; rail corridor to ports and steel mills in Midwest and East Coast."
+    ],
+    "substitutes": [
+      "Met coal: scrap steel in electric arc furnaces, coke alternatives; rare earths: limited substitutes for permanent magnets, but recycling and alternative chemistries (e.g., ferrite) exist."
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "rare-earths",
+      "kind": "dependency"
+    },
+    {
+      "tag": "oil-price",
+      "kind": "dependency"
+    },
+    {
+      "tag": "freight-shipping",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "industrial-metals",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "regulatory-approval-binary",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "tariffs-trade-war",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "china-demand",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Met coal prices fall below $150/ton due to global steel slowdown, making AREC cash-flow negative and forcing equity dilution.",
+    "Marion rare-earth facility faces technical delays or cost overruns, pushing commercial production past 2027 and eroding investor confidence.",
+    "Norfolk Southern rail strike or service disruption halts coal shipments for weeks, crushing revenue.",
+    "US policy support for domestic critical minerals wanes (e.g., IRA repeal), removing the rare-earth facility's economic rationale."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Met coal prices stay above $150/ton for cash-flow positivity.",
+      "breaksIf": "Global steel demand drops (e.g., China recession, trade war) or supply glut pushes prices below $150."
+    },
+    {
+      "assumption": "Marion rare-earth facility reaches commercial production by 2027.",
+      "breaksIf": "Technical challenges, permitting delays, or funding shortfall push timeline beyond 2027."
+    },
+    {
+      "assumption": "Norfolk Southern rail service remains uninterrupted.",
+      "breaksIf": "Strike, derailment, or weather event disrupts rail for more than a few days."
+    },
+    {
+      "assumption": "US policy supports domestic critical minerals processing (IRA, DoD contracts).",
+      "breaksIf": "Change in administration or budget cuts reduce subsidies or procurement commitments."
+    }
+  ],
+  "prediction": {
+    "statement": "AREC will provide a material update on Marion facility progress (e.g., pilot results or construction milestone) within 6 months, likely boosting stock if positive.",
+    "horizonMonths": 6,
+    "resolutionCriterion": "Company issues press release or files 8-K with specific progress on Marion rare-earth refining (e.g., first production run, equipment installation, or offtake agreement).",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No detailed supplier list for mining equipment or rare-earth chemicals.",
+    "Customer concentration percentages not disclosed.",
+    "Exact coal production costs and breakeven price not provided.",
+    "Marion facility capex and funding sources unknown."
+  ],
+  "verifyThese": [
+    "Check AREC's latest 10-K for met coal realized prices and cost structure.",
+    "Confirm Marion facility's current stage (pilot vs. construction) and any offtake agreements.",
+    "Verify Norfolk Southern's role in AREC's logistics (contract terms, volume).",
+    "Monitor US policy updates on IRA critical minerals tax credits and DoD contracts."
+  ],
+  "diminishingReturns": "Stopped at rail carrier and rare-earth facility because deeper hops (e.g., mining equipment manufacturers, chemical suppliers) are commodity or diversified and do not change the investment picture; the key fragility is at the single-facility and single-carrier level."
+}

@@ -1,0 +1,30 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"DV","oneLiner":"Engine candidate: move 8.7%, vol 6.9x, -35.7% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"platform-access-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ad-spend-cyclicality","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ai-model-competition","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infra-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-privacy-shifts","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Continued access to major ad platforms (Meta, TikTok, LinkedIn)","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Any platform restricts data sharing or demands exclusivity"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Global ad spending grows or stays stable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Recession cuts budgets; advertisers shift to performance marketing"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"DV's AI products (DV Neura) drive adoption and pricing power","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"AI features replicate competitors; low ROI for clients"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No material regulatory headwind on ad tracking","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"New privacy laws limit measurement or require costly compliance"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DV stock will underperform the S&P 500 over 12 months due to platform concentration risk and ad market headwinds.","dueDate":"2027-06-29","resolutionCriterion":"DV total return vs SPY total return over 12 months from 2026-06-26.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"platform-access-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ad-spend-cyclicality"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ai-model-competition"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cloud-infra-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-privacy-shifts"}
+{"type":"TagAdded","at":"2026-06-29","tag":"advertising-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cybersecurity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"software-margins","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DV will report Q2 2026 earnings in early August 2026, with revenue growth of 10-15% YoY, driven by expansion on Meta and TikTok.","dueDate":"2026-08-29","resolutionCriterion":"Actual Q2 2026 revenue growth rate vs. prior year; if within 10-15%, prediction holds.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"DoubleVerify is a digital media measurement and analytics platform. Its supply chain is primarily data access and platform integrations, with key dependencies on major ad platforms like Meta and TikTo"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}

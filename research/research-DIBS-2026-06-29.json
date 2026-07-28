@@ -1,0 +1,119 @@
+{
+  "summary": "DIBS operates a digital marketplace for luxury goods with no physical production, so supply-chain risk is concentrated on seller retention and platform trust, not materials. Its lightweight asset model means dependency is on high-value seller inventory and buyer demand, not logistics or manufacturing chokepoints. Recent earnings and conference participation hint at stable operations but the stock remains volatile.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "seller inventory (vintage/antique items)",
+        "whyNeeded": "core product supply for marketplace transactions",
+        "concentration": "highly fragmented, but top sellers may be few",
+        "fragility": "medium: loss of key sellers reduces unique inventory"
+      },
+      {
+        "node": "technology platform (hosting, security)",
+        "whyNeeded": "enables online transactions, listings, and advertising",
+        "concentration": "low: cloud services (AWS, etc.) widely available",
+        "fragility": "low: multiple providers"
+      },
+      {
+        "node": "payment processing",
+        "whyNeeded": "facilitates buyer-seller payments",
+        "concentration": "low: multiple processors (Stripe, etc.)",
+        "fragility": "low"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "seller acquisition and retention",
+        "why": "unique inventory is the value proposition; losing top sellers reduces marketplace appeal"
+      },
+      {
+        "node": "buyer demand for luxury goods",
+        "why": "discretionary spending sensitive to economic cycles"
+      },
+      {
+        "node": "trust and authentication",
+        "why": "fraud or counterfeits damage brand and transaction confidence"
+      }
+    ],
+    "customers": [
+      {
+        "node": "luxury consumers (individuals)",
+        "why": "primary revenue from commission on sales"
+      },
+      {
+        "node": "advertisers (design brands, galleries)",
+        "why": "advertising services provide additional revenue stream"
+      }
+    ],
+    "geographic": [
+      "headquartered in New York, US; global marketplace with international sellers and buyers; limited concentration risk beyond US regulation"
+    ],
+    "substitutes": [
+      "other luxury marketplaces (e.g., Chairish, eBay Luxury)",
+      "physical auctions/c galleries",
+      "direct brand e-commerce"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "e-commerce",
+      "kind": "dependency"
+    },
+    {
+      "tag": "consumer-discretionary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "advertising-cycle",
+      "kind": "dependency"
+    },
+    {
+      "tag": "inflation-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Sustained high interest rates or recession reduces luxury spending, shrinking transaction volume and revenue.",
+    "Key sellers defect to competing platforms or go direct, eroding inventory uniqueness and marketplace value.",
+    "Platform security or authentication failures lead to high-profile fraud, damaging trust and user growth."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Luxury consumer demand remains steady or grows",
+      "breaksIf": "recession, high inflation, or luxury tax reduces disposable income for high-ticket items"
+    },
+    {
+      "assumption": "Seller base remains diverse and sticky",
+      "breaksIf": "top sellers leave due to better terms/audience elsewhere"
+    },
+    {
+      "assumption": "Technology platform operates without major disruption",
+      "breaksIf": "cyberattack or extended downtime erodes user trust and transactions"
+    },
+    {
+      "assumption": "Regulatory environment for online marketplaces stays stable",
+      "breaksIf": "new laws impose costly compliance or liability for seller counterfeit goods"
+    }
+  ],
+  "prediction": {
+    "statement": "Q2 2026 earnings (August 2026) will show stable or slightly growing revenue as luxury marketplace demand holds amid moderate economic conditions.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Revenue and GMV meet or exceed analyst consensus (currently not given, but check after report) vs miss by >5%",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No data on seller concentration or churn rates",
+    "No data on payment processing costs or take rate",
+    "No historical financials to assess trend"
+  ],
+  "verifyThese": [
+    "Luxury marketplace growth rate and DIBS market share",
+    "Impact of inflation on DIBS transaction volume",
+    "Top seller count and concentration"
+  ],
+  "diminishingReturns": "Stopped at inputs after platform and seller; deeper hops into cloud subcomponents or payment processors do not change risk picture for a marketplace (no physical production)."
+}

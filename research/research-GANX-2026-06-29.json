@@ -1,0 +1,101 @@
+{
+  "summary": "Gain Therapeutics is a pre-revenue biotech with one clinical asset (GT-02287) targeting Parkinson's, now entering Phase 2 after FDA IND clearance. Its supply chain is minimal: R&D services and raw materials for drug substance, but the key risk is binary clinical trial outcomes and cash runway. The stock's extreme volatility reflects a single-asset binary thesis.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Contract manufacturing (CDMO) for GT-02287",
+        "whyNeeded": "Produces clinical trial drug substance and placebo",
+        "concentration": "Moderate: few specialized CDMOs",
+        "fragility": "Low: many CDMOs available; switching possible but delays trial"
+      },
+      {
+        "node": "Raw chemical intermediates",
+        "whyNeeded": "Synthesis of small-molecule drug",
+        "concentration": "Low: widely available",
+        "fragility": "Low: commodities, no single source"
+      },
+      {
+        "node": "Clinical trial sites and investigators",
+        "whyNeeded": "Patient enrollment and data collection",
+        "concentration": "Low: global network",
+        "fragility": "Low: can reallocate if one site fails"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Single drug asset GT-02287 in Phase 2",
+        "why": "No other pipeline assets; failure = total loss of value"
+      },
+      {
+        "node": "Cash runway (dilution risk)",
+        "why": "Pre-revenue; must raise capital or partner; dilutive if stock low"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Parkinson's disease patients via future sales",
+        "why": "Only potential end-market; no other commercial product"
+      }
+    ],
+    "geographic": "US-headquartered; clinical trials may be global but no supply concentration outside US",
+    "substitutes": "Other GBA1-targeting or Parkinson's drugs from competitors (e.g., Bial, Sanofi); GT-02287 is not unique"
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "bottleneck"
+    }
+  ],
+  "bearCase": "GT-02287 Phase 2 fails efficacy or safety, stock collapses to cash value (~$0.50-1.00). Even if positive, long time to market and need for partnership/capital, causing dilution. No revenue for years, cash burn erodes value.",
+  "loadBearing": [
+    {
+      "assumption": "Phase 2 data shows clinically meaningful benefit",
+      "breaksIf": "Interim or final data misses primary endpoint or shows safety issues"
+    },
+    {
+      "assumption": "Company maintains sufficient cash to complete Phase 2",
+      "breaksIf": "Cash runs out before data; dilutive offering at low stock price"
+    },
+    {
+      "assumption": "No competing drug gets approved first or renders GT-02287 obsolete",
+      "breaksIf": "Competitor's GBA1 therapy succeeds with better profile"
+    },
+    {
+      "assumption": "Regulatory path remains clear with FDA",
+      "breaksIf": "FDA places clinical hold or requires additional preclinical studies"
+    }
+  ],
+  "prediction": {
+    "statement": "Phase 2 interim data for GT-02287 in Parkinson's disease by mid-2027; positive results will trigger 50-100% rally, negative results will halve stock.",
+    "horizonMonths": 9,
+    "resolutionCriterion": "Company announces Phase 2 interim efficacy/safety results; stock price reaction >20%",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No financial details (burn rate, cash balance) to calculate runway",
+    "No competitor pipeline depth or trial design details",
+    "No information on CDMO contract terms or switch costs"
+  ],
+  "verifyThese": [
+    "Gain Therapeutics' cash balance and quarterly burn rate from SEC filings",
+    "Phase 2 trial design (patient numbers, endpoints, timeline)",
+    "Any existing partnerships or licensing agreements"
+  ],
+  "diminishingReturns": "Stopped at raw materials stage: deeper hops into CDMO supply chains (e.g., glass vials) are generic and do not change fragility profile. The critical fragility is clinical-stage binary outcome, not physical supply chain."
+}

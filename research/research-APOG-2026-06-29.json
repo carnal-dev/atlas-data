@@ -1,0 +1,103 @@
+{
+  "summary": "Apogee is a US building-enclosure supplier concentrated in architectural glass, metals, and services. Its supply chain is tied to flat glass and aluminum inputs and non-residential construction demand; the post-Q1 earnings spike reflects short-term momentum, but structural fragility is moderate.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Flat glass (float glass)",
+        "whyNeeded": "Core input for architectural glass segment (~35% of revenue).",
+        "concentration": "Moderate: top 3 US producers hold ~60%; imports supplement.",
+        "fragility": "Medium: energy-intensive production; closures or natgas spikes squeeze margins."
+      },
+      {
+        "node": "Aluminum (extrusions, sheet)",
+        "whyNeeded": "Primary material for Architectural Metals segment.",
+        "concentration": "Moderate: global supply diversified, but US tariffs on imported aluminum raise costs.",
+        "fragility": "Medium: price volatility and trade-policy risk."
+      },
+      {
+        "node": "Specialty coatings/chemicals",
+        "whyNeeded": "Used in performance surfaces (e.g., protective glass coatings).",
+        "concentration": "Low: many suppliers globally.",
+        "fragility": "Low"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Flat-glass furnace capacity",
+        "why": "Float glass production runs 24/7; any regional furnace outage (e.g., in Midwest) could tighten supply for 6-12 months, given long rebuild times."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Non-residential construction contractors",
+        "why": "Architectural segments rely on commercial building projects (offices, schools, hospitals)."
+      },
+      {
+        "node": "US and Canada government/institutional buyers",
+        "why": "Performance surfaces serve infrastructure (e.g., protective glazing for schools)."
+      }
+    ],
+    "geographic": "Revenue mostly US (70%), rest Canada/Brazil. Glass and metal supply is domestic plus limited imports; Brazil segment serves local market.",
+    "substitutes": "Glazed curtain-wall alternatives (e.g., precast concrete panels) exist but lower optical/aesthetic performance; switching is slow and costly for clients."
+  },
+  "exposures": [
+    {
+      "tag": "flat-glass-supply",
+      "kind": "dependency"
+    },
+    {
+      "tag": "aluminum-tariff-exposure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "us-nonres-construction-cycle",
+      "kind": "theme"
+    },
+    {
+      "tag": "commercial-real-estate-demand",
+      "kind": "theme"
+    },
+    {
+      "tag": "energy-cost-sensitivity",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": "A recession reduces non-residential construction starts, collapsing Apogee's order backlog. Meanwhile, flat-glass or aluminum cost inflation (e.g., from new tariffs or energy spikes) compresses margins. The current 15% price pop after Q1 beats may be a trap if guidance was stale and the next quarter disappoints.",
+  "loadBearing": [
+    {
+      "assumption": "Non-residential construction spending remains stable or grows in FY2027.",
+      "breaksIf": "US recession or rate hikes delay commercial projects."
+    },
+    {
+      "assumption": "Flat-glass and aluminum input costs do not surge beyond 10% YoY.",
+      "breaksIf": "Energy crisis or trade war drives input costs up >15%; Apogee's pass-through is partial."
+    },
+    {
+      "assumption": "Q1 earnings beat signals sustainable margin expansion, not one-offs.",
+      "breaksIf": "Q1 included non-recurring items (e.g., project catch-up); Q2 shows reverting margins."
+    },
+    {
+      "assumption": "Apogee can maintain or grow market share in architectural metals/glass.",
+      "breaksIf": "Competition from imports (e.g., Asian glass) or prefab wall systems intensifies."
+    }
+  ],
+  "prediction": {
+    "statement": "Apogee's Q2 FY2027 earnings (Sept 2026) will show sequential revenue decline >5% from Q1, due to seasonal lull, causing stock to retrace to $42-44.",
+    "horizonMonths": 4,
+    "resolutionCriterion": "Reported Q2 FY2027 revenue below $320M and EPS below $1.00; stock price <$45 within 5 trading days post-release.",
+    "confidence": 0.55
+  },
+  "gaps": [
+    "Exact supplier names and contract terms for flat glass.",
+    "Percentage of revenue from each segment (only qualitative).",
+    "Detail on Brazil operations and local input sourcing.",
+    "Customer concentration (top 5 customers share)."
+  ],
+  "verifyThese": [
+    "Check Q1 FY2027 earnings transcript for gross margin breakdown and cost pass-through language.",
+    "Verify if recent 15% surge was driven by one-time backlog or guidance raise.",
+    "Check US flat-glass capacity utilization and any furnace outage news.",
+    "Check aluminum tariff policy updates for second half 2026."
+  ],
+  "diminishingReturns": "Stopped at flat-glass furnace capacity because deeper hops (e.g., sand sourcing for glass) are globally abundant and do not change the fragility picture for a mid-cap fabricator like Apogee. The investment-relevant constraint is furnace capacity, not sand."
+}

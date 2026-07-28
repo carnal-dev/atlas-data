@@ -1,0 +1,124 @@
+{
+  "summary": "FBYD is a themed entertainment developer with project-based revenue and high fixed costs. Its supply chain depends on creative talent, IP rights, and construction partners, with concentrated exposure to capital availability and demand recovery. Cash runway and talent retention are critical risk factors.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Creative talent (designers, storytellers)",
+        "whyNeeded": "Core asset for themed content creation, IP development, and project design",
+        "concentration": "High - specialized workers are scarce, turnover disrupts projects",
+        "fragility": "High - key departures can halt development"
+      },
+      {
+        "node": "IP rights and licensing",
+        "whyNeeded": "Underpins branded attractions and content; disputes or loss could impair revenue",
+        "concentration": "Medium - depends on a few major IP partners",
+        "fragility": "High - contractual loss or litigation would cripple revenue"
+      },
+      {
+        "node": "Construction partners and contractors",
+        "whyNeeded": "Build hotels, theme parks, and complexes; fixed costs escalate if delays arise",
+        "concentration": "Medium - small pool of specialized themed-construction firms",
+        "fragility": "Moderate - labor or material shortages delay projects"
+      },
+      {
+        "node": "Capital markets access",
+        "whyNeeded": "Fund high fixed costs and project pipeline; ongoing capital needs",
+        "concentration": "High - relies on equity/bond issuance (volatile conditions)",
+        "fragility": "High - rate hikes or risk-off sentiment would block financing"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Cash runway and project financing",
+        "why": "Project-based revenue is lumpy; any gap forces dilution or project cancellation"
+      },
+      {
+        "node": "Key talent retention",
+        "why": "Losing lead creatives could stall projects, damage reputation, and hurt IP appeal"
+      }
+    ],
+    "consumers": [
+      {
+        "node": "Tourism and hospitality operators (hotel/resort developers)",
+        "why": "Direct customers for designed attractions; demand tied to travel trends"
+      },
+      {
+        "node": "Theme park operators (domestic and international)",
+        "why": "End users of FBYD's themed experiences; growth depends on leisure spending"
+      },
+      {
+        "node": "Real estate developers (integrated complexes)",
+        "why": "Drive demand for hospitality/retail/entertainment projects; sensitive to rates"
+      }
+    ],
+    "geographic": "US headquarters; projects likely domestic and select international markets. Geopolitical risk low but China demand exposure (via Shanghai-industrial comparison headline) implies some Asia exposure.",
+    "substitutes": "In-house design by competitors (e.g., Disney, Universal); generic construction firms; alternative entertainment formats (streaming, VR). Limited for high-end themed design."
+  },
+  "exposures": [
+    {
+      "tag": "commercial-real-estate",
+      "kind": "dependency"
+    },
+    {
+      "tag": "consumer-discretionary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "capital-markets-access",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": "FBYD's project-based revenue means lumpy cash flows; if capital markets tighten, it may dilute equity or default. Demand for themed development is cyclical—recession or travel downturn could slash bookings. Loss of a key IP or creative lead would halt projects, worsening cash burn. Stock at $16.9 near 52w high suggests optimism priced in; any earnings miss could trigger sharp drop.",
+  "loadBearing": [
+    {
+      "assumption": "Company can raise ongoing capital at reasonable cost",
+      "breaksIf": "Interest rates stay high or credit markets tighten, leading to dilutive equity issuance or project delays"
+    },
+    {
+      "assumption": "Key talent/creative team remains intact",
+      "breaksIf": "Departure of lead designers/producers would stall projects and harm reputation"
+    },
+    {
+      "assumption": "Demand for themed entertainment/hotel development recovers or holds",
+      "breaksIf": "Recession, travel downturn, or competing attractions reduce project orders"
+    },
+    {
+      "assumption": "No major contractual loss or IP dispute",
+      "breaksIf": "Litigation or IP rights revocation could eliminate major revenue streams"
+    }
+  ],
+  "prediction": {
+    "statement": "Next Q2-2026 earnings (likely Aug 2026) will show revenue miss or weak guidance due to project delays and financing constraints",
+    "horizonMonths": 3,
+    "resolutionCriterion": "FBYD reports Q2 2026 earnings; actual revenue vs consensus, and guidance, determines if prediction holds",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No official supplier/talent concentration data",
+    "No contract pipeline or backlog details",
+    "No IP licensing agreements on file",
+    "No balance sheet or cash burn rate"
+  ],
+  "verifyThese": [
+    "Check Q1 2026 financial results from May 14 press release for cash, debt, and revenue",
+    "Verify if FBYD has disclosed any IP partnerships or major talent contracts",
+    "Look for any recent project announcements or cancellations"
+  ],
+  "diminishingReturns": "Stopped at construction partners, IP, and talent—no deeper hops needed because the core risk is capital access and talent retention, not raw material supply chains. Further tracing (e.g., steel for construction) would not change the investment picture as fixed costs and demand are the binding constraints."
+}

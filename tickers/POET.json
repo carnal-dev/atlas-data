@@ -1,0 +1,71 @@
+{
+  "ticker": "POET",
+  "name": "POET Technologies",
+  "identity": {
+    "sector": "Semiconductors (silicon photonics)",
+    "theme": "Semiconductors",
+    "country": "Canada/USA",
+    "tags": [
+      "💡",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 9.45,
+    "sharesOutM": 85.0,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 3,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 6-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 60,
+      "capitalAllocation": 45,
+      "financialHealth": 45,
+      "dilutionRisk": 35,
+      "manufacturing": 50,
+      "competitivePosition": 45,
+      "insiderOwnership": 40,
+      "govtTailwinds": 35,
+      "executionRisk": 38,
+      "valuation": 30
+    },
+    "differentiators": {
+      "replacementRisk": 60,
+      "realityCheck": 32,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.12,
+      "pLoss": 0.35
+    }
+  },
+  "thesis": {
+    "summary": "Silicon-photonics 'Optical Interposer' for AI-datacenter optics. Real partnerships/POs but ~$0.5M revenue — pre-commercial, speculative.",
+    "risks": "Pre-commercial · Cash burn · Dilution",
+    "confidence": "Medium",
+    "runway": "thin (burning ~$9M/qtr)",
+    "catalyst": {
+      "text": "Optical Interposer ramp; LITEON/Lumilens POs; 1.6T transceiver samples",
+      "window": "2026",
+      "type": "Customer milestone"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

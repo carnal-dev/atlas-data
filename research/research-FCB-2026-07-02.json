@@ -1,0 +1,111 @@
+{
+  "summary": "FCB Financial Holdings is a Florida-based regional bank with supply-chain fragility centered on real estate lending and deposit stickiness. Its financial inputs (deposits, wholesale funding) are relatively diversified, but single-state geographic concentration amplifies credit risk. Near-term stability depends on Florida's economy and interest rate trajectory.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Core deposits",
+        "whyNeeded": "Primary funding for loan origination",
+        "concentration": "moderate - retail & commercial depositors, FDIC insured cap limits flight risk",
+        "fragility": "low currently, but could become high if rate competition intensifies"
+      },
+      {
+        "node": "Wholesale funding",
+        "whyNeeded": "Supplemental liquidity for lending capacity",
+        "concentration": "low - multiple sources (FHLB, brokered deposits, fed funds)",
+        "fragility": "low"
+      },
+      {
+        "node": "Florida real estate loans",
+        "whyNeeded": "Core asset class generating interest income",
+        "concentration": "high - over 80% CRE & residential within Florida",
+        "fragility": "high - single-state exposure amplifies downturn risk"
+      },
+      {
+        "node": "Labor force",
+        "whyNeeded": "Branch operations, loan officers, back-office",
+        "concentration": "low",
+        "fragility": "low"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Florida real estate market",
+        "why": "Dominant asset class; a housing or tourism downturn would directly impair loan portfolio"
+      },
+      {
+        "node": "Net interest margin",
+        "why": "Profitability hinges on spread between deposit costs and loan yields; inverted yield curve squeezes it"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Florida homebuyers & businesses",
+        "whyNeeded": "Borrowers for mortgages, CRE loans; demand drives revenue"
+      },
+      {
+        "node": "Florida depositors",
+        "whyNeeded": "Provide low-cost funding base"
+      }
+    ],
+    "geographic": "~100% Florida; undiversified regionally",
+    "substitutes": "Customers could switch to national banks; FCB has low switching cost"
+  },
+  "exposures": [
+    {
+      "tag": "commercial-real-estate",
+      "kind": "dependency"
+    },
+    {
+      "tag": "housing-market",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "credit-cycle",
+      "kind": "dependency"
+    },
+    {
+      "tag": "banking-regulation",
+      "kind": "geopolitical"
+    }
+  ],
+  "bearCase": "Florida recession, hurricane catastrophe, or housing crash triggers sharp credit losses; deposit outflows & NIM contraction force capital raise or dilution.",
+  "loadBearing": [
+    {
+      "assumption": "Florida economy remains stable",
+      "breaksIf": "regional recession, major hurricane, or tourism collapse"
+    },
+    {
+      "assumption": "Net interest margin expands or holds",
+      "breaksIf": "inverted yield curve persists or deposit costs rise faster than loan yields"
+    },
+    {
+      "assumption": "Credit quality remains good",
+      "breaksIf": "Florida CRE or residential default rates spike >2%"
+    },
+    {
+      "assumption": "Deposit base stays sticky",
+      "breaksIf": "rate competition from money market or national banks triggers outflows"
+    }
+  ],
+  "prediction": {
+    "statement": "FCB reports Q1 2025 earnings; net interest margin likely flat to down 10bp YoY, loan growth slows to <3%",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Actual NIM vs consensus ±10bp; actual loan growth either above or below 3%",
+    "confidence": 0.5
+  },
+  "gaps": [
+    "No detailed loan composition (CRE vs residential vs C&I)",
+    "No deposit beta or maturity profile",
+    "No current non-performing asset ratio"
+  ],
+  "verifyThese": [
+    "FCB's exact CRE exposure %",
+    "Current deposit beta relative to Fed funds rate",
+    "Recent analyst NIM estimates"
+  ],
+  "diminishingReturns": "Stopped at bank level; deeper dependencies (e.g., concrete suppliers for developers) do not change investment picture because FCB's risk is credit concentration, not input shortages."
+}

@@ -1,0 +1,19 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"GANX","oneLiner":"Engine candidate: move 13.1%, vol 6.1x, -54.4% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"bottleneck","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Phase 2 data shows clinically meaningful benefit","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Interim or final data misses primary endpoint or shows safety issues"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Company maintains sufficient cash to complete Phase 2","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Cash runs out before data; dilutive offering at low stock price"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"No competing drug gets approved first or renders GT-02287 obsolete","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Competitor's GBA1 therapy succeeds with better profile"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Regulatory path remains clear with FDA","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"FDA places clinical hold or requires additional preclinical studies"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Phase 2 interim data for GT-02287 in Parkinson's disease by mid-2027; positive results will trigger 50-100% rally, negative results will halve stock.","dueDate":"2027-03-29","resolutionCriterion":"Company announces Phase 2 interim efficacy/safety results; stock price reaction >20%","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Gain Therapeutics is a pre-revenue biotech with one clinical asset (GT-02287) targeting Parkinson's, now entering Phase 2 after FDA IND clearance. Its supply chain is minimal: R&D services and raw mat"}

@@ -1,0 +1,71 @@
+{
+  "ticker": "TGB",
+  "name": "Taseko Mines (Trekor Metals)",
+  "identity": {
+    "sector": "Mining (copper)",
+    "theme": "Copper",
+    "country": "Canada/USA",
+    "tags": [
+      "🪨",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 6.475,
+    "sharesOutM": 365.0,
+    "cashM": 169,
+    "debtM": 322,
+    "revenueTtmM": 673,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 6-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 70,
+      "techMoat": 60,
+      "capitalAllocation": 55,
+      "financialHealth": 58,
+      "dilutionRisk": 45,
+      "manufacturing": 85,
+      "competitivePosition": 55,
+      "insiderOwnership": 40,
+      "govtTailwinds": 60,
+      "executionRisk": 55,
+      "valuation": 55
+    },
+    "differentiators": {
+      "replacementRisk": 85,
+      "realityCheck": 70,
+      "civImportance": 85
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.08,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Copper producer (Gibraltar) + Florence in-situ copper now producing cathode. Electrification supply.",
+    "risks": "Copper price · Florence ramp · Renamed Trekor 2026",
+    "confidence": "Medium",
+    "runway": "$322M liquidity",
+    "catalyst": {
+      "text": "Florence Copper ISCR ramp (30-35M lbs 2026); Gibraltar; copper price",
+      "window": "2026",
+      "type": "Production"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

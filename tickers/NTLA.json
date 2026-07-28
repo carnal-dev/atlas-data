@@ -1,0 +1,71 @@
+{
+  "ticker": "NTLA",
+  "name": "Intellia Therapeutics",
+  "identity": {
+    "sector": "Biotech (gene editing)",
+    "theme": "Biotech",
+    "country": "USA",
+    "tags": [
+      "🧬",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 16.54,
+    "sharesOutM": 139.7,
+    "cashM": 724,
+    "debtM": 0,
+    "revenueTtmM": 30,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 + Apr'26 raise",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 80,
+      "techMoat": 80,
+      "capitalAllocation": 60,
+      "financialHealth": 65,
+      "dilutionRisk": 35,
+      "manufacturing": 50,
+      "competitivePosition": 70,
+      "insiderOwnership": 35,
+      "govtTailwinds": 40,
+      "executionRisk": 35,
+      "valuation": 55
+    },
+    "differentiators": {
+      "replacementRisk": 78,
+      "realityCheck": 45,
+      "civImportance": 82
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.14,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "In-vivo CRISPR leader. Strong Ph3 data (87% fewer HAE attacks); pre-revenue/binary.",
+    "risks": "Binary (clinical) · Dilution",
+    "confidence": "High",
+    "runway": "into 2028",
+    "catalyst": {
+      "text": "nex-Z Phase 3 ATTR readout; HAE BLA path; FDA interactions",
+      "window": "2026-27",
+      "type": "FDA / Clinical"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

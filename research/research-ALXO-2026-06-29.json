@@ -1,0 +1,107 @@
+{
+  "summary": "ALXO is a clinical-stage biotech with a single asset (evorpacept, CD47 blocker) in phase 2 for gastric cancer. Its physical supply chain is minimal (clinical materials, CROs), but the company faces existential clinical and financial risks. The investment thesis hinges entirely on ASPEN-06 trial success and capital access.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "evorpacept drug substance (biologic)",
+        "whyNeeded": "Active pharmaceutical ingredient for clinical trials and future commercial use",
+        "concentration": "Likely single or few CDMOs; no public disclosure of multiple sources",
+        "fragility": "Moderate: biologic manufacturing is specialized but contract manufacturers exist; any disruption delays trials"
+      },
+      {
+        "node": "clinical trial services (CROs, labs)",
+        "whyNeeded": "Conducting phase 2 ASPEN-06 trial and other studies",
+        "concentration": "Multiple CROs available; ALXO likely uses a few key partners",
+        "fragility": "Low: switching possible but could cause delays"
+      },
+      {
+        "node": "financial capital (equity/debt)",
+        "whyNeeded": "Fund operations, trials, and potential commercialization",
+        "concentration": "Relies on equity markets and investor sentiment",
+        "fragility": "High: cash runway limited; failure to raise capital leads to insolvency"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "ASPEN-06 trial data readout",
+        "why": "Single binary event determines evorpacept's viability; failure would destroy value"
+      },
+      {
+        "node": "FDA acceptance of CD47 safety profile",
+        "why": "Class-wide safety concerns (anemia, thrombocytopenia) could block approval even with efficacy"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Gastric/GEJ cancer patients (end-market)",
+        "why": "Target indication for evorpacept; demand exists but depends on approval and reimbursement"
+      }
+    ],
+    "geographic": "US-centric; clinical trials may include global sites; manufacturing likely US/Europe",
+    "substitutes": "Other CD47 blockers (magrolimab, lemzoparlimab) and alternative checkpoint inhibitors; evorpacept's differentiated Fc region may offer safety advantage"
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "ASPEN-06 fails to meet endpoints, evorpacept abandoned, stock collapses to near zero.",
+    "CD47 class safety concerns lead to FDA clinical hold or rejection, halting development.",
+    "Cash runs out before data readout; dilutive financing at low price destroys shareholder value.",
+    "Competitor CD47 drugs (e.g., magrolimab) show better efficacy/safety, making evorpacept obsolete."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "ASPEN-06 trial will succeed (positive topline data)",
+      "breaksIf": "Trial misses primary endpoint or shows unacceptable toxicity; stock would fall >80%"
+    },
+    {
+      "assumption": "ALXO can raise sufficient capital at reasonable dilution",
+      "breaksIf": "Market conditions worsen or trial data disappoints, forcing high-dilution financing or bankruptcy"
+    },
+    {
+      "assumption": "CD47 safety profile is acceptable and class not rejected by FDA",
+      "breaksIf": "FDA imposes clinical hold or requires extensive safety studies; delays and costs escalate"
+    },
+    {
+      "assumption": "Evorpacept's differentiated Fc design provides safety advantage over competitors",
+      "breaksIf": "Clinical data shows no meaningful safety benefit; competitive positioning erodes"
+    }
+  ],
+  "prediction": {
+    "statement": "ALXO reports ASPEN-06 phase 2 topline data in H2 2026; positive results trigger stock rally >100%, negative results lead to >80% decline.",
+    "horizonMonths": 8,
+    "resolutionCriterion": "Company announces top-line results from ASPEN-06 trial; stock price moves accordingly.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No public details on evorpacept manufacturing partners or supply agreements.",
+    "Cash runway and burn rate not specified; need Q2 2026 financials.",
+    "Exact timeline for ASPEN-06 data readout not confirmed."
+  ],
+  "verifyThese": [
+    "Check ALXO cash position and burn rate from latest 10-Q.",
+    "Confirm ASPEN-06 trial enrollment completion and expected data date.",
+    "Review FDA stance on CD47 class safety (any recent advisory committee or clinical holds).",
+    "Assess competitive landscape: magrolimab (Gilead) and lemzoparlimab (I-Mab) status."
+  ],
+  "diminishingReturns": "Stopped at clinical trial and financial inputs; deeper hops (e.g., raw materials for biologic production) are not material because the key risks are clinical success and capital access, not supply chain disruption."
+}

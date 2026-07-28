@@ -1,0 +1,39 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CNTN","oneLiner":"Engine candidate: move 10.6%, vol 6.0x, -67.3% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"canton-network-adoption-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-protocol-single-point","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-market-sentiment","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-unsecured-token","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"concentrated-developer-talent","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Canton Network achieves meaningful institutional adoption within 1 year","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"No major bank/fintech announces production usage by Q2 2027"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Canton Coin retains a >$2 price floor supported by locking service demand","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Locking service TVL declines; token falls to $0.50"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"No adverse SEC enforcement action against Canton Network","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"SEC files suit or issues Wells notice"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Digital Asset Holdings continues compliant support for third-party tokens on protocol","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Digital Asset changes license, charges prohibitive fees, or protocol forks"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"CNTN stock will trade below $1.50 by 2027-06-30, as Canton Network fails to show production revenue and token price breaks down.","dueDate":"2027-06-29","resolutionCriterion":"Close price under $1.50 on 2027-06-30 vs over $1.50","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"canton-network-adoption-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"digital-asset-protocol-single-point"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"crypto-market-sentiment"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-unsecured-token"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"concentrated-developer-talent"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-holdings-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"institutional-adoption","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-regulatory-risk","kind":"geopolitical","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"By Q3 2026 earnings (reported by August 2026), Canton Strategic Holdings will disclose locking service token volume and a pipeline of institutional trials, but adoption metrics will remain too early-s","dueDate":"2026-08-29","resolutionCriterion":"If Q2 2026 report shows locking service with >$50M in locked token value or a named institutional client, the thesis gains support. If no material updates, price likely drifts.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Canton Strategic Holdings (CNTN) operates the Canton Network, an institutional blockchain platform, and issues Canton Coin. Its supply chain is highly intangible, relying on network adoption, protocol"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-exposure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}

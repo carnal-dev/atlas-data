@@ -1,0 +1,130 @@
+{
+  "summary": "Armata Pharmaceuticals is a single-asset clinical-stage biotech dependent on FDA approval of phage therapy AP-SA02 and DoD funding. Its supply chain for custom phage manufacturing is narrow, and failure of either clinical or funding assumptions would destroy equity value.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Custom bacteriophage strains",
+        "whyNeeded": "Active pharmaceutical ingredient for AP-SA02",
+        "concentration": "High",
+        "fragility": "High; proprietary, likely sole-source from CDMO"
+      },
+      {
+        "node": "CDMO manufacturing capacity",
+        "whyNeeded": "Fermentation, purification, fill/finish for clinical and commercial supply",
+        "concentration": "Medium",
+        "fragility": "Medium; few qualified phage CDMOs, capacity constraints"
+      },
+      {
+        "node": "Raw materials for fermentation media",
+        "whyNeeded": "Growth of bacterial hosts for phage production",
+        "concentration": "Low",
+        "fragility": "Low; standard bioprocess supplies"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "AP-SA02 single-asset pipeline",
+        "why": "No approved product; failure sinks company"
+      },
+      {
+        "node": "DoD funding renewal",
+        "why": "Non-dilutive cash critical for runway; no visible alternative funding"
+      },
+      {
+        "node": "FDA fast track but binary approval risk",
+        "why": "Precedent for phage approval is thin; clinical trial outcome binary"
+      }
+    ],
+    "customers": [
+      {
+        "node": "U.S. Department of Defense",
+        "why": "Primary funder and potential early adopter for antibiotic-resistant infections"
+      },
+      {
+        "node": "Hospital systems / wound care centers",
+        "why": "End-market for AP-SA02 if approved"
+      },
+      {
+        "node": "Civilian patients with resistant Staph infections",
+        "why": "Broader downstream demand if market adoption grows"
+      }
+    ],
+    "geographic": [
+      "US-centric: FDA jurisdiction, DoD funding, clinical trial sites. No disclosed ex-US supply base."
+    ],
+    "substitutes": [
+      "Traditional antibiotics (vancomycin, daptomycin) for Staph infections",
+      "Other late-stage antibiotic candidates (Paratek, Nabriva, etc.)",
+      "Next-gen phage therapeutics from competitors (Locus, BiomX, Adaptive Phage)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "fda-approval-binary",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "defense-spending",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "AP-SA02 fails in Phase 3 or gets CRL; stock goes to near-zero.",
+    "DoD funding ends or is delayed; cash burn forces dilutive financing at low prices.",
+    "Phage manufacturing CDMO fails quality/commercial scaling; delays launch.",
+    "Market adoption for phage therapy is negligible; no revenue for years even if approved."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "AP-SA02 receives FDA approval within 2 years",
+      "breaksIf": "Phase 3 misses endpoint, CRL, or safety signal"
+    },
+    {
+      "assumption": "DoD continues funding at current or higher levels",
+      "breaksIf": "Budget cuts, lost contract, or protest"
+    },
+    {
+      "assumption": "Manufacturing CDMO capacity is available and reliable",
+      "breaksIf": "CDMO fails audit, capacity seized by larger client, or phage yield issues"
+    },
+    {
+      "assumption": "Market adoption for phage therapy grows as antibiotic resistance worsens",
+      "breaksIf": "Physician reluctance, payer non-coverage, or alternative antibiotics prevail"
+    }
+  ],
+  "prediction": {
+    "statement": "AP-SA02 Phase 3 primary endpoint readout within 12 months, with top-line data by mid-2027.",
+    "horizonMonths": 12,
+    "resolutionCriterion": "Company announces top-line Phase 3 results for AP-SA02, meeting or missing primary endpoint.",
+    "confidence": 0.3
+  },
+  "gaps": [
+    "No public details on CDMO identity or capacity guarantees.",
+    "No disclosure of full clinical trial enrollment timeline or interim analyses.",
+    "No details on pricing/reimbursement strategy for AP-SA02.",
+    "No competitor phage pipeline maturity direct comparison."
+  ],
+  "verifyThese": [
+    "Verify CDMO contract terms and exclusivity for AP-SA02 manufacturing.",
+    "Confirm DoD funding contract renewal date and total committed amounts.",
+    "Check FDA precedents for phage therapy approvals and agency feedback.",
+    "Assess cash runway: current burn rate and equity offering risk."
+  ],
+  "diminishingReturns": "Stopped at phage manufacturing and DoD funding as deepest nodes; further hops (fermentation media suppliers, steel for bioreactors) are generic bioprocess inputs with ample substitutes and no material fragility for this micro-cap."
+}

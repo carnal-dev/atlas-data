@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CNXC","oneLiner":"Engine candidate: move 11.0%, vol 4.8x, -59.8% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ai-model-availability","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"labor-cost-inflation","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"client-cyclicality","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"AI augments rather than replaces human agents","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Major clients adopt fully automated CX, cutting contract volumes"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Cloud/AI platform costs remain stable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Hyperscaler price hikes or API fee increases exceed 20% annually"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Client retention remains high (>90%)","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Two top-10 clients switch to in-house or competitor within 12 months"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Global labor supply is accessible without disruption","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"US/India/Philippines impose restrictive migration or data-sovereignty laws"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"By 2027-12-31, CNXC returns to within 20% of 52-wk high ($62.14) absent a recession; otherwise, it stays below $35.","dueDate":"2027-12-29","resolutionCriterion":"Price on 2027-12-31: >$50 -> true; <$35 -> false; else mixed.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cloud-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ai-model-availability"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"labor-cost-inflation"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"client-cyclicality"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-holdings-concentration","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"CNXC Q2 2026 earnings (Jul 2026) will show revenue in-line with consensus (likely $1.6-1.7B) but lower margins due to cloud cost pressure.","dueDate":"2026-07-29","resolutionCriterion":"EPS miss by >5% or margin guidance below 14% operating margin","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"CNXC is a global CX/BPO firm that depends on AI platforms, labor supply, and client retention. Its deep supply chain is simple: human labor + cloud/AI software. Fragility lies in labor cost inflation,"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"labor-costs","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-discretionary","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariffs-trade-war","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"inflation-sensitivity","kind":"dependency","source":"engine"}

@@ -1,0 +1,136 @@
+{
+  "summary": "Aemetis is a tiny-cap renewable fuels producer dependent on California LCFS credits, $1.1B tax-exempt financing, and stable feedstock costs. Its supply chain is concentrated in California and India, with high fragility from policy shifts, financing delays, and feedstock price spikes.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Corn (ethanol feedstock)",
+        "whyNeeded": "Primary feedstock for California ethanol division",
+        "concentration": "Moderate (US corn market is diversified, but price volatility affects margins)",
+        "fragility": "Medium (weather, tariffs, or ethanol demand can spike costs)"
+      },
+      {
+        "node": "Dairy waste (RNG feedstock)",
+        "whyNeeded": "Feedstock for dairy renewable natural gas projects",
+        "concentration": "High (depends on local California dairy farms; limited suppliers)",
+        "fragility": "High (dairy farm closures or regulatory changes disrupt supply)"
+      },
+      {
+        "node": "Vegetable oils (India biodiesel feedstock)",
+        "whyNeeded": "Feedstock for India biodiesel production",
+        "concentration": "Moderate (global vegetable oil market, but India imports heavily)",
+        "fragility": "Medium (price spikes from palm oil export restrictions or weather)"
+      },
+      {
+        "node": "Mechanical vapor recompression equipment",
+        "whyNeeded": "Key equipment for ethanol plant efficiency (recent delivery)",
+        "concentration": "Low (multiple industrial equipment suppliers)",
+        "fragility": "Low (standard equipment, not a chokepoint)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "California LCFS credit market",
+        "why": "LCFS credits are the main revenue driver for RNG and ethanol; prices above $100/ton assumed but fragile to policy change"
+      },
+      {
+        "node": "Tax-exempt financing ($1.1B from CPCFA)",
+        "why": "Financing is critical for project buildout; any delay or denial halts expansion and strains cash"
+      },
+      {
+        "node": "India biodiesel blending mandate",
+        "why": "India division relies on government mandate (5% blend); policy rollback would collapse demand"
+      }
+    ],
+    "customers": [
+      {
+        "node": "California fuel blenders (LCFS credit buyers)",
+        "why": "Primary customers for RNG and ethanol; demand tied to LCFS compliance"
+      },
+      {
+        "node": "Indian oil marketing companies (OMCs)",
+        "why": "Buyers of biodiesel under blending mandate; state-controlled, single-buyer risk"
+      },
+      {
+        "node": "Jet fuel offtakers (potential)",
+        "why": "Nevada refinery jet-fuel plan suggests future customer; unproven"
+      }
+    ],
+    "geographic": "California (ethanol, RNG), India (biodiesel), Nevada (refinery plan); high geographic concentration in policy-dependent regions",
+    "substitutes": "Renewable diesel (competes for LCFS credits), electric vehicles (reduce LCFS demand), other biodiesel producers in India"
+  },
+  "exposures": [
+    {
+      "tag": "renewable-energy",
+      "kind": "theme"
+    },
+    {
+      "tag": "energy-transition",
+      "kind": "theme"
+    },
+    {
+      "tag": "regulatory-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "agriculture",
+      "kind": "dependency"
+    },
+    {
+      "tag": "raw-materials-cost",
+      "kind": "dependency"
+    },
+    {
+      "tag": "geopolitical-sanctions",
+      "kind": "geopolitical"
+    }
+  ],
+  "bearCase": [
+    "California LCFS credit prices collapse below $50/ton due to oversupply or policy weakening, crushing RNG/ethanol margins.",
+    "CPCFA financing fails to close or is delayed beyond 12 months, forcing equity dilution or project abandonment.",
+    "Corn or vegetable oil prices spike 30%+ from drought or trade war, eroding ethanol and biodiesel margins to negative.",
+    "India biodiesel mandate drops below 5% or is not enforced, eliminating India division revenue."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "California LCFS credit prices remain above $100/ton",
+      "breaksIf": "LCFS program weakened by legislation or credit oversupply from new RNG projects; prices drop below $50/ton"
+    },
+    {
+      "assumption": "Tax-exempt financing for $1.1B projects closes as planned",
+      "breaksIf": "CPCFA delays or denies final approval; interest rates rise; Aemetis fails to meet conditions"
+    },
+    {
+      "assumption": "Feedstock costs (corn, dairy waste) stay within historical ranges",
+      "breaksIf": "Corn price spikes due to drought or ethanol demand; dairy waste supply drops from farm closures"
+    },
+    {
+      "assumption": "India biodiesel blending mandate remains at 5% or higher",
+      "breaksIf": "Indian government reduces mandate or fails to enforce; OMCs delay payments"
+    }
+  ],
+  "prediction": {
+    "statement": "Aemetis will report Q2 2026 earnings with negative EBITDA due to low LCFS prices and financing delays, causing stock to fall below $1.30.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Q2 2026 earnings report (August 2026) shows EBITDA negative and stock price below $1.30",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No data on current LCFS credit prices or Aemetis's realized credit sales",
+    "No data on India biodiesel division revenue or mandate enforcement",
+    "No data on cash balance or debt maturity schedule"
+  ],
+  "verifyThese": [
+    "Current California LCFS credit price (should be ~$70-80/ton, not above $100)",
+    "CPCFA financing status (initial resolution adopted, but final approval pending)",
+    "India biodiesel mandate actual enforcement level"
+  ],
+  "diminishingReturns": "Stopped at feedstock and financing chokepoints; deeper hops (e.g., corn fertilizer supply) do not change the investment picture because the company's fragility is driven by policy and financing, not upstream material availability."
+}

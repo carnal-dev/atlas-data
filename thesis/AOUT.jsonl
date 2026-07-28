@@ -1,0 +1,35 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AOUT","oneLiner":"Engine candidate: move 17.1%, vol 38.5x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-spending-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariff-risk-on-imports","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"retail-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"seasonal-demand-cyclicality","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Consumer discretionary spending remains stable or grows over the next 1-2 years.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"A recession, rising unemployment, or inflation reduces disposable income, causing sales to fall."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"No major tariff increases on imported outdoor gear from China or Vietnam.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"New US tariffs raise input costs by 10-25%, compressing margins unless AOUT raises prices (risking demand)."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Key retail partnerships (Walmart, Bass Pro) continue and do not consolidate or drop AOUT.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"A major retailer drops AOUT or shifts to private-label alternatives, cutting revenue by 20%+."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"The recent earnings beat and '2027 growth reset' narrative is credible and not a one-time event.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Forward guidance disappoints or Q1 2027 sales show deceleration, reversing the stock's momentum."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AOUT stock will trade below $10 within 12 months as consumer spending softens and tariff risks materialize, reversing the recent spike.","dueDate":"2027-06-29","resolutionCriterion":"Stock price closes below $10 on any day within 12 months from today.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"consumer-spending-sensitivity"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"tariff-risk-on-imports"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"retail-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"seasonal-demand-cyclicality"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AOUT will report lower-than-expected fiscal Q1 2027 revenue (due Nov 2026) as retail orders normalize post pull-forward.","dueDate":"2026-10-29","resolutionCriterion":"Actual Q1 2027 revenue misses consensus by >5% or guidance cut.","confidence":0.45,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"AOUT is a consumer cyclical outdoor gear company with thin supply-chain data; it relies on stable discretionary spending, tariff-free imports from China/Vietnam, and key retail partners Walmart/Bass P"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"consumer-discretionary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariffs-trade-war","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"supply-chain-china","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"theme","source":"engine"}

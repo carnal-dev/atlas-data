@@ -1,0 +1,70 @@
+{
+  "ticker": "AEHR",
+  "name": "Aehr Test Systems",
+  "identity": {
+    "sector": "Semiconductors (test)",
+    "theme": "Semiconductors",
+    "country": "USA",
+    "tags": [
+      "💰"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 93.29,
+    "sharesOutM": 31.45,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 45,
+    "asOf": "2026-06-26",
+    "source": "FY26 Q2 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 60,
+      "techMoat": 65,
+      "capitalAllocation": 65,
+      "financialHealth": 70,
+      "dilutionRisk": 65,
+      "manufacturing": 60,
+      "competitivePosition": 55,
+      "insiderOwnership": 45,
+      "govtTailwinds": 35,
+      "executionRisk": 45,
+      "valuation": 30
+    },
+    "differentiators": {
+      "replacementRisk": 68,
+      "realityCheck": 65,
+      "civImportance": 70
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.07,
+      "pLoss": 0.18
+    }
+  },
+  "thesis": {
+    "summary": "Wafer-level burn-in test; SiC-era story pivoting to AI/datacenter. Profitable, lumpy, rich.",
+    "risks": "Customer concentration · Valuation",
+    "confidence": "Medium",
+    "runway": "n/a — verify",
+    "catalyst": {
+      "text": "AI-processor / datacenter burn-in design wins; FY26 results",
+      "window": "2026",
+      "type": "Customer / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

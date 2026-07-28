@@ -1,0 +1,72 @@
+{
+  "ticker": "KRMN",
+  "name": "Karman Holdings",
+  "identity": {
+    "sector": "Defense (hypersonics/missiles)",
+    "theme": "Defense",
+    "country": "USA",
+    "tags": [
+      "🏛",
+      "🚀",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 46.44,
+    "sharesOutM": 132.5,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 600,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 72,
+      "techMoat": 70,
+      "capitalAllocation": 60,
+      "financialHealth": 62,
+      "dilutionRisk": 45,
+      "manufacturing": 80,
+      "competitivePosition": 68,
+      "insiderOwnership": 40,
+      "govtTailwinds": 90,
+      "executionRisk": 65,
+      "valuation": 42
+    },
+    "differentiators": {
+      "replacementRisk": 85,
+      "realityCheck": 75,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.38,
+      "pUp10x": 0.09,
+      "pLoss": 0.12
+    }
+  },
+  "thesis": {
+    "summary": "Mission-critical hardware for hypersonics, missile defense, and launch. Revenue +51%, profitable, fast-growing backlog.",
+    "risks": "LBO leverage · Valuation",
+    "confidence": "Medium",
+    "runway": "profitable",
+    "catalyst": {
+      "text": "Hypersonics & strategic-missile programs; $1B backlog, ~$3B pipeline",
+      "window": "2026",
+      "type": "DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "summary": "AVD is a US specialty agrichemical firm reliant on Asian API imports and US crop prices. Its supply chain is moderately concentrated in generic actives from China/India, with debt refinancing as a financial risk over next 1-2 years.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "active pharmaceutical ingredients (APIs) from China/India",
+        "whyNeeded": "core chemical inputs for formulating pesticides",
+        "concentration": "high - over 70% of global generic API supply from China/India, top 3 players dominate",
+        "fragility": "high - trade tariffs, geopolitical tensions, or plant outages could disrupt supply"
+      },
+      {
+        "node": "packaging materials and solvents",
+        "whyNeeded": "packaging and formulation for end products",
+        "concentration": "low to moderate - widely available",
+        "fragility": "low"
+      },
+      {
+        "node": "US farming demand for pest control",
+        "whyNeeded": "final market for AVD's products",
+        "concentration": "moderate - dependent on corn/soybean acreage and crop prices",
+        "fragility": "moderate - crop price drop reduces farmer spending"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "API supply from China/India",
+        "why": "single geographic concentration; any trade ban or port disruption halts production"
+      },
+      {
+        "node": "debt refinancing market",
+        "why": "AVD's ability to refinance maturing debt at reasonable rates is critical for solvency"
+      }
+    ],
+    "customers": [
+      {
+        "node": "US farmers and agricultural cooperatives",
+        "why": "primary end-users for insecticides, herbicides, fungicides"
+      },
+      {
+        "node": "commercial applicators and turf/ornamental markets",
+        "why": "secondary customer base for non-crop use"
+      }
+    ],
+    "geographic": [
+      "API raw materials concentrated in China/India; formulation and sales mostly in US and some international"
+    ],
+    "substitutes": [
+      "generic alternatives from other formulators, biological pesticides, integrated pest management reducing chemical use"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "kind": "theme"
+    },
+    {
+      "tag": "supply-chain-china",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "tariffs-trade-war",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "raw-materials-cost",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Crop prices fall sharply due to global recession, cutting farmer spending on chemicals.",
+    "US imposes tariffs on Chinese APIs, raising input costs and squeezing margins.",
+    "AVD fails to refinance its debt at manageable rates, leading to liquidity crisis.",
+    "EPA bans a key active ingredient in AVD's product line, forcing write-downs."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Crop prices remain above cost of production for US farmers",
+      "breaksIf": "Global grain glut or recession causes crop prices to drop 20%+ from current levels."
+    },
+    {
+      "assumption": "China/India continue stable API supply at current pricing",
+      "breaksIf": "US-China tariff war escalates, or geopolitical conflict disrupts shipping from India."
+    },
+    {
+      "assumption": "No major regulatory ban on key AVD products",
+      "breaksIf": "EPA classifies a major AVD product as toxic, banning or restricting its use."
+    },
+    {
+      "assumption": "Debt refinancing is manageable at current interest rates",
+      "breaksIf": "Fed raises rates or credit markets tighten, making new debt service unaffordable."
+    }
+  ],
+  "prediction": {
+    "statement": "AVD Q2 2026 earnings report due early August 2026 will show revenue impact of spring planting season and any API cost changes.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Revenue and EBITDA vs consensus expectations; commentary on crop price outlook and API sourcing.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No specific supplier names or contracts on file",
+    "Exact debt maturity schedule not provided",
+    "Crop price exposure quantification missing"
+  ],
+  "verifyThese": [
+    "Verify top API suppliers and their countries",
+    "Check AVD's debt maturity schedule and interest rate",
+    "Monitor EPA regulatory actions on key active ingredients",
+    "Track US crop prices and farmer sentiment for 2026 season"
+  ],
+  "diminishingReturns": "Stopped at API sourcing from China/India because going deeper into upstream raw chemicals adds no incremental investment insight - the chokepoint is already captured at the country level."
+}

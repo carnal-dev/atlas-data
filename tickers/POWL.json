@@ -1,0 +1,71 @@
+{
+  "ticker": "POWL",
+  "name": "Powell Industries",
+  "identity": {
+    "sector": "Energy (grid/datacenter electrical)",
+    "theme": "Energy",
+    "country": "USA",
+    "tags": [
+      "💡",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 279.66,
+    "sharesOutM": 12.14,
+    "cashM": 545,
+    "debtM": 0,
+    "revenueTtmM": 1110,
+    "asOf": "2026-06-26",
+    "source": "Q2 FY26 / stockanalysis",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 60,
+      "capitalAllocation": 70,
+      "financialHealth": 80,
+      "dilutionRisk": 70,
+      "manufacturing": 78,
+      "competitivePosition": 62,
+      "insiderOwnership": 40,
+      "govtTailwinds": 55,
+      "executionRisk": 70,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 78,
+      "realityCheck": 82,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.32,
+      "pUp10x": 0.06,
+      "pLoss": 0.08
+    }
+  },
+  "thesis": {
+    "summary": "Electrical equipment (switchgear, busways) for grids, datacenters, and energy. Profitable, debt-free, riding the power buildout.",
+    "risks": "Cyclical end-markets · Tiny float (volatile)",
+    "confidence": "High",
+    "runway": "profitable, net cash",
+    "catalyst": {
+      "text": "Datacenter & grid electrical demand; backlog; LNG/utility orders",
+      "window": "2026",
+      "type": "Orders / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

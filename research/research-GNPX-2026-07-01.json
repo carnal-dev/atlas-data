@@ -1,0 +1,110 @@
+{
+  "summary": "Genprex is a pre-revenue gene therapy biotech with a single lead asset, REQORSA, for non-small cell lung cancer. Its supply chain is minimal, relying on contract manufacturing and research reagents, but the critical fragility is binary clinical trial outcomes and cash runway. The stock is a high-risk binary bet on trial data and financing.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Contract manufacturing (viral vectors, plasmids)",
+        "whyNeeded": "Produces REQORSA and other gene therapy candidates; no in-house manufacturing capability.",
+        "concentration": "High: few specialized CDMOs (e.g., Lonza, Catalent) dominate viral vector production.",
+        "fragility": "Medium: capacity constraints and long lead times; any disruption delays trials."
+      },
+      {
+        "node": "Research reagents and lab supplies",
+        "whyNeeded": "Preclinical and clinical development requires antibodies, cell lines, and consumables.",
+        "concentration": "Low: many suppliers (Thermo Fisher, Merck, etc.).",
+        "fragility": "Low: standard items, easily substitutable."
+      },
+      {
+        "node": "Clinical trial sites and patients",
+        "whyNeeded": "Enrollment for Phase 1/2 trials of REQORSA and diabetes gene therapy.",
+        "concentration": "Medium: depends on a few key academic centers and patient recruitment.",
+        "fragility": "Medium: slow enrollment or site closures delay data."
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Single asset (REQORSA) dependency",
+        "why": "Entire valuation hinges on one clinical-stage candidate; failure or delay destroys value."
+      },
+      {
+        "node": "Cash runway",
+        "why": "No revenue; relies on equity dilution or partnerships to fund operations; low market cap limits financing options."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Cancer patients (non-small cell lung cancer)",
+        "why": "Primary target market for REQORSA; unapproved, so no current revenue."
+      },
+      {
+        "node": "Diabetes patients (Type 2 diabetes gene therapy)",
+        "why": "Preclinical stage; potential future market if successful."
+      }
+    ],
+    "geographic": "US-based; clinical trials likely in US and Canada; patent filings in Canada, Israel, US; no manufacturing or supply chain outside North America.",
+    "substitutes": "Other gene therapies (e.g., Kymriah, Luxturna) and immunotherapies (PD-1/PD-L1 inhibitors) for lung cancer; no direct substitute for REQORSA's mechanism."
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "gene-therapy",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": "REQORSA fails in ongoing trials (e.g., no efficacy or safety issues), stock collapses to near zero. Cash runs out before next data readout, forcing dilutive financing or bankruptcy. Diabetes gene therapy remains preclinical for years, offering no near-term value.",
+  "loadBearing": [
+    {
+      "assumption": "REQORSA shows positive efficacy/safety in ongoing Phase 1/2 trials.",
+      "breaksIf": "Trial data misses endpoints or shows toxicity; stock drops >80%."
+    },
+    {
+      "assumption": "Company secures sufficient funding (dilution or partnership) to reach next catalyst.",
+      "breaksIf": "No financing at reasonable terms; cash runs out within 12 months."
+    },
+    {
+      "assumption": "Patent protection (e.g., Canada, Israel) provides competitive moat.",
+      "breaksIf": "Patents challenged or invalidated; generic competition emerges."
+    },
+    {
+      "assumption": "Regulatory path for REQORSA remains on track with FDA.",
+      "breaksIf": "FDA places clinical hold or requests additional trials; delays years."
+    }
+  ],
+  "prediction": {
+    "statement": "Genprex will report updated Phase 1/2 data for REQORSA in non-small cell lung cancer at a medical conference (e.g., ASCO 2027) within 12 months.",
+    "horizonMonths": 12,
+    "resolutionCriterion": "Company issues press release or presents data at a conference showing efficacy (e.g., response rate) or safety; stock moves >20% on the news.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "No details on specific CDMO contracts or manufacturing partners.",
+    "No financial data (cash burn rate, debt, shares outstanding).",
+    "No information on trial enrollment status or timelines."
+  ],
+  "verifyThese": [
+    "Check Genprex's latest 10-Q for cash runway and burn rate.",
+    "Verify REQORSA trial status on ClinicalTrials.gov.",
+    "Confirm patent status and expiration dates for REQORSA.",
+    "Search for any partnership or licensing deals for diabetes gene therapy."
+  ],
+  "diminishingReturns": "Stopped at single-asset and cash-runway chokepoints; deeper hops (e.g., viral vector raw materials) are generic and do not change the binary risk profile."
+}

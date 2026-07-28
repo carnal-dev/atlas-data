@@ -1,0 +1,24 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"BE","oneLiner":"Engine candidate: move -18.5%, vol 5.3x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"rare-earth-china-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-source-bop","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"natgas-price-volatility","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"data-center-capex-cycle","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"hydrogen-transition-policy","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Rare-earth/nickel supply remains available at current prices +-10%.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"China imposes rare-earth export quotas or US tariffs on Chinese processed nickel, cratering gross margin."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"No major disruption at single-source BoP supplier.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"A 6-month+ interruption at that supplier (e.g., natural disaster or labor strike) stops all shipments."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"US data-center construction and AI-driven power demand continue growing >15% y/y.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Hyperscalers pause new data-center buildouts due to AI bubble concerns or regulatory overhang."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"South Korean RD&D subsidy program continues at current levels.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Government budget cuts or shift to hydrogen reduce 2026-27 orders."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Q2 2026 earnings (late August 2026) will show >25% y/y revenue growth but gross margin compression to 23-25% from 27% due to nickel/rare-earth cost headwinds, causing stock to fail to recover and trad","dueDate":"2026-08-29","resolutionCriterion":"Actual Q2 revenue growth and gross margin reported in next quarterly result; if revenue growth <20% or gross margin <23%, prediction confirmed.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Bloom Energy makes solid-oxide fuel cells for on-site power, heavily dependent on natural gas supply and rare-earth materials in its electrolytic layers. Its key risk is concentrated upstream nickel/c"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"rare-earth-china-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-source-bop"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"natgas-price-volatility"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"data-center-capex-cycle"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"hydrogen-transition-policy"}

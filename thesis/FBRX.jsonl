@@ -1,0 +1,39 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"FBRX","oneLiner":"Engine candidate: move 12.4%, vol 12.8x, -41.3% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"clincial-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"financing-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-pathway","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"competitive-pipeline","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"FB-102 shows clinically meaningful benefit in vitiligo/alopecia phase 2","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Data misses primary endpoints or safety signals emerge"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Current cash position ($150M gross) funds operations without further dilution","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Trials require larger sample size or longer duration, necessitating new capital"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Patient enrollment completes on schedule","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Recruitment delays push data readout beyond 2 years or cause budget overrun"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No adverse regulatory/competitive surprise","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"FDA imposes clinical hold, or competitor publishes superior data"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"FBRX will trade below $15 within 6 months after phase 2 data fail to meet top-line expectations.","dueDate":"2026-12-29","resolutionCriterion":"Close price < $15 on any trading day within 6 months, with negative phase 2 data readout confirmed.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"clincial-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"financing-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-pathway"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"competitive-pipeline"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Forte Biosciences will release top-line phase 2 data for FB-102 in vitiligo/alopecia within 9 months, triggering a significant stock move.","dueDate":"2027-03-29","resolutionCriterion":"Company announces phase 2 results; stock price change >20% on the day","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Forte Biosciences is a clinical-stage biotech developing FB-102 for vitiligo and alopecia areata. Its supply chain is dominated by R&D inputs (API, manufacturing, trial sites) and financial runway fro"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"drug-pricing","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"FBRX will report phase 2 top-line data for FB-102 in vitiligo/alopecia areata in Q1 2027.","dueDate":"2027-03-29","resolutionCriterion":"Company announces results or timeline; if not by May 2027, prediction is false.","confidence":0.4,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}

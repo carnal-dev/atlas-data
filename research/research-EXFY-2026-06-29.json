@@ -1,0 +1,108 @@
+{
+  "summary": "Expensify is a cloud-based expense management SaaS with low switching costs. Its main supply-chain dependencies are cloud infrastructure (AWS/GCP/Azure) and payment networks (Visa/Mastercard). The recent tender offer reduced headcount, while its new AI MCP feature may boost growth, but churn and competition remain key risks.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Cloud Infrastructure",
+        "whyNeeded": "Hosting and compute for SaaS platform",
+        "concentration": "High; dominated by AWS, Azure, GCP",
+        "fragility": "Moderate; cost increases can squeeze margins, but service is typically reliable"
+      },
+      {
+        "node": "Payment Networks",
+        "whyNeeded": "Processing of corporate credit card transactions and expense flows",
+        "concentration": "High; duopoly of Visa and Mastercard",
+        "fragility": "Moderate; terms or fee changes could impact revenue"
+      },
+      {
+        "node": "Software Dependencies",
+        "whyNeeded": "Third-party libraries and APIs for functionality",
+        "concentration": "Low to moderate; many alternatives",
+        "fragility": "Low; substitutes available"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Cloud Providers",
+        "why": "Single provider lock-in could lead to pricing power; outage would halt service"
+      },
+      {
+        "node": "Payment Networks",
+        "why": "No easy replacement; network access essential for card features"
+      }
+    ],
+    "customers": [
+      {
+        "node": "SMEs and Enterprises",
+        "why": "Primary end users of expense management, diverse and global (low concentration)"
+      }
+    ],
+    "geographic": [
+      "US-based headquarters, global customer base with no single region dominating"
+    ],
+    "substitutes": [
+      "Manual expense reporting",
+      "Concur (SAP)",
+      "Bill.com",
+      "Rydoo",
+      "Zoho Expense"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "cloud-infrastructure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "payments",
+      "kind": "dependency"
+    },
+    {
+      "tag": "software-margins",
+      "kind": "theme"
+    },
+    {
+      "tag": "cybersecurity",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Low switching costs lead to high churn; tender offer may signal desperation; AI MCP feature may not differentiate; competition from Concur/Bill.com; cloud cost inflation pressures margins"
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Cloud infrastructure costs remain stable",
+      "breaksIf": "Major cloud provider raises prices by >10% or introduces new fees"
+    },
+    {
+      "assumption": "Payment network access continues on current terms",
+      "breaksIf": "Visa/Mastercard change fee structures or terminate agreement"
+    },
+    {
+      "assumption": "Customer retention stabilizes after tender offer",
+      "breaksIf": "Churn increases due to product dissatisfaction or competitive pressure"
+    },
+    {
+      "assumption": "AI MCP feature drives new sales or upsells",
+      "breaksIf": "Feature fails to gain traction, adoption is low, or competitors replicate quickly"
+    }
+  ],
+  "prediction": {
+    "statement": "Q2 2026 earnings report in August 2026 should show revenue stabilization or modest growth driven by AI MCP, but churn may still weigh",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Revenue year-over-year growth rate vs consensus; if positive and >0%, likely bullish",
+    "confidence": 0.3
+  },
+  "gaps": [
+    "No data on customer churn rate post-tender",
+    "No actual cloud provider or contract terms",
+    "No metrics on AI MCP adoption",
+    "No margin breakdown or cost structure detail"
+  ],
+  "verifyThese": [
+    "Check Expensify's SEC filings for cloud provider concentration and payment network agreements",
+    "Monitor blog/press for AI MCP usage statistics",
+    "Track any competitor responses to AI MCP launch"
+  ],
+  "diminishingReturns": "Deep dependency chain ends at cloud and payments; further hops (e.g., chip supply for cloud) have minimal impact on Expensify within 1-2 years, so chain is not extended."
+}

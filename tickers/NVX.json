@@ -1,0 +1,71 @@
+{
+  "ticker": "NVX",
+  "name": "Novonix",
+  "identity": {
+    "sector": "Battery materials (synthetic graphite)",
+    "theme": "Critical minerals",
+    "country": "Australia/USA",
+    "tags": [
+      "🪨",
+      "⚠️"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 0.4456,
+    "sharesOutM": 181.0,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 6,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 6-K / delisting notice",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 70,
+      "techMoat": 50,
+      "capitalAllocation": 25,
+      "financialHealth": 30,
+      "dilutionRisk": 12,
+      "manufacturing": 60,
+      "competitivePosition": 45,
+      "insiderOwnership": 30,
+      "govtTailwinds": 70,
+      "executionRisk": 30,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 68,
+      "realityCheck": 35,
+      "civImportance": 78
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.28,
+      "pUp10x": 0.12,
+      "pLoss": 0.55
+    }
+  },
+  "thesis": {
+    "summary": "US synthetic-graphite anode maker (DOE-backed, Panasonic offtake) — but a sub-$1 ADR under a Nasdaq delisting notice. Distressed lottery ticket.",
+    "risks": "Nasdaq delisting notice · Cash burn · Severe dilution",
+    "confidence": "Medium",
+    "runway": "distressed — verify",
+    "catalyst": {
+      "text": "Synthetic-graphite mass production (Panasonic offtake); DOE loan; bid-price compliance",
+      "window": "2026",
+      "type": "Production / Listing"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

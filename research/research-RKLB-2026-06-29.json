@@ -1,0 +1,124 @@
+{
+  "summary": "Rocket Lab's vertical integration and Neutron rocket target small satellite launch demand, but supply-chain fragility in engine components and launch-site concentration pose risks. Insider buying suggests confidence, but Neutron's success and market growth assumptions are unproven.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Rutherford/Archimedes engines",
+        "whyNeeded": "Primary propulsion for Electron and Neutron rockets",
+        "concentration": "In-house production reduces external dependency",
+        "fragility": "Low fragility due to vertical integration, but relies on rare-earth magnets for pumps"
+      },
+      {
+        "node": "Carbon composite structures",
+        "whyNeeded": "Lightweight airframes for both rockets",
+        "concentration": "Sourced from multiple suppliers, but specialized",
+        "fragility": "Medium fragility; single-source for high-grade carbon fiber could delay production"
+      },
+      {
+        "node": "Avionics and guidance systems",
+        "whyNeeded": "Flight control and payload deployment",
+        "concentration": "In-house design reduces dependency",
+        "fragility": "Low fragility, but chip shortages could impact"
+      },
+      {
+        "node": "Rare-earth magnets (for turbopumps)",
+        "whyNeeded": "Electric pump-fed engines require high-strength magnets",
+        "concentration": "China dominates ~90% of rare-earth processing",
+        "fragility": "High fragility; geopolitical risk and limited substitutes"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Launch Complex 1 (New Zealand)",
+        "why": "Primary launch site; single point of failure for Electron launches"
+      },
+      {
+        "node": "Neutron launch site (Wallops, Virginia)",
+        "why": "Only planned site for Neutron; delays or damage halt all Neutron launches"
+      },
+      {
+        "node": "Rare-earth magnet supply",
+        "why": "Critical for engine production; concentrated in China"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Small satellite operators (e.g., Planet, Spire)",
+        "why": "Primary demand for Electron launches; growing constellation market"
+      },
+      {
+        "node": "NASA and US DoD",
+        "why": "Key institutional customers for dedicated launches and space systems"
+      },
+      {
+        "node": "Commercial space stations (e.g., Axiom)",
+        "why": "Potential future demand for Neutron cargo missions"
+      }
+    ],
+    "geographic": "Launch sites in New Zealand and Virginia; rare-earth magnets from China; carbon fiber from Japan/US; engine production in California",
+    "substitutes": "Falcon 9 rideshare for small sats; Vega-C for medium lift; Blue Origin New Glenn if operational"
+  },
+  "exposures": [
+    {
+      "tag": "rare-earth-magnet-dependency",
+      "kind": "dependency"
+    },
+    {
+      "tag": "launch-site-single-point",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "neutron-rocket-development-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "china-rare-earth-geopolitical",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "small-satellite-market-demand",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Neutron fails or is delayed beyond 2028, leaving RKLB with only Electron revenue.",
+    "Rare-earth magnet export ban from China halts engine production for 6+ months.",
+    "SpaceX introduces a dedicated small-sat launcher, crushing RKLB's market share.",
+    "Launch site accident at Wallops or New Zealand grounds operations for a year."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "a1: Neutron first launch by 2027 with 80% success",
+      "breaksIf": "Engine test failures or structural issues push launch to 2028+"
+    },
+    {
+      "assumption": "a2: Small satellite demand grows 15% CAGR",
+      "breaksIf": "Constellation buildout slows or LEO spectrum congestion reduces launches"
+    },
+    {
+      "assumption": "a3: SpaceX leaves medium-lift gap",
+      "breaksIf": "SpaceX launches Falcon 9 at cost or introduces a Neutron competitor"
+    },
+    {
+      "assumption": "a7: Key suppliers maintain schedules",
+      "breaksIf": "Rare-earth magnet supply disrupted or carbon fiber shortage"
+    },
+    {
+      "assumption": "a8: FAA licenses granted without delays",
+      "breaksIf": "Regulatory review extends beyond 12 months due to safety concerns"
+    }
+  ],
+  "gaps": [
+    "No facts on Neutron engine test results or production milestones.",
+    "No facts on rare-earth magnet inventory or supplier contracts.",
+    "No facts on launch site redundancy or backup plans.",
+    "No facts on customer backlog for Neutron beyond Electron."
+  ],
+  "verifyThese": [
+    "Check if RKLB has long-term rare-earth magnet supply agreements.",
+    "Verify Neutron engine Archimedes test campaign status and success rate.",
+    "Confirm FAA licensing timeline for Neutron at Wallops.",
+    "Assess if insider buying is net or includes option exercises."
+  ],
+  "diminishingReturns": "Stopped at rare-earth magnets and launch sites; deeper hops (e.g., rare-earth mining in China) do not change the investment picture as substitutes are limited and geopolitical risk is already captured."
+}

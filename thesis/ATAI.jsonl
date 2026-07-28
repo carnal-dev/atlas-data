@@ -1,0 +1,43 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ATAI","oneLiner":"Engine candidate: move 15.5%, vol 11.8x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-timeline-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-runway","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-clinical-approval","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"contract-manufacturing-single-source","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-shift-fda-schedule","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"psychedelic-renaissance-theme","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"BPL-003 Phase 2/3 data will be positive","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Negative or mixed results trigger stock collapse"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"FDA maintains supportive stance for psychedelic therapies","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"New safety concerns or political shifts impose stricter hurdles"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Company maintains cash runway through 2027 without dilution","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Need for capital forces equity raise at depressed price"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Russell index inclusion attracts institutional buying","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Passive flows are insufficient to offset profit-taking or negative news"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"By Q4 2027, ATAI stock will trade above $10.00 due to positive Phase 3 results for BPL-003 in treatment-resistant depression.","dueDate":"2027-12-29","resolutionCriterion":"ATAI closing price > $10 on any day in October-December 2027; if no Phase 3 data by then, prediction is void.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-timeline-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"capital-runway"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"fda-clinical-approval"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"contract-manufacturing-single-source"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-shift-fda-schedule"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"psychedelic-renaissance-theme"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"BPL-003 Phase 2/3 top-line results expected between Q3 2026 and Q1 2027; positive readout triggers 40-60% upside, negative triggers 70% downside.","dueDate":"2027-03-29","resolutionCriterion":"Company announces positive or negative top-line data for BPL-003 Phase 2/3; stock moves >15% on announcement.","confidence":0.45,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"ATAI is a clinical-stage biopharma focused on psychedelic therapies for mental health, with BPL-003 as its lead asset. Its supply chain is minimal—drug substance is custom-synthesized by a few CDMOs a"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"institutional-adoption","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ATAI announces top-line results from BPL-003 Phase 2/3 trial in treatment-resistant depression within 6 months.","dueDate":"2026-12-29","resolutionCriterion":"Company issues press release with primary endpoint data (e.g., change in MADRS score) – positive (statistically significant) or negative.","confidence":0.65,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}

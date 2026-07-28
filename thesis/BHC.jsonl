@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"BHC","oneLiner":"Engine candidate: move -9.8%, vol 6.2x, -45.2% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"xifaxan-generic-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-api-sourcing","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"solta-china-registration-single-point","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"high-leverage-debt-maturities","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Xifaxan patent protection holds until 2029 without generic competition","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Patent invalidated or generic at-risk launch by 2027; then revenue drops >$1B and leverage spikes"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Free cash flow positive in 2026-2027 from core operations","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Xifaxan weakens OR Solta/other launches underperform; then debt service consumes all cash"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Solta China receives regulatory approval and ramps sales smoothly","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"China trademark contested or import restrictions delay; investment case collapses as growth pillar fails"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No major debt refinancing crisis before 2027 maturities","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Credit rating downgrade or bank credit line cut forces early repayment at punitive rates"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"BHC will trade below $4.00 (2026 close) within 12 months due to rising generic risk and debt concerns.","dueDate":"2027-06-29","resolutionCriterion":"Stock price below $4.00 on calendar year-end 2026 or any two consecutive trading days before that.","confidence":0.7,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"xifaxan-generic-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"china-api-sourcing"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"solta-china-registration-single-point"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"high-leverage-debt-maturities"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"BHC Q2 2026 earnings (Aug 2026) will show Solta China initial revenue and FCF positive guidance, driving stock above $6.","dueDate":"2026-08-29","resolutionCriterion":"Stock price above $6 within 2 weeks of Q2 earnings; Solta China revenue disclosed; FCF positive guidance confirmed.","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Bausch Health's supply chain is concentrated on Xifaxan API and Solta device components, with patent protection and debt refinancing as critical chokepoints. The company's near-term outlook hinges on "}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"patent-cliff","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"medical-devices","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"credit-cycle","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-demand","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"theme","source":"engine"}

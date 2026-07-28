@@ -1,0 +1,32 @@
+{"type":"ThesisOpened","at":"2026-06-28","ticker":"IONQ","oneLiner":"Leading pure-play trapped-ion quantum computer, positioned to capture early revenue as quantum advantage emerges","timeHorizon":"5-10y"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a1","text":"Governments keep funding quantum research and procurement","confidence":"high"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a2","text":"IonQ funds operations through partnership revenue without crippling dilution","confidence":"medium"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a3","text":"IonQ specifically survives: not out-scaled by Google/IBM, not forced into a death-spiral raise","confidence":"low"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a4","text":"Trapped-ion reaches commercially useful error-correction milestones this decade","confidence":"medium"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i1","condition":"IonQ announces a material roadmap delay (algorithmic-qubit targets slip)"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i2","condition":"A competitor demonstrates clear quantum advantage in a commercial application first"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i3","condition":"IonQ keeps raising dilutive capital with no path to positive gross margin"}
+{"type":"PredictionMade","at":"2026-06-28","id":"p1","statement":"Positive gross margin on quantum revenue in any quarter through Q4 2026","dueDate":"2026-12-31","resolutionCriterion":"A quarterly earnings release through Q4 2026 reports GAAP gross margin >0% on quantum revenue","confidence":0.3}
+{"type":"PredictionMade","at":"2026-06-28","id":"p2","statement":"A commercial quantum-advantage demo with a paying customer","dueDate":"2026-12-31","resolutionCriterion":"Press release or credible third-party verification of a paying-customer quantum-advantage result","confidence":0.2}
+{"type":"ConvictionSet","at":"2026-06-28","level":8,"because":["owner-approved AI-assisted intake"]}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i4","condition":"Superconducting platforms (Google/IBM) reach commercial quantum advantage materially faster, making trapped-ion's slower gate speed decisive"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i5","condition":"Revenue stays concentrated in a single government or cloud partner (>50% of quantum revenue)"}
+{"type":"ConvictionSet","at":"2026-06-28","level":6,"because":["lowered after Bear-agent red-team; 8 was unsupported by evidence on file"]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e1","claim":"IonQ was selected by DARPA for Stage B of the Quantum Benchmarking Initiative, after completing Stage A","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"high","links":[{"target":"a1","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e2","claim":"IonQ makes its quantum computers available through Amazon Web Services, Microsoft Azure, and Google Cloud","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"high","links":[{"target":"a2","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e3","claim":"IonQ received $636 million when it went public via a SPAC in October 2021","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"high","links":[{"target":"a2","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e4","claim":"IonQ's hardware uses a trapped-ion architecture, from technology developed at University of Maryland and Duke","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"high","links":[{"target":"a4","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e5","claim":"IonQ and some experts claim trapped ions provide benefits in accuracy, scalability, predictability, and coherence time","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"medium","links":[{"target":"a4","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e6","claim":"Critics note trapped-ion hardware has slow operational (gate) times and relatively large size","source":"en.wikipedia.org/wiki/IonQ","reliability":"low","claimConfidence":"medium","links":[{"target":"a4","relationship":"weakens"}]}
+{"type":"ConvictionSet","at":"2026-06-28","level":6,"because":["re-affirmed after reviewing the slow gate-speed evidence (e6)"]}
+{"type":"TagAdded","at":"2026-06-28","tag":"quantum-computing","kind":"theme"}
+{"type":"TagAdded","at":"2026-06-28","tag":"US-China-tech","kind":"geopolitical"}
+{"type":"TagAdded","at":"2026-06-28","tag":"government-funding","kind":"dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"quantum-computing"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"US-China-tech"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"government-funding"}
+{"type":"TagAdded","at":"2026-07-02","tag":"semis-sensors","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02","tag":"atlas-top20-2026h2","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-07-02","id":"top20-2yr-profit","source":"engine","statement":"IONQ delivers a positive total return over the 2-year hold from the 2026-07-01 close of $51.40.","dueDate":"2028-07-01","resolutionCriterion":"On 2028-07-01, resolve CORRECT if IONQ's split/dividend-adjusted price is above $51.40, else INCORRECT.","confidence":0.58}
+{"type":"PredictionMade","at":"2026-07-02","id":"top20-2yr-alpha","source":"engine","statement":"IONQ outperforms the S&P 500 (SPY) over the 2-year hold from 2026-07-01.","dueDate":"2028-07-01","resolutionCriterion":"On 2028-07-01, resolve CORRECT if IONQ's total return since 2026-07-01 exceeds SPY's over the same window (SPY 2026-07-01 close $745.76), else INCORRECT.","confidence":0.5299999999999999}
+{"type":"TagAdded","at":"2026-07-02","tag":"atlas-top20-2026h2","kind":"theme","source":"engine"}

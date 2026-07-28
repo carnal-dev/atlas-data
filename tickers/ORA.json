@@ -1,0 +1,71 @@
+{
+  "ticker": "ORA",
+  "name": "Ormat Technologies",
+  "identity": {
+    "sector": "Energy (geothermal+storage)",
+    "theme": "Energy",
+    "country": "USA",
+    "tags": [
+      "💡",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 116.46,
+    "sharesOutM": 61.45,
+    "cashM": 763,
+    "debtM": 3410,
+    "revenueTtmM": 885,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 78,
+      "capitalAllocation": 65,
+      "financialHealth": 62,
+      "dilutionRisk": 60,
+      "manufacturing": 88,
+      "competitivePosition": 80,
+      "insiderOwnership": 45,
+      "govtTailwinds": 70,
+      "executionRisk": 65,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 88,
+      "realityCheck": 82,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.35,
+      "pUp10x": 0.06,
+      "pLoss": 0.08
+    }
+  },
+  "thesis": {
+    "summary": "Leading geothermal pure-play. Profitable, real plants, clean firm baseload. Highest Reality Check in batch.",
+    "risks": "High debt (IPP) · Rate sensitivity",
+    "confidence": "High",
+    "runway": "profitable",
+    "catalyst": {
+      "text": "New geothermal capacity; storage growth; PPA wins",
+      "window": "2026",
+      "type": "Build / PPA"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

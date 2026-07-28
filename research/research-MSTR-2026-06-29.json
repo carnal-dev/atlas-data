@@ -1,0 +1,90 @@
+{
+  "summary": "MSTR is a leveraged Bitcoin proxy whose value depends on BTC's network security and a persistent NAV premium. Quantum ECDSA risk is an unhedged long-term bomb because MSTR's core asset would be destroyed if BTC's cryptography fails. The 5-10y horizon makes post-quantum migration feasibility the critical uncertainty.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Bitcoin network security (mining hashpower, ECDSA signatures)",
+        "whyNeeded": "MSTR's BTC holdings are only valuable if the Bitcoin ledger is trusted and secure",
+        "concentration": "Mining is geographically concentrated in China/US (ASIC supply chain), but ECDSA is a single algorithm",
+        "fragility": "Extreme: ECDSA is a single point of failure; if broken, BTC value collapses"
+      },
+      {
+        "node": "MSTR equity premium (NAV premium)",
+        "whyNeeded": "MSTR's market cap > its BTC holdings; premium is the source of leverage",
+        "concentration": "Premium depends on retail/arbitrage demand; no single supplier",
+        "fragility": "High: premium can vanish if BTC drops or arbitrage closes"
+      },
+      {
+        "node": "BTC price (end-market demand)",
+        "whyNeeded": "MSTR's asset value = BTC price * holdings",
+        "concentration": "BTC market is global, but price driven by exchange liquidity and macro",
+        "fragility": "Moderate: but quantum break would make BTC worthless"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "ECDSA (Bitcoin's signature algorithm)",
+        "why": "If quantum computers break ECDSA, all BTC transactions become forgeable; no backup yet on mainnet"
+      },
+      {
+        "node": "MSTR's NAV premium",
+        "why": "If premium collapses, MSTR becomes a pure BTC discount play; leverage unwinds"
+      }
+    ],
+    "customers": [
+      {
+        "node": "MSTR equity holders (speculators, macro funds)",
+        "why": "They are the only demand for MSTR shares; no real product customers"
+      },
+      {
+        "node": "BTC holders (indirect, via MSTR's treasury)",
+        "why": "MSTR's BTC buying supports BTC price, but not a dependency"
+      }
+    ],
+    "geographic": [
+      "MSTR is US-based; BTC mining is ~50% US/China; quantum computing R&D is US/China/Europe"
+    ],
+    "substitutes": [
+      "Post-quantum Bitcoin (e.g., fork to ML-DSA/SLH-DSA) is the only substitute for ECDSA; migration would be chaotic"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "ecdsa-quantum-break",
+      "kind": "dependency",
+      "description": "MSTR's entire value depends on ECDSA remaining secure; quantum break = total loss"
+    },
+    {
+      "tag": "nav-premium-fragility",
+      "kind": "bottleneck",
+      "description": "MSTR's premium is a single point of failure; if it disappears, MSTR trades at discount"
+    },
+    {
+      "tag": "bitcoin-migration-risk",
+      "kind": "theme",
+      "description": "Bitcoin's post-quantum migration is unproven; NIST standards exist but adoption is slow"
+    }
+  ],
+  "bearCase": "Quantum computers break ECDSA within 10 years; Bitcoin fails to migrate; MSTR's BTC holdings become worthless; the NAV premium collapses; MSTR equity goes to zero.",
+  "loadBearing": [
+    {
+      "assumption": "a1: Quantum computers reach ECDSA-breaking scale",
+      "breaksIf": "Quantum computing progress stalls or is slower than expected; error correction not achieved"
+    },
+    {
+      "assumption": "a2: Bitcoin fails to migrate to post-quantum signatures",
+      "breaksIf": "Bitcoin community successfully forks to ML-DSA/SLH-DSA before ECDSA break; or ECDSA break is gradual"
+    },
+    {
+      "assumption": "a3: MSTR stays a leveraged BTC proxy",
+      "breaksIf": "MSTR changes strategy (e.g., becomes software company); or premium disappears and MSTR becomes a discount vehicle"
+    }
+  ],
+  "gaps": "No facts on MSTR's actual quantum risk hedging; no facts on Bitcoin core dev post-quantum roadmap timeline; no facts on MSTR's premium sustainability beyond weak source.",
+  "verifyThese": [
+    "Verify MSTR's current premium to NAV (is it persistent or episodic?)",
+    "Verify Bitcoin's post-quantum migration timeline (any BIPs?)",
+    "Verify quantum computing ECDSA break timeline (e.g., 2030-2035 estimates)"
+  ],
+  "diminishingReturns": "Stopped at ECDSA because deeper (e.g., quantum hardware supply chain) does not change MSTR's binary outcome: if ECDSA breaks, MSTR is zero regardless of hardware details."
+}

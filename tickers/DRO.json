@@ -1,0 +1,72 @@
+{
+  "ticker": "DRO",
+  "name": "DroneShield",
+  "identity": {
+    "sector": "Defense (counter-drone)",
+    "theme": "Defense",
+    "country": "Australia",
+    "tags": [
+      "🏛",
+      "🚀",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 2.31,
+    "sharesOutM": 923.0,
+    "cashM": 138,
+    "debtM": 0,
+    "revenueTtmM": 143,
+    "asOf": "2026-06-26",
+    "source": "FY25/Q1'26 (ASX, AUD→USD 0.66)",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 65,
+      "techMoat": 60,
+      "capitalAllocation": 60,
+      "financialHealth": 70,
+      "dilutionRisk": 45,
+      "manufacturing": 60,
+      "competitivePosition": 65,
+      "insiderOwnership": 45,
+      "govtTailwinds": 85,
+      "executionRisk": 60,
+      "valuation": 35
+    },
+    "differentiators": {
+      "replacementRisk": 70,
+      "realityCheck": 72,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.12,
+      "pLoss": 0.18
+    }
+  },
+  "thesis": {
+    "summary": "Leading pure-play counter-drone. Revenue +276%, profitable-ish. Red-hot theme post-drone-warfare.",
+    "risks": "Lumpy gov orders · Valuation · FX",
+    "confidence": "Medium",
+    "runway": "cash A$209M, EBITDA+",
+    "catalyst": {
+      "text": "Counter-UAS contract awards; US/EU expansion; record backlog",
+      "window": "2026",
+      "type": "DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

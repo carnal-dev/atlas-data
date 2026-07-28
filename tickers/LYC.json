@@ -1,0 +1,71 @@
+{
+  "ticker": "LYC",
+  "name": "Lynas Rare Earths",
+  "identity": {
+    "sector": "Mining / Rare earths",
+    "theme": "Rare earths",
+    "country": "Australia",
+    "tags": [
+      "🪨",
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": true
+  },
+  "market": {
+    "price": 11.53,
+    "sharesOutM": 1010.0,
+    "cashM": 680,
+    "debtM": 140,
+    "revenueTtmM": 472,
+    "asOf": "2026-06-26",
+    "source": "H1 FY26 (ASX, AUD→USD 0.66)",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 68,
+      "techMoat": 85,
+      "capitalAllocation": 65,
+      "financialHealth": 75,
+      "dilutionRisk": 55,
+      "manufacturing": 90,
+      "competitivePosition": 82,
+      "insiderOwnership": 40,
+      "govtTailwinds": 80,
+      "executionRisk": 60,
+      "valuation": 40
+    },
+    "differentiators": {
+      "replacementRisk": 93,
+      "realityCheck": 78,
+      "civImportance": 90
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.32,
+      "pUp10x": 0.06,
+      "pLoss": 0.12
+    }
+  },
+  "thesis": {
+    "summary": "The only scaled ex-China rare-earth producer. Profitable. Best-in-theme benchmark vs MP. ~$12B = exception.",
+    "risks": "Exception >$10B · Valuation · FX",
+    "confidence": "Medium",
+    "runway": "strong (profitable)",
+    "catalyst": {
+      "text": "Texas heavy-REE plant ramp; DoD funding; Mt Weld expansion",
+      "window": "2026",
+      "type": "Manufacturing / DoD"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

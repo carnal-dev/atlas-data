@@ -1,0 +1,101 @@
+{
+  "summary": "Can-Fite is a pre-revenue Israeli biotech with two late-stage drugs, Piclidenoson and Namodenoson. Its supply chain is thin, relying on outsourced manufacturing and CROs, making it highly dependent on regulatory approvals and financing. Key risks include FDA binary outcomes, cash runway, and single-asset concentration.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "API manufacturing (Piclidenoson, Namodenoson)",
+        "whyNeeded": "Active pharmaceutical ingredients for drug candidates; produced by contract manufacturers.",
+        "concentration": "Low concentration (multiple CMOs available, but validated suppliers are few)",
+        "fragility": "Moderate fragility due to reliance on single-source CMOs for late-stage material"
+      },
+      {
+        "node": "Clinical CROs",
+        "whyNeeded": "Manage clinical trials, data collection, regulatory submissions.",
+        "concentration": "Low to moderate (several large CROs, but specific expertise in psoriasis/oncology needed)",
+        "fragility": "Low fragility (CROs are replaceable, but trial timelines could be delayed)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "FDA approval for Piclidenoson",
+        "why": "Single binary event determining market access and revenue potential; no other near-term revenue sources."
+      },
+      {
+        "node": "Financing availability",
+        "why": "Company is pre-revenue; operations rely on equity dilutions or partnerships; capital markets access is critical."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Psoriasis patients (if approved)",
+        "why": "Primary target market for Piclidenoson, a potential alternative to biologics."
+      },
+      {
+        "node": "Pancreatic cancer patients (if approved)",
+        "why": "Namodenoson target for Phase 2a pancreatic cancer study."
+      }
+    ],
+    "geographic": "Israel (HQ), clinical trials in US/Europe, manufacturing likely in India/China/US (contract manufacturers).",
+    "substitutes": "For psoriasis: Humira, Stelara, Otezla (oral), biologics. For pancreatic cancer: chemotherapy, targeted therapies."
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Piclidenoson fails FDA approval due to efficacy/safety issues; stock collapses.",
+    "Cash runs out before approval; dilutive financing at low prices destroys shareholder value.",
+    "Namodenoson pancreatic cancer trial fails to show statistical significance; pipeline loses value."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Piclidenoson receives FDA approval for psoriasis within 12-18 months.",
+      "breaksIf": "FDA issues Complete Response Letter or requires additional Phase III trials."
+    },
+    {
+      "assumption": "Can-Fite raises sufficient capital without massive dilution.",
+      "breaksIf": "Stock price continues decline, making equity offerings highly dilutive or inaccessible."
+    },
+    {
+      "assumption": "Namodenoson shows efficacy in pancreatic cancer trial.",
+      "breaksIf": "Phase 2a data shows no meaningful improvement over standard of care."
+    },
+    {
+      "assumption": "Japanese patent for anti-obesity technology leads to licensing revenue.",
+      "breaksIf": "No licensing deal materializes due to lack of interest or competitor patents."
+    }
+  ],
+  "prediction": {
+    "statement": "Can-Fite will file an NDA for Piclidenoson with FDA within 12 months, citing positive Phase III results.",
+    "horizonMonths": 12,
+    "resolutionCriterion": "Check SEC filings for NDA submission for Piclidenoson for psoriasis.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "No detailed manufacturing partners or supply agreements disclosed.",
+    "No concrete timeline for FDA submission beyond 'late-stage'."
+  ],
+  "verifyThese": [
+    "Contract manufacturers and their geographic locations.",
+    "Exact cash runway based on quarterly burn rate."
+  ],
+  "diminishingReturns": "Stopped at API and CRO level; deeper hops (e.g., chemical suppliers) not material for investment thesis as all are commoditized and replaceable."
+}

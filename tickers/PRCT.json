@@ -1,0 +1,71 @@
+{
+  "ticker": "PRCT",
+  "name": "PROCEPT BioRobotics",
+  "identity": {
+    "sector": "Robotics (surgical)",
+    "theme": "Robotics",
+    "country": "USA",
+    "tags": [
+      "🤖",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 22.225,
+    "sharesOutM": 56.9,
+    "cashM": 249,
+    "debtM": 0,
+    "revenueTtmM": 400,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 8-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 72,
+      "techMoat": 75,
+      "capitalAllocation": 60,
+      "financialHealth": 65,
+      "dilutionRisk": 50,
+      "manufacturing": 55,
+      "competitivePosition": 68,
+      "insiderOwnership": 45,
+      "govtTailwinds": 35,
+      "executionRisk": 60,
+      "valuation": 60
+    },
+    "differentiators": {
+      "replacementRisk": 72,
+      "realityCheck": 72,
+      "civImportance": 68
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.42,
+      "pUp10x": 0.1,
+      "pLoss": 0.15
+    }
+  },
+  "thesis": {
+    "summary": "Aquablation robotic surgery for BPH (Hydros). Real $400M revenue, +20%, ~12,200 procedures/qtr. Cheap-ish (P/S ~3x).",
+    "risks": "Loss-making · Single-platform",
+    "confidence": "High",
+    "runway": "cash $249M",
+    "catalyst": {
+      "text": "Hydros/Aquablation U.S. + intl adoption; new indications; system placements",
+      "window": "2026",
+      "type": "Commercial / FDA"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

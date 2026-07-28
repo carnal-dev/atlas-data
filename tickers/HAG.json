@@ -1,0 +1,72 @@
+{
+  "ticker": "HAG",
+  "name": "Hensoldt",
+  "identity": {
+    "sector": "Defense (sensors/radar/EW)",
+    "theme": "Defense",
+    "country": "Germany",
+    "tags": [
+      "🏛",
+      "🐢",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 74.8,
+    "sharesOutM": 115.5,
+    "cashM": null,
+    "debtM": null,
+    "revenueTtmM": 2970,
+    "asOf": "2026-06-26",
+    "source": "FY25 (XETRA, EUR→USD 1.08)",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 68,
+      "techMoat": 70,
+      "capitalAllocation": 62,
+      "financialHealth": 65,
+      "dilutionRisk": 60,
+      "manufacturing": 78,
+      "competitivePosition": 70,
+      "insiderOwnership": 40,
+      "govtTailwinds": 90,
+      "executionRisk": 65,
+      "valuation": 48
+    },
+    "differentiators": {
+      "replacementRisk": 80,
+      "realityCheck": 75,
+      "civImportance": 78
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.35,
+      "pUp10x": 0.06,
+      "pLoss": 0.1
+    }
+  },
+  "thesis": {
+    "summary": "European leader in defense sensors, radar, and optronics. Record orders on EU rearmament. Best-in-theme defense.",
+    "risks": "FX (EUR) · Program timing",
+    "confidence": "Medium",
+    "runway": "profitable",
+    "catalyst": {
+      "text": "European rearmament; record order intake (+62%); radar/EW programs",
+      "window": "2026",
+      "type": "Defense (EU)"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

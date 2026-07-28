@@ -1,0 +1,20 @@
+{"type":"ThesisOpened","at":"2026-07-01","ticker":"GNPX","oneLiner":"Engine candidate: manual deep-research request","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-07-01","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-07-01","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-07-01","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"fda-approval-binary","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"single-asset-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"gene-therapy","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-1","text":"REQORSA shows positive efficacy/safety in ongoing Phase 1/2 trials.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-1","condition":"Trial data misses endpoints or shows toxicity; stock drops >80%."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-2","text":"Company secures sufficient funding (dilution or partnership) to reach next catalyst.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-2","condition":"No financing at reasonable terms; cash runs out within 12 months."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-3","text":"Patent protection (e.g., Canada, Israel) provides competitive moat.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-3","condition":"Patents challenged or invalidated; generic competition emerges."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-4","text":"Regulatory path for REQORSA remains on track with FDA.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-4","condition":"FDA places clinical hold or requests additional trials; delays years."}
+{"type":"PredictionMade","at":"2026-07-01","id":"eng-pred-2026-07-01","statement":"Genprex will report updated Phase 1/2 data for REQORSA in non-small cell lung cancer at a medical conference (e.g., ASCO 2027) within 12 months.","dueDate":"2027-07-01","resolutionCriterion":"Company issues press release or presents data at a conference showing efficacy (e.g., response rate) or safety; stock moves >20% on the news.","confidence":0.4,"source":"engine"}
+{"type":"TagRemoved","at":"2026-07-01","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-07-01","oneLiner":"Genprex is a pre-revenue gene therapy biotech with a single lead asset, REQORSA, for non-small cell lung cancer. Its supply chain is minimal, relying on contract manufacturing and research reagents, b"}

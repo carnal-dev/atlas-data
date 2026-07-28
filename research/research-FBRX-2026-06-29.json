@@ -1,0 +1,121 @@
+{
+  "summary": "FBRX is a single-asset clinical-stage biotech. Its supply chain for FB-102 is preclinical/manufacturing dependent, with no approved product. The stock's value hinges entirely on phase 2 results, cash runway, and trial execution.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "API/synthesis for FB-102",
+        "whyNeeded": "Active pharmaceutical ingredient for trial drug",
+        "concentration": "Moderate: limited specialist CMOs",
+        "fragility": "High if CMO faces delays or quality issues"
+      },
+      {
+        "node": "Clinical trial sites",
+        "whyNeeded": "Enroll vitiligo/alopecia patients",
+        "concentration": "Low: many dermatology sites",
+        "fragility": "Low, but enrollment delays possible"
+      },
+      {
+        "node": "CROs",
+        "whyNeeded": "Manage trial operations",
+        "concentration": "Moderate: top 3 CROs dominate",
+        "fragility": "Medium: contract lock-in, but replaceable"
+      },
+      {
+        "node": "Cash",
+        "whyNeeded": "Fund all operations",
+        "concentration": "High: raised $150M in 2026",
+        "fragility": "High: no revenue; burn rate unknown"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "API manufacturing",
+        "why": "Single-source or few suppliers for novel biologic; any disruption delays trials"
+      },
+      {
+        "node": "Cash runway",
+        "why": "No revenue; $150M must last through 1-2 years of phase 2; dilution risk if timeline slips"
+      }
+    ],
+    "customers": [
+      {
+        "node": "None yet",
+        "why": "No approved product; customers are hypothetical vitiligo/alopecia patients"
+      }
+    ],
+    "geographic": [
+      "US-based R&D (Dallas); likely uses global CMO/API sources, but details unknown"
+    ],
+    "substitutes": [
+      "Topical JAK inhibitors (e.g., ruxolitinib), other pipeline drugs for vitiligo/alopecia"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "drug-pricing",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "FB-102 fails in phase 2 (no efficacy or safety issues), wiping out pipeline value.",
+    "Enrollment delays or high dropout rate stretch cash, forcing dilutive offering above $21/share.",
+    "Competing vitiligo/alopecia treatments (e.g., Incyte's ruxolitinib) maintain market lead, limiting commercial prospects even if successful.",
+    "Regulatory hold or manufacturing issues cause trial suspension."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "FB-102 shows clinically meaningful benefit in phase 2",
+      "breaksIf": "Efficacy endpoints not met at data readout (expected late 2026 or 2027)"
+    },
+    {
+      "assumption": "Current cash position ($150M) funds operations without further dilution",
+      "breaksIf": "Trial delays or higher-than-expected burn rate exhaust cash before data"
+    },
+    {
+      "assumption": "Patient enrollment completes on schedule",
+      "breaksIf": "Recruitment lags, pushing data readout beyond 2027"
+    },
+    {
+      "assumption": "No adverse regulatory/competitive surprise",
+      "breaksIf": "FDA clinical hold or rival drug launches reducing market potential"
+    }
+  ],
+  "prediction": {
+    "statement": "FBRX will report phase 2 top-line data for FB-102 in vitiligo/alopecia areata in Q1 2027.",
+    "horizonMonths": 9,
+    "resolutionCriterion": "Company announces results or timeline; if not by May 2027, prediction is false.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "Formulation and manufacturing details for FB-102 unknown.",
+    "Burn rate and cash runway specifics not disclosed.",
+    "Number of trial sites and enrollment progress unclear."
+  ],
+  "verifyThese": [
+    "FB-102 phase 2 start date and expected enrollment completion",
+    "Cash burn rate and source of $150M offering (dilution details)",
+    "Any supply agreements with CMOs/CROs",
+    "Competing trial results (e.g., ruxolitinib)"
+  ],
+  "diminishingReturns": "Stopped after API-manufacturing node because further depth (e.g., raw chemical suppliers) does not materially change FBRX's risk—it is binary on trial outcomes."
+}

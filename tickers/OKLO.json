@@ -1,0 +1,72 @@
+{
+  "ticker": "OKLO",
+  "name": "Oklo",
+  "identity": {
+    "sector": "Nuclear (SMR)",
+    "theme": "Nuclear reactors",
+    "country": "USA",
+    "tags": [
+      "⚛️",
+      "🚀",
+      "💡"
+    ]
+  },
+  "position": {
+    "held": "Y",
+    "isException": false
+  },
+  "market": {
+    "price": 50.81,
+    "sharesOutM": 170.3,
+    "cashM": 2540,
+    "debtM": 0,
+    "revenueTtmM": null,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 85,
+      "techMoat": 65,
+      "capitalAllocation": 60,
+      "financialHealth": 80,
+      "dilutionRisk": 30,
+      "manufacturing": 70,
+      "competitivePosition": 60,
+      "insiderOwnership": 50,
+      "govtTailwinds": 85,
+      "executionRisk": 35,
+      "valuation": 35
+    },
+    "differentiators": {
+      "replacementRisk": 85,
+      "realityCheck": 40,
+      "civImportance": 90
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.14,
+      "pLoss": 0.25
+    }
+  },
+  "thesis": {
+    "summary": "Fast-reactor SMR, build-own-operate model for AI power. $2.5B cash, breaking ground; pre-revenue.",
+    "risks": "Pre-revenue · Dilution (ATM)",
+    "confidence": "High",
+    "runway": "into 2028+",
+    "catalyst": {
+      "text": "NRC licensing; Aurora-INL build; fuel facility; first power target late-2027",
+      "window": "2026-27",
+      "type": "NRC / Build"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

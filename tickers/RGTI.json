@@ -1,0 +1,70 @@
+{
+  "ticker": "RGTI",
+  "name": "Rigetti Computing",
+  "identity": {
+    "sector": "Quantum",
+    "theme": "Quantum",
+    "country": "USA",
+    "tags": [
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "Y",
+    "isException": false
+  },
+  "market": {
+    "price": 18.71,
+    "sharesOutM": 332.4,
+    "cashM": 418,
+    "debtM": 7,
+    "revenueTtmM": 12,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / stockanalysis",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 85,
+      "techMoat": 65,
+      "capitalAllocation": 45,
+      "financialHealth": 60,
+      "dilutionRisk": 25,
+      "manufacturing": 60,
+      "competitivePosition": 45,
+      "insiderOwnership": 35,
+      "govtTailwinds": 60,
+      "executionRisk": 35,
+      "valuation": 35
+    },
+    "differentiators": {
+      "replacementRisk": 70,
+      "realityCheck": 30,
+      "civImportance": 78
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.1,
+      "pLoss": 0.35
+    }
+  },
+  "thesis": {
+    "summary": "Superconducting quantum; owns its own chip fab (rare hard asset). Pre-revenue, heavy dilution.",
+    "risks": "Pre-revenue · Heavy dilution",
+    "confidence": "High",
+    "runway": "multi-year",
+    "catalyst": {
+      "text": "100+ qubit / error-correction roadmap milestones; DARPA",
+      "window": "2026",
+      "type": "Tech milestone"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

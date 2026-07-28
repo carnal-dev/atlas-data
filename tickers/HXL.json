@@ -1,0 +1,71 @@
+{
+  "ticker": "HXL",
+  "name": "Hexcel",
+  "identity": {
+    "sector": "Advanced materials (carbon fiber)",
+    "theme": "Advanced materials",
+    "country": "USA",
+    "tags": [
+      "🐢",
+      "🏛"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 95.415,
+    "sharesOutM": 81.0,
+    "cashM": 150,
+    "debtM": 750,
+    "revenueTtmM": 2050,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / FY26 guide",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 62,
+      "techMoat": 78,
+      "capitalAllocation": 65,
+      "financialHealth": 65,
+      "dilutionRisk": 65,
+      "manufacturing": 85,
+      "competitivePosition": 80,
+      "insiderOwnership": 35,
+      "govtTailwinds": 55,
+      "executionRisk": 65,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 88,
+      "realityCheck": 80,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.3,
+      "pUp10x": 0.05,
+      "pLoss": 0.08
+    }
+  },
+  "thesis": {
+    "summary": "Carbon-fiber duopoly with Toray. Decade-long aero qualifications = deep moat. Profitable compounder.",
+    "risks": "Aero cycle · Customer concentration",
+    "confidence": "High",
+    "runway": "profitable",
+    "catalyst": {
+      "text": "Commercial aero build-rate recovery; defense/space composites",
+      "window": "2026",
+      "type": "Aero recovery"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

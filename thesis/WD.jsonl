@@ -1,0 +1,19 @@
+{"type":"ThesisOpened","at":"2026-07-01","ticker":"WD","oneLiner":"Engine candidate: insider cluster buy (3 directors, ~$315k) Mar-2026","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-07-01","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-07-01","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-07-01","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"credit-cycle","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"commercial-real-estate","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"housing-market","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-01","tag":"banking-regulation","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-1","text":"Fed cuts rates by mid-2026, reviving multifamily origination volumes","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-1","condition":"Inflation rebounds (tariffs, energy shock) and Fed hikes or holds; WD's refinance pipeline stays dead."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-2","text":"Multifamily credit quality remains strong (low vacancy, rent growth absorbs higher rates)","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-2","condition":"Job losses rise, or new supply glut (record apartments under construction in 2024-2025) pushes vacancy up and rents down, forcing defaults."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-3","text":"GSE lending caps are not materially reduced under any new housing/regulatory regime","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-3","condition":"FHFA reduces Fannie/Freddie multifamily lending limits; WD loses its largest product channel."}
+{"type":"AssumptionAdded","at":"2026-07-01","id":"eng-a-2026-07-01-4","text":"Insider cluster buying is a value signal, not a gamble on a short-term pop","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-07-01","id":"eng-inv-2026-07-01-4","condition":"Insiders sell within 6 months, or Q2/Q3 2026 earnings show accelerating revenue decline."}
+{"type":"PredictionMade","at":"2026-07-01","id":"eng-pred-2026-07-01","statement":"WD's Q3 2026 earnings will show y/y origination volume growth >5% for the first time since 2022, driven by the start of rate-cutting cycle and refinancing pipeline.","dueDate":"2027-01-01","resolutionCriterion":"Reported total multifamily production in Q3 2026 10-Q is above same-quarter 2025 level; if volume contracts or flattens, prediction fails.","confidence":0.4,"source":"engine"}
+{"type":"TagRemoved","at":"2026-07-01","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-07-01","oneLiner":"Walker & Dunlop is a commercial real estate finance intermediary, not a physical-goods company. Its supply chain is capital-markets access and borrower demand; its biggest fragility is interest-rate s"}

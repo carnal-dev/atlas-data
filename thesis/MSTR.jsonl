@@ -1,0 +1,22 @@
+{"type":"ThesisOpened","at":"2026-06-28","ticker":"MSTR","oneLiner":"MSTR is a leveraged Bitcoin proxy at a premium to NAV; quantum risk to Bitcoin ECDSA is an unhedged long-term bomb","timeHorizon":"5-10y"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a1","text":"Quantum computers reach ECDSA-breaking scale within the horizon","confidence":"medium"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a2","text":"Bitcoin fails to migrate to post-quantum signatures in time, or the migration is disorderly","confidence":"low"}
+{"type":"AssumptionAdded","at":"2026-06-28","id":"a3","text":"MSTR stays a leveraged BTC proxy: value dominated by its BTC holdings plus a premium","confidence":"high"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i1","condition":"Bitcoin adopts post-quantum signatures via a soft or hard fork"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i2","condition":"Quantum timelines are conclusively shown to be 20+ years away by a credible body"}
+{"type":"InvalidationAdded","at":"2026-06-28","id":"i3","condition":"MSTR's premium collapses below 1.0x NAV and stays there, breaking the leverage thesis"}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e1","claim":"MSTR trades at a persistent premium to the market value of its BTC","source":"market data (replace with a primary source)","reliability":"medium","claimConfidence":"high","links":[{"target":"a3","relationship":"supports"}]}
+{"type":"EvidenceAdded","at":"2026-06-28","id":"e2","claim":"NIST standardized post-quantum cryptography in Aug 2024 (ML-KEM/ML-DSA/SLH-DSA); migration paths exist","source":"NIST FIPS 203/204/205","reliability":"very-high","claimConfidence":"high","links":[{"target":"a2","relationship":"contradicts"}]}
+{"type":"PredictionMade","at":"2026-06-28","id":"p1","statement":"MSTR's premium to BTC NAV falls below 1.5x","dueDate":"2026-12-31","resolutionCriterion":"MSTR market cap / BTC holdings value < 1.5x for 5 consecutive trading days","confidence":0.5}
+{"type":"PredictionMade","at":"2026-06-28","id":"p2","statement":"A credible quantum attack on Bitcoin's ECDSA is demonstrated","dueDate":"2029-12-31","resolutionCriterion":"A peer-reviewed paper or credible exploit demonstrates an ECDSA signature forgery on a live network","confidence":0.3}
+{"type":"ConvictionSet","at":"2026-06-28","level":3,"because":["owner-approved; deliberate low-conviction tail-risk/skeptic position, core assumption already contradicted by PQC evidence"]}
+{"type":"PredictionMade","at":"2026-06-28","id":"eng-mqyat7li","statement":"Credible quantum ECDSA attack triggers MSTR collapse as BTC trust evaporates.","dueDate":"2029-06-27","resolutionCriterion":"Evaluate the engine forecast against: MSTR share price likely drops 50-90% in short term as BTC price crashes and premium collapses or turns negative; potential for prolonged decline if migration fails.","confidence":0.5,"source":"engine","trigger":"a credible quantum attack on Bitcoin's ECDSA is publicly demonstrated","action":"Short MSTR or buy deep out-of-the-money puts; consider hedging with long positions in post-quantum resilient assets."}
+{"type":"TagAdded","at":"2026-06-28","tag":"quantum-computing","kind":"theme"}
+{"type":"TagAdded","at":"2026-06-28","tag":"bitcoin","kind":"theme"}
+{"type":"TagAdded","at":"2026-06-28","tag":"crypto-regulation","kind":"geopolitical"}
+{"type":"TagAdded","at":"2026-06-28","tag":"dilution-risk","kind":"theme"}
+{"type":"PredictionDependsOn","at":"2026-06-29","id":"p1","dependsOn":[{"assumptionId":"a3","weight":0.5},{"assumptionId":"a1","weight":0.3},{"assumptionId":"a2","weight":0.2}]}
+{"type":"TagRemoved","at":"2026-06-29","tag":"quantum-computing"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"bitcoin"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"crypto-regulation"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"dilution-risk"}

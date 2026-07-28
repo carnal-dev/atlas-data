@@ -1,0 +1,108 @@
+{
+  "summary": "AOUT is a consumer cyclical outdoor gear company with thin public supply-chain data. Its near-term thesis depends on stable discretionary spending, tariff-free imports from China/Vietnam, and key retail partnerships with Walmart and Bass Pro. The recent earnings beat and '2027 growth reset' narrative are unverified.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "imported finished goods from China/Vietnam",
+        "whyNeeded": "core product sourcing",
+        "concentration": "high",
+        "fragility": "high"
+      },
+      {
+        "node": "retail partnerships (Walmart, Bass Pro)",
+        "whyNeeded": "primary distribution channels",
+        "concentration": "high",
+        "fragility": "high"
+      },
+      {
+        "node": "consumer discretionary spending",
+        "whyNeeded": "demand driver for outdoor gear",
+        "concentration": "low",
+        "fragility": "medium"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "tariff policy on China/Vietnam imports",
+        "why": "single policy change could spike costs and disrupt margins"
+      },
+      {
+        "node": "retail partner consolidation",
+        "why": "loss of Walmart or Bass Pro would cut off major revenue"
+      }
+    ],
+    "customers": [
+      {
+        "node": "US outdoor enthusiasts",
+        "why": "primary end-market, sensitive to economic cycles"
+      },
+      {
+        "node": "international markets",
+        "why": "secondary, less concentrated but smaller"
+      }
+    ],
+    "geographic": "US-centric sourcing from China/Vietnam; retail concentrated in US big-box and specialty stores",
+    "substitutes": "generic outdoor gear from larger competitors (e.g., Yeti, Coleman) or private-label alternatives"
+  },
+  "exposures": [
+    {
+      "tag": "consumer-discretionary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "tariffs-trade-war",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "supply-chain-china",
+      "kind": "dependency"
+    },
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Tariff hikes on China/Vietnam imports crush margins, forcing price increases that reduce demand.",
+    "Consumer spending slows in a recession, collapsing outdoor gear sales and inventory.",
+    "Walmart or Bass Pro drops AOUT or consolidates suppliers, eliminating key distribution.",
+    "The '2027 growth reset' is a one-time earnings beat from unsustainable cost cuts or channel stuffing."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Consumer discretionary spending remains stable or grows",
+      "breaksIf": "US recession or inflation reduces outdoor gear purchases"
+    },
+    {
+      "assumption": "No major tariff increases on imports from China/Vietnam",
+      "breaksIf": "US imposes 10%+ tariffs on outdoor gear, raising costs 15-20%"
+    },
+    {
+      "assumption": "Key retail partnerships (Walmart, Bass Pro) continue",
+      "breaksIf": "Walmart drops AOUT or consolidates to fewer vendors"
+    },
+    {
+      "assumption": "Recent earnings beat and '2027 growth reset' narrative is credible",
+      "breaksIf": "Next quarter shows revenue decline or margin compression"
+    }
+  ],
+  "prediction": {
+    "statement": "AOUT's next quarterly earnings (Q1 FY2027) will show revenue growth <5% YoY, missing the optimistic 'reset' narrative.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Reported Q1 FY2027 revenue growth <5% YoY or negative; if >5%, prediction false.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No verified supplier list or geographic sourcing breakdown.",
+    "No data on tariff exposure or cost structure.",
+    "No details on retail partner revenue concentration.",
+    "No information on inventory levels or channel health."
+  ],
+  "verifyThese": [
+    "Verify AOUT's import volume from China vs Vietnam.",
+    "Check if Walmart or Bass Pro has recently consolidated outdoor gear suppliers.",
+    "Confirm if the '2027 growth reset' is based on organic demand or one-time factors.",
+    "Assess consumer spending trends in outdoor recreation for next 12 months."
+  ],
+  "diminishingReturns": "Stopped at tier-1 inputs (imports, retail partners) because deeper hops (e.g., fabric suppliers, component makers) are not material to the investment thesis given the company's thin data and reliance on macro factors."
+}

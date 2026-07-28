@@ -1,0 +1,118 @@
+{
+  "summary": "Canton Strategic Holdings (CNTN) is a micro-cap biotech-turned-blockchain company that operates the Canton Network and issues Canton Coin. Its supply chain is intangible, driven by institutional adoption, protocol development, and regulatory compliance. With scant financials and a volatile stock, near-term viability hinges on the success of its locking service and continued absence of SEC action.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Institutional Adoption",
+        "whyNeeded": "Network value depends on banks, asset managers, and other institutions using Canton Network for tokenized assets and settlement.",
+        "concentration": "High - adoption concentrated among a few early partners (e.g., Digital Asset Holdings); no disclosed pipeline breadth.",
+        "fragility": "High - if a key partner pauses or regulators signal hostility, adoption stalls."
+      },
+      {
+        "node": "Protocol Development & Maintenance",
+        "whyNeeded": "Canton Network requires ongoing engineering to maintain security, privacy, and interoperability. Relies on Digital Asset Holdings and independent developers.",
+        "concentration": "Moderate - core protocol maintained by Digital Asset Holdings; community contribution is unproven.",
+        "fragility": "Moderate - key developer departure or security incident could halt progress."
+      },
+      {
+        "node": "Canton Coin Demand & Locking Service",
+        "whyNeeded": "Coin price floor ($2 assumed) relies on locking service demand from infrastructure providers. If demand falls, price collapses and network security weakens.",
+        "concentration": "High - locking service announced June 2026; no data on actual usage; single revenue driver.",
+        "fragility": "Very High - no proven demand; coin price is volatile ($1.08-$9.08 in 52w)."
+      },
+      {
+        "node": "Regulatory & Compliance Infrastructure",
+        "whyNeeded": "Institutional blockchains require compliance with US securities laws, AML/KYC, and potential SEC registration. Canton Network claims to be 'compliant' but faces legal uncertainty.",
+        "concentration": "N/A - regulatory risk is binary for the entire network.",
+        "fragility": "Extreme - an SEC enforcement action would destroy the thesis."
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "SEC Enforcement Action",
+        "why": "Canton Coin may be deemed a security; any adverse SEC action would shut down US operations and crater the token price."
+      },
+      {
+        "node": "Digital Asset Holdings Relationship",
+        "why": "Canton Network is built on Digital Asset's DAML smart contract language and interoperability protocol. If Digital Asset withdraws support or pivots, the network loses its core technology."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Institutional Participants (Banks, Asset Managers, Exchanges)",
+        "why": "They use Canton Network for tokenized bonds, funds, and collateral management. Without paying customers (locking service fees), CNTN generates no revenue."
+      }
+    ],
+    "geographic": [
+      "Primarily US-centric due to regulatory and institutional focus. Global expansion unconfirmed."
+    ],
+    "substitutes": [
+      "Public blockchains like Ethereum (for tokenization, albeit less regulated), private permissioned ledgers (R3 Corda, Hyperledger), and traditional financial infrastructure (DTCC, Euroclear). Canton's differentiation is privacy and compliance, but substitutes exist."
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "crypto-exposure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "institutional-adoption",
+      "kind": "dependency"
+    },
+    {
+      "tag": "crypto-regulatory-risk",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "customer-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Canton Network fails to attract meaningful institutional users within 2026-2027; locking service generates negligible revenue.",
+    "SEC declares Canton Coin an unregistered security, leading to delisting, fines, and potential fraud charges.",
+    "Digital Asset Holdings shifts focus away from third-party tokens or from Canton Network, leaving CNTN stranded.",
+    "CNTN's remaining biotech assets (if any) create overhang or liability; company burns cash with no path to profitability."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Canton Network achieves meaningful institutional adoption within 1 year",
+      "breaksIf": "No major partnership announced by mid-2027; locking service utilization stays near zero; network transaction volume remains trivial."
+    },
+    {
+      "assumption": "Canton Coin retains a >$2 price floor supported by locking service demand",
+      "breaksIf": "Coin price drops below $2 and stays there for 2+ weeks (violates floor); or locking service sees zero or very few participants; or market sell-off driven by broader crypto crash."
+    },
+    {
+      "assumption": "No adverse SEC enforcement action against Canton Network",
+      "breaksIf": "SEC issues Wells notice, files lawsuit, or issues a no-action letter explicitly classifying Canton Coin as a security."
+    },
+    {
+      "assumption": "Digital Asset Holdings continues compliant support for third-party tokens on protocol",
+      "breaksIf": "Digital Asset announces discontinuation of DAML for third-party tokens, or pivots to another blockchain, or is acquired by a competitor that restricts CNTN access."
+    }
+  ],
+  "prediction": {
+    "statement": "CNTN will report Q2 2026 locking service revenue close to zero (under $100k) when it files its 10-Q in August 2026, disappointing investors and pushing the stock below $2.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Q2 2026 earnings release (10-Q) shows locking service revenue line item (if disclosed) or management commentary on adoption. Stock price below $2 within one week of filing.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No financial statements beyond headlines; no clarity on revenue or cash burn runways.",
+    "No verified count of institution users or transaction volume on Canton Network.",
+    "No disclosure of CNTN's remaining biotech assets or liabilities.",
+    "No information on Canton Coin tokenomics (total supply, lock-up schedules, trading volume)."
+  ],
+  "verifyThese": [
+    "Check SEC filings for Q2 2026 10-Q due by August 2026 for revenue and cash position.",
+    "Monitor Canton Network ecosystem updates for partnership announcements.",
+    "Check SEC enforcement database for any activity related to Canton or Digital Asset Holdings.",
+    "Verify CNTN’s business description for any remaining biotech operations or liabilities from predecessor Tharimmune."
+  ],
+  "diminishingReturns": "Stopped at the level of institutional adoption and regulatory risk because deeper dependencies (e.g., what institutions themselves depend on) do not materially change the investment outcome for a micro-cap blockchain issuer—the thesis lives or dies on adoption and regulatory fate."
+}

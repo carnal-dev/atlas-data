@@ -1,0 +1,116 @@
+{
+  "summary": "DMRA is a clinical-stage biotech with a single-asset focus on a CALR inhibitor for myeloproliferative neoplasms. Its supply chain is thin, relying on CROs/CMOs for drug substance manufacturing and trial logistics, with no revenue and cash runway through mid-2027. The critical fragility is clinical trial success, not physical supply chain, making the investment binary on data readouts.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "CRO/CMO services for API and formulation",
+        "whyNeeded": "Manufacture small-molecule CALR inhibitor for clinical trials",
+        "concentration": "Moderate – few specialized CMOs (e.g., Lonza, Catalent) but multiple options exist for early-stage",
+        "fragility": "Low – switching possible, but delays could impact trial timelines"
+      },
+      {
+        "node": "Clinical trial materials (placebo, packaging, labeling)",
+        "whyNeeded": "Conduct blinded trials",
+        "concentration": "Low – many vendors",
+        "fragility": "Low"
+      },
+      {
+        "node": "Raw chemical intermediates for API",
+        "whyNeeded": "Synthesis of active ingredient",
+        "concentration": "Unknown – likely single or few sources for early-stage batches",
+        "fragility": "Medium – if sole supplier fails, re-synthesis could take months"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Single-asset dependency on CALR inhibitor",
+        "why": "Entire valuation rests on one drug candidate; trial failure destroys value"
+      },
+      {
+        "node": "Cash runway",
+        "why": "No revenue; must raise capital or partner before cash exhaustion (~18 months)"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Patients with CALR-mutant myeloproliferative neoplasms",
+        "why": "Target indication; no approved CALR-targeted therapy exists"
+      },
+      {
+        "node": "Potential pharma partners for licensing",
+        "why": "Future revenue via out-licensing or co-development"
+      }
+    ],
+    "geographic": [
+      "US-based headquarters; CRO/CMO likely in US/Europe; clinical sites globally"
+    ],
+    "substitutes": [
+      "Other CALR inhibitors in preclinical/early clinical (none approved)",
+      "JAK inhibitors (e.g., ruxolitinib) for symptom management but not mutation-targeted"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "CALR inhibitor fails in Phase 1/2 due to toxicity or lack of efficacy, wiping out value.",
+    "Cash runs out before meaningful data, forcing dilutive financing or bankruptcy.",
+    "CRO/CMO delays or quality issues push trial timelines, increasing burn and risk.",
+    "Competing CALR programs (e.g., from larger biopharma) leapfrog DMRA's candidate."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "CALR-mutation targeting is a viable therapeutic mechanism",
+      "breaksIf": "Preclinical/clinical data show no disease modification or unacceptable safety"
+    },
+    {
+      "assumption": "Current cash funds operations through key data readouts ~18 months",
+      "breaksIf": "Trial delays or higher costs accelerate burn; no partnership or financing secured"
+    },
+    {
+      "assumption": "No supply-chain disruption impacts CRO/CMO services for trials",
+      "breaksIf": "Manufacturing failure, raw material shortage, or regulatory hold delays drug supply"
+    },
+    {
+      "assumption": "Single-asset focus is acceptable for valuation",
+      "breaksIf": "Competing CALR programs show superior data, reducing DMRA's market opportunity"
+    }
+  ],
+  "prediction": {
+    "statement": "DMRA will report initial safety and efficacy data from its Phase 1/2 CALR inhibitor trial within 12 months, likely at a medical conference or via press release.",
+    "horizonMonths": 12,
+    "resolutionCriterion": "Company issues press release or presents data at a conference (e.g., ASH, EHA) with at least dose-escalation results.",
+    "confidence": 0.3
+  },
+  "gaps": [
+    "No details on CRO/CMO contracts or manufacturing sources.",
+    "Exact cash position and burn rate not provided (only 'funds through ~18 months').",
+    "Trial design, enrollment status, and expected data timeline unknown."
+  ],
+  "verifyThese": [
+    "Check if DMRA's CALR inhibitor has entered clinical trials (Phase 1/2).",
+    "Verify cash runway from Q1 2026 report (actual cash and burn rate).",
+    "Identify specific CRO/CMO partners and any single-source dependencies.",
+    "Search for competing CALR-targeted programs in development."
+  ],
+  "diminishingReturns": "Stopped at API/intermediate sourcing because deeper hops (e.g., raw chemical suppliers) are not material for a pre-revenue biotech; clinical trial success is the dominant risk, not supply chain granularity."
+}

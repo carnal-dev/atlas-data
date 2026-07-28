@@ -1,0 +1,115 @@
+{
+  "summary": "Arq is a niche activated carbon producer reliant on coal-fired power plants for demand and coal waste for feedstock. Its deep drawdown reflects cyclical and regulatory risk; the thesis bets on sustained MATS enforcement and stable feedstock costs. Supply chain is concentrated in US coal regions with few substitutes.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "coal waste (feedstock)",
+        "whyNeeded": "primary raw material for activated carbon production",
+        "concentration": "high (limited to coal mining regions, few suppliers)",
+        "fragility": "high (dependent on coal mine output and waste availability)"
+      },
+      {
+        "node": "processing chemicals (e.g., acids, binders)",
+        "whyNeeded": "activation and pelletizing process",
+        "concentration": "moderate (multiple suppliers but specialty chemicals)",
+        "fragility": "medium (price volatility, logistics)"
+      },
+      {
+        "node": "energy (natural gas/electricity)",
+        "whyNeeded": "high-temperature kiln operation",
+        "concentration": "low (grid power, multiple sources)",
+        "fragility": "low (but cost-sensitive)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Corbin plant (single production facility)",
+        "why": "only manufacturing site; any outage halts output"
+      },
+      {
+        "node": "coal waste supply agreements",
+        "why": "few coal mines produce suitable waste; contract renewal risk"
+      }
+    ],
+    "customers": [
+      {
+        "node": "coal-fired power plants (mercury control)",
+        "why": "MATS rule mandates mercury capture; primary demand driver"
+      },
+      {
+        "node": "municipal water treatment",
+        "why": "activated carbon for filtration; secondary market"
+      },
+      {
+        "node": "industrial air pollution control",
+        "why": "niche applications (e.g., cement, waste incineration)"
+      }
+    ],
+    "geographic": "US-centric (Appalachia for feedstock, Midwest/Southeast for power plant customers); limited international exposure",
+    "substitutes": [
+      "coconut-shell-based activated carbon (imported, lower cost but less effective for mercury)",
+      "lignite coal-based carbon (competitor product)",
+      "dry sorbent injection (alternative mercury control technology)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "regulatory-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "raw-materials-cost",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "bottleneck"
+    },
+    {
+      "tag": "energy-transition",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "EPA MATS rule weakened or repealed, collapsing demand from coal plants.",
+    "Coal plant retirements accelerate, shrinking customer base faster than expected.",
+    "Feedstock cost spikes (coal waste scarcity or transport disruption) squeeze margins.",
+    "Corbin plant operational failure (fire, regulatory shutdown) stops all revenue."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "US coal-fired generation stays above 150 GW for 1-2 years",
+      "breaksIf": "coal plant retirements accelerate due to cheap gas or renewables; generation drops below 150 GW"
+    },
+    {
+      "assumption": "EPA MATS rule remains in force or strengthened",
+      "breaksIf": "EPA weakens enforcement or court vacates rule; power plants stop buying mercury-control carbon"
+    },
+    {
+      "assumption": "Arq secures coal-waste feedstock at stable/declining cost",
+      "breaksIf": "coal mine closures reduce waste supply; transportation costs rise; contract renegotiation fails"
+    },
+    {
+      "assumption": "No catastrophic operational failure at Corbin plant",
+      "breaksIf": "fire, explosion, or regulatory shutdown at single facility; no backup capacity"
+    }
+  ],
+  "prediction": {
+    "statement": "Q2 2026 earnings (Aug 2026) will show revenue decline >10% YoY due to coal plant retirements and MATS uncertainty.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Actual Q2 2026 revenue reported vs prior year; decline >10% confirms bearish supply-chain pressure.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No detailed breakdown of customer contracts or revenue concentration.",
+    "No feedstock cost trend data or supplier names.",
+    "No capacity utilization or maintenance schedule for Corbin plant."
+  ],
+  "verifyThese": [
+    "Check EPA MATS rule status and any pending legal challenges.",
+    "Verify coal plant retirements announced in Arq's service region.",
+    "Confirm Arq's feedstock supply agreements and renewal dates.",
+    "Check Corbin plant insurance and operational history."
+  ],
+  "diminishingReturns": "Stopped at coal waste and power plant demand; deeper hops (e.g., coal mine geology, mercury sorbent chemistry) do not change investment picture because the core risk is regulatory and plant retirements, not input minutiae."
+}

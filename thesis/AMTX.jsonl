@@ -1,0 +1,44 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AMTX","oneLiner":"Engine candidate: move 6.2%, vol 7.5x, -55.0% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-credit-prices","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"feedstock-price-volatility","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"project-financing-closure","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"california-policy-risk","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"india-biodiesel-mandate","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-equipment-supplier","kind":"bottleneck","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"California LCFS credit prices remain above $100/ton","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Policy weakening or oversupply crashes credit prices below breakeven"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Tax-exempt financing for $1.1B projects closes as planned","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"CPCFA or IRS challenges, or market conditions prevent bond issuance"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Feedstock costs (corn, dairy waste) stay within historical ranges","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Drought or trade disruption spikes corn prices; dairy industry contraction reduces waste supply"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"India biodiesel blending mandate remains at 5% or higher","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Government reduces mandate or delays enforcement, crushing demand"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AMTX will trade below $1.50 within 12 months if no major financing milestone is announced by Q1 2027.","dueDate":"2027-06-29","resolutionCriterion":"Stock price closes below $1.50 on any day after 12 months from now, or above if financing closed.","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-credit-prices"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"feedstock-price-volatility"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"project-financing-closure"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"california-policy-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"india-biodiesel-mandate"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-equipment-supplier"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"digital-asset-holdings-concentration","kind":"bottleneck","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Q2 2026 earnings report (mid-Aug 2026) will show negative EBITDA and a going concern warning if LCFS prices remain below $120/ton AND financing not closed by then.","dueDate":"2026-08-29","resolutionCriterion":"Earnings release shows EBITDA sign and liquidity disclosure; if positive EBITDA and no going concern, assumption wrong.","confidence":0.75,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Aemetis (AMTX) is a tiny-cap renewable fuels producer reliant on California LCFS subsidies, $1.1B tax-exempt financing, and stable feedstock costs. Fragile: any policy shift or financing delay breaks "}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"renewable-energy","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"energy-transition","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"agriculture","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"raw-materials-cost","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"geopolitical-sanctions","kind":"geopolitical","source":"engine"}

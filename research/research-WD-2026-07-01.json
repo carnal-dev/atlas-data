@@ -1,0 +1,107 @@
+{
+  "summary": "Walker & Dunlop is a commercial real estate finance intermediary, not a physical-goods company. Its supply chain is capital-markets access and borrower demand; its biggest fragility is interest-rate sensitivity and credit-cycle risk, not traditional input dependence. Insider cluster buying suggests management sees value, but the company's fortunes hinge wholly on rate policy and multifamily fundamentals.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "capital-markets-access (debt/equity funding)",
+        "whyNeeded": "WD originates loans then sells them to agencies/GSEs or private capital; without capital markets demand, it cannot close deals or generate fee income.",
+        "concentration": "High: relies heavily on Fannie Mae, Freddie Mac, HUD for multifamily lending; private capital (life insurers, banks, CMBS) is the rest.",
+        "fragility": "High: GSE regulatory caps or policy shifts can directly limit volume; 2022-2023 rate hikes already crushed origination volumes industry-wide."
+      },
+      {
+        "node": "interest-rate environment",
+        "whyNeeded": "WD spreads and loan demand depend on the yield curve; higher rates reduce borrower appetite and impair asset valuations.",
+        "concentration": "N/A (macro factor, not a supplier)",
+        "fragility": "Very high: the company is a pure-play rate proxy; a 50bp move changes earnings materially."
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "GSE (Fannie/Freddie) lending appetite",
+        "why": "Agency lending is WD's largest channel; any cap reduction, political reform, or conservatorship shift would directly cap revenue."
+      },
+      {
+        "node": "commercial real estate valuation cycle",
+        "why": "If property values keep falling (office stress, higher cap rates), loan-to-value constraints tighten and WD's origination pipeline dries up."
+      }
+    ],
+    "customers": [
+      {
+        "node": "multifamily property owners/developers",
+        "why": "Core end-market; demand is tied to rental occupancy, interest rates, and local housing supply dynamics."
+      },
+      {
+        "node": "office property owners",
+        "why": "Headline shows a Netherlands office financing, but office is structurally challenged post-COVID; WD's office exposure is a risk."
+      },
+      {
+        "node": "affordable housing debt capital (e.g., Pretium deal)",
+        "why": "Growing niche; still small relative to core multifamily."
+      }
+    ],
+    "geographic": "US-centric (>90% of revenue); one Netherlands deal does not change this. No single region dominates, but large California and Sunbelt exposure ties to local housing/growth trends.",
+    "substitutes": "Borrowers can use other non-bank lenders (Walker & Dunlop, Berkadia, Greystone) or bank balance sheet loans; switching costs are low for borrowers, so WD must compete on speed, service, and GSE access."
+  },
+  "exposures": [
+    {
+      "tag": "interest-rate-sensitivity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "credit-cycle",
+      "kind": "dependency"
+    },
+    {
+      "tag": "commercial-real-estate",
+      "kind": "dependency"
+    },
+    {
+      "tag": "housing-market",
+      "kind": "dependency"
+    },
+    {
+      "tag": "banking-regulation",
+      "kind": "geopolitical"
+    }
+  ],
+  "bearCase": [
+    "Persistent high rates or a recession triggers multifamily delinquency spike, freezing GSE lending and crushing origination volumes (WD already missed 2024 earnings consensus).",
+    "Office loan losses mount, forcing WD to take large mortgage servicing rights impairments or credit markdowns on its small principal investment book.",
+    "Insider buying is a false signal: just 0.01% of shares bought; might be window-dressing or compensation deferral, not strong confidence."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Fed cuts rates by mid-2026, reviving multifamily origination volumes",
+      "breaksIf": "Inflation rebounds (tariffs, energy shock) and Fed hikes or holds; WD's refinance pipeline stays dead."
+    },
+    {
+      "assumption": "Multifamily credit quality remains strong (low vacancy, rent growth absorbs higher rates)",
+      "breaksIf": "Job losses rise, or new supply glut (record apartments under construction in 2024-2025) pushes vacancy up and rents down, forcing defaults."
+    },
+    {
+      "assumption": "GSE lending caps are not materially reduced under any new housing/regulatory regime",
+      "breaksIf": "FHFA reduces Fannie/Freddie multifamily lending limits; WD loses its largest product channel."
+    },
+    {
+      "assumption": "Insider cluster buying is a value signal, not a gamble on a short-term pop",
+      "breaksIf": "Insiders sell within 6 months, or Q2/Q3 2026 earnings show accelerating revenue decline."
+    }
+  ],
+  "prediction": {
+    "statement": "WD's Q3 2026 earnings will show y/y origination volume growth >5% for the first time since 2022, driven by the start of rate-cutting cycle and refinancing pipeline.",
+    "horizonMonths": 6,
+    "resolutionCriterion": "Reported total multifamily production in Q3 2026 10-Q is above same-quarter 2025 level; if volume contracts or flattens, prediction fails.",
+    "confidence": 0.4
+  },
+  "gaps": [
+    "No data on WD's exact balance sheet leverage or its own debt funding costs (sensitivity to credit spreads).",
+    "No breakdown of office vs. multifamily servicing/GSE volume mix (office is riskier).",
+    "No insider selling data to cross-check buying confidence."
+  ],
+  "verifyThese": [
+    "Check WD's Q1 2026 10-Q for actual origination volume trends and net interest margin.",
+    "Check insider transaction filings (SEC Form 4) for any sales by same directors after March 2026.",
+    "Check if the cluster buy was at market price or via option exercise (may not signal cash commitment)."
+  ],
+  "diminishingReturns": "Deeper supply-chain hops stop here because Walker & Dunlop's model is purely financial intermediary, not material production. Tracing construction materials (steel, concrete) or office furniture suppliers for its clients adds no investment insight; the company's only relevant dependencies are capital flows, rates, and regulatory access."
+}

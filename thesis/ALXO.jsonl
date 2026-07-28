@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ALXO","oneLiner":"Engine candidate: move 14.0%, vol 11.6x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"phase-2-readout","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biologic-cdmo-concentration","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cd47-competitor-pipeline","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"ASPEN-06 trial will succeed (positive topline data)","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Trial misses primary or key secondary endpoints, or shows worse safety than standard of care."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"ALXO can raise sufficient capital at reasonable dilution","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Market conditions worsen or investor confidence drops (e.g., failed trial), preventing financing."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"CD47 safety profile is acceptable and class not rejected by FDA","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"A major competitor's trial halts due to safety (e.g., hemolytic anemia), causing regulatory classwide hold."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ALXO stock will trade below $0.50 by end of December 2027 if ASPEN-06 Phase 2 results are negative or substantially delayed.","dueDate":"2027-12-29","resolutionCriterion":"Share price at closing on 2027-12-31 < $0.50 if no positive Phase 2 data by 2027-09-30.","confidence":0.7,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"phase-2-readout"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"biologic-cdmo-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cash-runway"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cd47-competitor-pipeline"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ASPEN-06 topline data readout (phase 2 gastric/GEJ) within next 6 months – likely Q4 2026 based on prior guidance","dueDate":"2026-12-29","resolutionCriterion":"Company announces statistically significant improvement in PFS or ORR vs control","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"ALXO is a clinical-stage biotech wholly dependent on evorpacept (CD47 blocker). Its supply chain is minimal (clinical materials, lab services), but financial solvency and FDA/clinical risk are existen"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ALXO reports ASPEN-06 phase 2 topline data in H2 2026; positive results trigger stock rally >100%, negative results lead to >80% decline.","dueDate":"2027-03-01","resolutionCriterion":"Company announces top-line results from ASPEN-06 trial; stock price moves accordingly.","confidence":0.6,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"external-financing","kind":"dependency","source":"engine"}

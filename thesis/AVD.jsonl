@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AVD","oneLiner":"Engine candidate: move -2.6%, vol 10.0x, -55.6% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"china-api-supply","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crop-price-cycles","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-ban-risks","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-concentration-farming","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Crop prices remain above cost of production for US farmers","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Soy/corn prices drop 15%+ and stay low, slashing AVD sales volumes"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"China/India continue stable API supply at current pricing","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Geopolitical shock or shipping disruption halts API imports for 3+ months"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"No major regulatory ban on key AVD products","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"EPA cancels registration of a top-3 product (e.g., a pre-emergent herbicide)"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Debt refinancing is manageable at current interest rates","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Rates rise 200bp or credit market tightens, forcing distressed terms"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AVD will underperform the S&P 500 by at least 20% over the next 12 months due to persistent margin pressure from generic competition and a soft crop price environment.","dueDate":"2027-06-29","resolutionCriterion":"AVD total shareholder return vs SPY total return over 12 months, measured from 2026-06-10; underperformance of >=20% means prediction true.","confidence":0.6,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"china-api-supply"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"crop-price-cycles"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-ban-risks"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"customer-concentration-farming"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"crypto-regulatory-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AVD Q2 2026 earnings (Aug 2026) will miss consensus by >15% due to lower US farm incomes and currency headwinds in Latin America.","dueDate":"2026-08-29","resolutionCriterion":"Reported EPS vs consensus; miss >=15% is true, else false","confidence":0.7,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"AVD is a specialty agrichemical firm reliant on crop prices, stable API supply from Asia, and debt refinancing. Its supply chain is moderately concentrated in generic active ingredients and US farming"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"agriculture","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"supply-chain-china","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"tariffs-trade-war","kind":"geopolitical","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"raw-materials-cost","kind":"dependency","source":"engine"}

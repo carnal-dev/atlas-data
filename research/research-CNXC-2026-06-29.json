@@ -1,0 +1,108 @@
+{
+  "summary": "CNXC is a global CX/BPO firm whose supply chain is essentially labor + cloud/AI platforms. Earnings miss and stock crash highlight fragility in client retention and labor costs; near-term horizon is about stabilizing revenue and managing AI integration.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "human labor (agent workforce)",
+        "whyNeeded": "Core service delivery for CX/BPO contracts",
+        "concentration": "highly fragmented globally, but wage inflation in low-cost geographies is a risk",
+        "fragility": "medium"
+      },
+      {
+        "node": "cloud/AI platforms (e.g., AWS, Microsoft Azure, Google Cloud, AI APIs)",
+        "whyNeeded": "Technology infrastructure for automation, analytics, and digital CX",
+        "concentration": "concentrated among 3 hyperscalers, but substitutable at moderate cost",
+        "fragility": "low (multiple providers, but switching costs exist)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "low-cost labor hubs (e.g., Philippines, India)",
+        "why": "Disruption in these regions (political, natural disaster) would spike labor costs and disrupt service delivery"
+      },
+      {
+        "node": "AI platform pricing (especially GenAI APIs)",
+        "why": "If AI platform costs rise or key AI models become restricted, erodes margin on automated services"
+      }
+    ],
+    "customers": [
+      {
+        "node": "large enterprises (Fortune 500)",
+        "why": "Long-term BPO contracts generate >90% recurring revenue; client retention is key"
+      },
+      {
+        "node": "tech/telecom/retail verticals",
+        "why": "These sectors drive demand for CX; any cyclical downturn could reduce contract volumes"
+      }
+    ],
+    "geographic": [
+      "US (HQ+customers), India, Philippines, Latin America (delivery centers); revenue diversified, but labor supply heavily exposed to APAC regions"
+    ],
+    "substitutes": [
+      "In-house CX teams (client reshoring), fully automated AI chatbots (like from Intercom/Zendesk), other BPO competitors (e.g., Teleperformance, TTEC)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "labor-costs",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cloud-infrastructure",
+      "kind": "dependency"
+    },
+    {
+      "tag": "consumer-discretionary",
+      "kind": "theme"
+    },
+    {
+      "tag": "tariffs-trade-war",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "inflation-sensitivity",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "Earnings miss signals weakening client retention or pricing pressure from AI disruptors.",
+    "Labor costs in key hubs (Philippines/India) surge >10% due to wage laws or competition, crushing margins.",
+    "Large clients replace contract with fully automated AI solution, causing revenue cliff.",
+    "CNXC's technology investments fail to deliver ROI, making it a low-margin labor broker with no moat."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "AI augments rather than replaces human agents",
+      "breaksIf": "Major client deploys AI-only solution and cancels contract; or CNXC's own AI capabilities become commoditized"
+    },
+    {
+      "assumption": "Cloud/AI platform costs remain stable",
+      "breaksIf": "Hyperscalers raise API prices significantly or restrict access, squeezing CNXC's margins on automated services"
+    },
+    {
+      "assumption": "Client retention remains high (>90%)",
+      "breaksIf": "Any macro shock or AI competition causes a 5%+ drop in retention, directly hitting revenue and margins"
+    },
+    {
+      "assumption": "Global labor supply is accessible without disruption",
+      "breaksIf": "Geopolitical events (e.g., Taiwan conflict, Philippines labor strikes) or new immigration laws disrupt labor flow"
+    }
+  ],
+  "prediction": {
+    "statement": "Next quarterly earnings (FQ3 2026) will show revenue growth <3% YoY and margins declining due to wage inflation, likely causing another stock drop of >10%.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "CNXC reports FQ3 2026 revenue growth below 3% YoY or operating margin contraction >100bps vs prior-year quarter.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No detailed financials on revenue by segment or geography",
+    "No specific client names or contract concentration data",
+    "No current labor cost breakdown or wage inflation metrics"
+  ],
+  "verifyThese": [
+    "Verify client retention rate (>90% as assumed) from latest filings",
+    "Check if any large client announced AI-only CX replacement",
+    "Monitor wage inflation in Philippines and India via local labor indices"
+  ],
+  "diminishingReturns": "Stopped at hyperscaler level for cloud/AI platforms; further drilling into their GPU/HBM dependencies is not material because CNXC's exposure to those costs is indirect and aggregated, not a single-point-of-failure."
+}

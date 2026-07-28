@@ -1,0 +1,35 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"DMRA","oneLiner":"Engine candidate: move 12.4%, vol 20.6x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"cmos-api-supply","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"clinical-trial-enrollment","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"rare-indication-concentration","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"CALR-mutation targeting is a viable therapeutic mechanism","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Phase 1/2 data show insufficient efficacy or safety"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Current cash (from Q1 2026 report) funds operations through key data readouts ~18 months","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Expenses exceed budget or timeline extends beyond guidance"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"No supply-chain disruption impacts CRO/CMO services for trials","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"CMO failure or raw material shortage halts drug production for >6 months"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DMRA stock will close at or above $35 within 12 months if Phase 2 data for GB2064 in CALR-mutated myelofibrosis is positive.","dueDate":"2027-06-29","resolutionCriterion":"Stock price >= $35 on June 1, 2027 OR release of Phase 2 top-line results (whichever comes first) determined from listing price.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cmos-api-supply"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"clinical-trial-enrollment"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-approval-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"rare-indication-concentration"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DMRA will announce initiation of a Phase 2 trial for its lead CALR inhibitor in the next 6 months, providing a clear catalyst to support current valuation.","dueDate":"2026-12-29","resolutionCriterion":"Company press release or SEC filing confirms Phase 2 trial start for CALR-targeting drug.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"DMRA is a small-cap biotech focused on CALR-mutant myeloproliferative neoplasms and fibrotic disease. Its near-term value hinges on early-stage trial data for its lead CALR inhibitor, with supply chai"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"DMRA will report initial safety and efficacy data from its Phase 1/2 CALR inhibitor trial within 12 months, likely at a medical conference or via press release.","dueDate":"2027-06-29","resolutionCriterion":"Company issues press release or presents data at a conference (e.g., ASH, EHA) with at least dose-escalation results.","confidence":0.3,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"clinical-trial-materials","kind":"dependency","source":"engine"}

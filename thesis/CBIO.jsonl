@@ -1,0 +1,36 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CBIO","oneLiner":"Engine candidate: move 9.2%, vol 12.7x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"clinical-data-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-cdmo-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-access","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"competitive-oncology-landscape","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"CR-001 trial data at ASCO 2026 will be positive and differentiated.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Data shows limited efficacy or safety issues; stock halves on readout."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Cash runway extends >12 months without dilutive raise.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Investor sentiment worsens; forced equity raise dilutes existing holders >20%."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Single CDMO can deliver sufficient clinical supply on schedule.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Quality or capacity failure; trial enrollment stops, timelines slip."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"PD-1xVEGF bispecific class is not preempted by existing combo therapies.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Standard-of-care shows similar OS benefit; no commercial niche."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Within 6 months, CBIO will trade below $14 if ASCO 2026 abstract shows no clear efficacy signal; above $22 if strong.","dueDate":"2026-12-29","resolutionCriterion":"Compare price at 2026-12-01 with $14 and $22; judged on market close.","confidence":0.25,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"clinical-data-binary"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-cdmo-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"capital-markets-access"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"competitive-oncology-landscape"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"CR-001 Phase 1/2 ASCEND study data presented at ASCO 2026 (June 2026) will determine stock direction; positive data drives >50% upside, negative data drives >50% downside.","dueDate":"2026-07-29","resolutionCriterion":"ASCO 2026 abstract and presentation: objective response rate, safety, and differentiation vs standard of care.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Crescent Biopharma is a pre-revenue biotech with a single lead asset, CR-001, a PD-1xVEGF bispecific antibody. Its supply chain is minimal (CDMO-dependent), but its entire valuation hinges on ASCO 202"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}

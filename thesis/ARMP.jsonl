@@ -1,0 +1,52 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ARMP","oneLiner":"Engine candidate: move 13.8%, vol 17.4x, -54.7% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"regulatory-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-payer-dod-funding","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cdmo-manufacturing-bottleneck","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"antibiotic-resistance-theme","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"AP-SA02 receives FDA approval within 2 years","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Phase 2/3 data shows insufficient efficacy or safety; FDA requests additional trials"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"DoD continues funding at current or higher levels","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"U.S. defense budget prioritizes other programs; political shift reduces biodefense spending"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Manufacturing CDMO capacity is available and reliable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"CDMO quality issues or capacity constraints delay clinical supply; Armata cannot secure alternative"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Market adoption for phage therapy grows as antibiotic resistance worsens","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"New antibiotics or alternative therapies prove more effective or cheaper; regulatory hurdles persist"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"By June 2027, Armata Pharmaceuticals will have announced positive Phase 2/3 results for AP-SA02, driving stock above $15.","dueDate":"2027-06-29","resolutionCriterion":"Stock price > $15 on any day in June 2027, or official press release of positive pivotal trial data.","confidence":0.35,"source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dod-funding-grants","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cdmo-capacity-crunch","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dod-funding-continuity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cdmo-capacity-slot","kind":"bottleneck","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Armata will report AP-SA02 Phase 2b top-line data within 9 months; positive efficacy will trigger a 50%+ price surge.","dueDate":"2027-03-29","resolutionCriterion":"Company announces top-line data with statistically significant reduction in bacterial burden vs standard of care","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Armata Pharmaceuticals is a clinical-stage bacteriophage therapeutics company reliant on FDA approval for AP-SA02 and DoD funding, with a concentrated supply chain for phage manufacturing and narrow c"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"regulatory-approval-binary"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-payer-dod-funding"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cdmo-manufacturing-bottleneck"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"antibiotic-resistance-theme"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"fda-approval-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"dod-funding-grants"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cdmo-capacity-crunch"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"fda-approval-binary"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"dod-funding-continuity"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cdmo-capacity-slot"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Armata will announce enrollment completion of a pivotal Phase 3 trial for AP-SA02 or submission of a Biologics License Application (BLA) within 6 months.","dueDate":"2026-12-29","resolutionCriterion":"Public disclosure of Phase 3 enrollment completion or BLA submission via press release or SEC filing.","confidence":0.5,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"fda-approval-binary","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"biotech-clinical-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"defense-spending","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"dilution-risk","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AP-SA02 Phase 3 primary endpoint readout within 12 months, with top-line data by mid-2027.","dueDate":"2027-06-29","resolutionCriterion":"Company announces top-line Phase 3 results for AP-SA02, meeting or missing primary endpoint.","confidence":0.3,"source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"contract-research","kind":"dependency","source":"engine"}

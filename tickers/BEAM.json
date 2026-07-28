@@ -1,0 +1,71 @@
+{
+  "ticker": "BEAM",
+  "name": "Beam Therapeutics",
+  "identity": {
+    "sector": "Biotech (base editing)",
+    "theme": "Biotech",
+    "country": "USA",
+    "tags": [
+      "🧬",
+      "🚀"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 34.82,
+    "sharesOutM": 102.7,
+    "cashM": 1200,
+    "debtM": 0,
+    "revenueTtmM": 30,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 78,
+      "techMoat": 80,
+      "capitalAllocation": 58,
+      "financialHealth": 70,
+      "dilutionRisk": 40,
+      "manufacturing": 50,
+      "competitivePosition": 68,
+      "insiderOwnership": 35,
+      "govtTailwinds": 40,
+      "executionRisk": 40,
+      "valuation": 50
+    },
+    "differentiators": {
+      "replacementRisk": 78,
+      "realityCheck": 42,
+      "civImportance": 80
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.4,
+      "pUp10x": 0.14,
+      "pLoss": 0.3
+    }
+  },
+  "thesis": {
+    "summary": "Base editing — a more precise next-gen of CRISPR. Deep pipeline, cash to mid-2029, pre-commercial. Higher-risk comparator to NTLA/CRSP.",
+    "risks": "Pre-commercial · Binary · Dilution",
+    "confidence": "High",
+    "runway": "into mid-2029",
+    "catalyst": {
+      "text": "risto-cel (sickle cell) launch path; BEAM-302 (AATD) pivotal; BEAM-304 (PKU) PoC",
+      "window": "2026-27",
+      "type": "FDA / Clinical"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

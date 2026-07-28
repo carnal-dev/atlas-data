@@ -1,0 +1,112 @@
+{
+  "summary": "CRBU is a clinical-stage biotech developing allogeneic CAR-T therapies, with critical dependencies on viral vector and CRISPR component supply for clinical manufacturing. Its near-term value hinges on CB-010 pivotal data readouts, cash runway to mid-2027, and adequate GMP vector supply. The stock is highly binary, driven by single-asset clinical risk and financing needs.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Viral vectors (lentiviral/AAV)",
+        "whyNeeded": "Used to deliver CRISPR components or CAR transgene to T cells during manufacturing",
+        "concentration": "High (limited number of GMP CMOs such as Oxford BioMedica, Lonza, Thermo Fisher)",
+        "fragility": "Moderate-High; disruptions in supply or quality can delay clinical programs"
+      },
+      {
+        "node": "CRISPR components (Cas9 protein, guide RNA)",
+        "whyNeeded": "Essential for gene editing of allogeneic T cells to reduce GvHD and improve persistence",
+        "concentration": "Moderate (multiple suppliers like IDT, Synthego, Aldevron)",
+        "fragility": "Low-Moderate; but switching requires re-validation, so risk of technical disruption"
+      },
+      {
+        "node": "Healthy donor leukapheresis material",
+        "whyNeeded": "Source of allogeneic T cells for manufacturing",
+        "concentration": "Moderate (multiple blood banks and collection centers, but donor variability)",
+        "fragility": "Moderate; supply consistency and donor screening are material"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "GMP viral vector supply",
+        "why": "Capacity constraints and quality control are common bottlenecks; single-source contracts amplify risk"
+      },
+      {
+        "node": "Allogeneic cell therapy manufacturing process",
+        "why": "Complex, multi-step editing and expansion; scale-up failure could delay pivotal trials"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Patients with relapsed/refractory LBCL (second-line)",
+        "why": "Target indication for lead asset CB-010; commercial demand depends on approval"
+      },
+      {
+        "node": "Oncology clinical trial sites",
+        "why": "Interim demand for clinical-trial material to generate pivotal data"
+      }
+    ],
+    "geographic": "Manufacturing likely in US/EU; clinical trials primarily in US; no material geopolitical concentration but potential dependence on US regulatory pathways",
+    "substitutes": "Autologous CAR-T (Yescarta, Tecartus, Breyanzi) are the main competitors; other allogeneic players (Allogene, CRISPR Therapeutics) also developing alternatives"
+  },
+  "exposures": [
+    {
+      "tag": "biotech-clinical-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "CB-010 pivotal data shows CR rate < 40% or durability inferior to autologous CAR-T, derailing registration pathway.",
+    "Cash burn accelerates (e.g., higher clinical costs or manufacturing scale-up) and CRBU cannot raise additional financing before mid-2027 without severe dilution.",
+    "Viral vector supply chain disruption (e.g., CMO failure or quality issue) forces trial delays, increasing costs and time to data.",
+    "Regulatory agency requires a randomized controlled trial instead of single-arm registration study, extending timeline and raising cost."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "CB-010 achieves registrational efficacy comparable to autologous CAR-T in second-line LBCL",
+      "breaksIf": "CR rate is substantially lower or DOR is shorter; even modest inferiority may lead FDA to require randomized trial"
+    },
+    {
+      "assumption": "CRBU has sufficient cash runway to reach pivotal data readouts (mid-2027)",
+      "breaksIf": "Operating expenses exceed budget, or no dilutive financing is secured; may force asset sale or restructuring"
+    },
+    {
+      "assumption": "GMP viral vector supply remains adequate for clinical and early commercial demand",
+      "breaksIf": "CMO experiences manufacturing failure, contamination, or capacity constraints; delays trial enrollment"
+    },
+    {
+      "assumption": "Regulatory alignment on pivotal trial design (single-arm, registrational intent)",
+      "breaksIf": "FDA insists on a randomized control arm, increasing trial size, duration, and cost significantly"
+    }
+  ],
+  "prediction": {
+    "statement": "Updated CB-010 durability and response data (e.g., at ASH 2026) will show CR rate ≥ 50% with median DOR ≥ 12 months, supporting registration filing.",
+    "horizonMonths": 6,
+    "resolutionCriterion": "True if presented data meets or exceeds these thresholds; false if CR rate < 40% or DOR < 9 months, or study discontinued.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No specific supplier agreements or manufacturing capacity details",
+    "Cash burn rate and quarterly financials not provided",
+    "Exact pivotal trial design and regulatory interactions not confirmed",
+    "Competitive benchmark durability for autologous CAR-T in second-line LBCL not quantified"
+  ],
+  "verifyThese": [
+    "Verify CB-010 interim data from EHA 2026 (CR rate, DOR, safety)",
+    "Verify CRBU's cash runway estimate and any recent financing announcements",
+    "Confirm viral vector CMO relationships and capacity commitments",
+    "Check for any FDA feedback or guidance on pivotal trial design for CB-010"
+  ],
+  "diminishingReturns": "Analysis stops at viral vector and CRISPR component suppliers; further tracing to raw materials (e.g., plasmids, enzymes) would not change the investment picture because those are commodity inputs with many suppliers, and the primary fragility is in specialized CMO capacity and clinical outcomes."
+}

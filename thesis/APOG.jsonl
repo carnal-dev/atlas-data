@@ -1,0 +1,24 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"APOG","oneLiner":"Engine candidate: move 15.2%, vol 6.1x [move8%+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"flat-glass-supply","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"aluminum-tariff-exposure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-nonres-construction-cycle","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"commercial-real-estate-demand","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"energy-cost-sensitivity","kind":"dependency","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Non-residential construction spending remains stable or grows in FY2027.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"US recession or rate hikes delay commercial projects."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Flat-glass and aluminum input costs do not surge beyond 10% YoY.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Energy crisis or trade war drives input costs up >15%; Apogee's pass-through is partial."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Q1 earnings beat signals sustainable margin expansion, not one-offs.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Q1 included non-recurring items (e.g., project catch-up); Q2 shows reverting margins."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Apogee can maintain or grow market share in architectural metals/glass.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Competition from imports (e.g., Asian glass) or prefab wall systems intensifies."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Apogee's Q2 FY2027 earnings (Sept 2026) will show sequential revenue decline >5% from Q1, due to seasonal lull, causing stock to retrace to $42-44.","dueDate":"2026-10-29","resolutionCriterion":"Reported Q2 FY2027 revenue below $320M and EPS below $1.00; stock price <$45 within 5 trading days post-release.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Apogee is a US building-enclosure supplier concentrated in architectural glass, metals, and services. Its supply chain is tied to flat glass and aluminum inputs and non-residential construction demand"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"flat-glass-supply"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"aluminum-tariff-exposure"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-nonres-construction-cycle"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"commercial-real-estate-demand"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"energy-cost-sensitivity"}

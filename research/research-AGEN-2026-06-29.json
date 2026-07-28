@@ -1,0 +1,96 @@
+{
+  "summary": "Agenus is a clinical-stage biotech dependent on successful trial data for its BOT/BAL combo in MSS CRC; its supply chain is thin but relies on outsourced CROs/CDMOs and patent-protected antibody platforms. Fragility is high due to zero revenue visibility and reliance on external financing.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "CRO/CDMO services",
+        "whyNeeded": "Conduct trials and manufacture BOT/BAL antibodies",
+        "concentration": "Medium (e.g., Lonza, WuXi; 4-5 major global CDMOs)",
+        "fragility": "High (single-source if undisclosed; any disruption delays trials)"
+      },
+      {
+        "node": "Antibody display/engineering platform reagents & know-how",
+        "whyNeeded": "Retrocyte Display and other proprietary tech for antibody discovery",
+        "concentration": "Very high (proprietary in-house; no external supply)",
+        "fragility": "Low (hard to replace but no external dependency)"
+      },
+      {
+        "node": "Clinical trial materials (cell lines, media, excipients)",
+        "whyNeeded": "Produce cell lines and media for antibody expression",
+        "concentration": "Low (many suppliers)",
+        "fragility": "Low (readily available)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "BOT/BAL clinical data readouts",
+        "why": "Single product pipeline; MSS CRC survival data at ESMO GI 2026 is pivotal; failure or delay collapses valuation"
+      },
+      {
+        "node": "External financing (equity/debt)",
+        "why": "No approved product; cash burn requires capital raises; market conditions or negative data can dry up access"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Pharmacies/hospitals (via payers)",
+        "why": "If BOT/BAL approved, end-market is MSS colorectal cancer patients and oncology centers"
+      },
+      {
+        "node": "Potential licensing partners (Big Pharma)",
+        "why": "Before approval, may license to larger firms for royalties; downstream demand depends on partnership terms"
+      }
+    ],
+    "geographic": "US headquarters; trials global (US, EU); manufacturing likely US/Europe (CDMO location unknown). Concentrated in US regulatory and financing environment; no reported geopolitical risk.",
+    "substitutes": "Competing MSS CRC therapies (e.g., Merck Keytruda combos, BMS Opdivo combos); if BOT/BAL fails, company may pivot to other pipeline assets or license tech."
+  },
+  "exposures": [
+    {
+      "tag": "bot-bal-trial-data-catalyst",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cdmo-concentration-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "capital-markets-financing-crunch",
+      "kind": "dependency"
+    },
+    {
+      "tag": "mss-crc-market-competition",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "BOT/BAL 3-year survival data at ESMO GI 2026 may disappoint due to small Phase 1b sample or mixed efficacy, triggering stock collapse.",
+    "Company runs out of cash within 12 months if no partnership or financing secured; dilution destroys existing equity.",
+    "Regulatory rejection or safety signal delays BOT/BAL further, leaving no meaningful revenue until after 2028."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "BOT/BAL will show meaningful survival benefit in MSS CRC at ESMO GI 2026",
+      "breaksIf": "Data are flat or negative; stock could lose 50%+ in days"
+    },
+    {
+      "assumption": "Company can secure funding/partnership for continued operations",
+      "breaksIf": "No new financing by Q4 2026; cash below minimum for 12 months"
+    },
+    {
+      "assumption": "CDMO relationship is stable and not disrupted",
+      "breaksIf": "Manufacturing delay or quality issue halts trial supply; timeline slips"
+    },
+    {
+      "assumption": "Retrocyte Display platform is de-risked and production-scalable",
+      "breaksIf": "Platform fails GMP batch or yields insufficient titers; program delayed"
+    }
+  ],
+  "prediction": {
+    "statement": "Agenus will present three-year survival data from the Phase 1b BOT+BAL study in MSS CRC at ESMO GI 2026 (scheduled summer/fall 2026), likely showing median OS improvement but sparking volatile trading on survival curve details.",
+    "horizonMonths": 3,
+    "resolutionCriterion": "Data release date is confirmed; after release, stock movement >10% on the day indicates market judgment of efficacy.",
+    "confidence": 0.65
+  },
+  "gaps": "Unknown trial patient count, data cut-off date, CDMO identity, cash runway exact months. Without these, supply-chain depth is limited to generic biotech dependencies.",
+  "diminishingReturns": "Stopped at CDMO/financing layer because deeper hops (e.g., what raw materials CDMO buys) do not change investment thesis: AGEN's fate hinges on clinical data and capital access, not raw material prices."
+}

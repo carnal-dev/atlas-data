@@ -1,0 +1,126 @@
+{
+  "summary": "Chime Financial is a US digital neobank targeting low-to-moderate income consumers, partnering with FDIC-insured banks. Its supply chain relies on a few issuer banks, payment networks, and cloud infrastructure, making it vulnerable to partner or regulatory shocks. The stock bounced 11.2% today on bullish analyst coverage, but remains 47.5% below its 52-week high, reflecting growth concerns.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "FDIC-insured partner banks (The Bancorp Bank, Stride Bank)",
+        "whyNeeded": "Issues bank accounts, provides FDIC insurance, enables debit card",
+        "concentration": "High (few banks serve many fintechs)",
+        "fragility": "Partner banks can terminate or renegotiate; regulatory actions could disrupt"
+      },
+      {
+        "node": "Payment networks (Visa, Mastercard)",
+        "whyNeeded": "Debit card processing, network fees",
+        "concentration": "Duopoly",
+        "fragility": "Fee changes or network exclusivity requirements"
+      },
+      {
+        "node": "Cloud infrastructure (likely AWS or similar)",
+        "whyNeeded": "App hosting, data storage, transaction processing",
+        "concentration": "Moderate (AWS dominant but alternatives exist)",
+        "fragility": "Outages, cost increases, vendor lock-in"
+      },
+      {
+        "node": "Regulatory compliance (state and federal banking regulations)",
+        "whyNeeded": "Operate legally, maintain partnerships, avoid fines",
+        "concentration": "Low (multiple regulators but single jurisdiction)",
+        "fragility": "New restrictions on overdraft, late fees, or interchange"
+      },
+      {
+        "node": "Customer acquisition channels (digital ads, referrals, app stores)",
+        "whyNeeded": "Grow user base",
+        "concentration": "Low (diversified but digital ads concentrated on Meta/Google)",
+        "fragility": "Rising customer acquisition costs, platform policy changes"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Partner banks",
+        "why": "Without them Chime cannot offer FDIC-insured accounts; switching is slow and costly"
+      },
+      {
+        "node": "Payment networks (Visa/Mastercard)",
+        "why": "Debit card issuance and processing are essential; no viable alternative at scale"
+      },
+      {
+        "node": "Core banking platform (internally or third-party like Galileo)",
+        "why": "Backend for accounts, transactions, compliance; any disruption halts operations"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Underbanked consumers (annual income <$100k)",
+        "why": "Primary target market, drives transaction volume and fee revenue"
+      },
+      {
+        "node": "Gig workers and hourly employees",
+        "why": "Value early paycheck access, no-fee banking"
+      }
+    ],
+    "geographic": "US only, concentrated in states with high underbanked populations (CA, TX, FL)",
+    "substitutes": "Cash App, Dave, Varo Money, traditional banks with digital offerings, credit unions"
+  },
+  "exposures": [
+    {
+      "tag": "partner-bank-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "visa-mastercard-duopoly",
+      "kind": "dependency"
+    },
+    {
+      "tag": "regulatory-risk",
+      "kind": "theme"
+    },
+    {
+      "tag": "customer-acquisition-cost",
+      "kind": "dependency"
+    },
+    {
+      "tag": "us-consumer-health",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Rising competition from Cash App and new neobanks erodes user growth and margins.",
+    "Regulatory clampdown on overdraft fees or interchange caps reduces revenue 20-30%.",
+    "Partner banks exit fintech relationships due to regulatory scrutiny, forcing Chime to find new issuers quickly.",
+    "Macro downturn hits core user base (low-income consumers), raising defaults on early paycheck advances."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Partner banks maintain current relationships on favorable terms",
+      "breaksIf": "Any of top two banks terminates or demands higher fees"
+    },
+    {
+      "assumption": "No major regulatory changes limiting fee income or requiring costly compliance",
+      "breaksIf": "CFPB or state regulators cap overdraft/interchange fees or impose stricter oversight"
+    },
+    {
+      "assumption": "Customer acquisition costs remain stable as user base grows",
+      "breaksIf": "Digital ad costs spike or conversion drops due to competition"
+    },
+    {
+      "assumption": "Arrears on early paycheck advances stay low",
+      "breaksIf": "Unemployment rises significantly among low-income users"
+    }
+  ],
+  "prediction": {
+    "statement": "Chime's Q2 2026 earnings (expected early Aug 2026) will show revenue and user growth in line with or above guidance of $2.7B annual revenue run-rate.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Reported quarterly revenue exceeds $675M (quarterly run of $2.7B) and monthly active users grow >5% QoQ",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No verified data on exact partner bank agreements or contract renewal dates",
+    "Lack of granular customer churn metrics",
+    "Unknown degree of reliance on internal vs third-party core banking platform"
+  ],
+  "verifyThese": [
+    "Check Chime's latest 10-K for list of issuing banks and contract lengths",
+    "Verify if Chime uses Galileo or proprietary core banking software",
+    "Confirm current customer acquisition cost trends from analyst reports"
+  ],
+  "diminishingReturns": "Stopped at partner banks and payment networks because deeper hops (e.g., Visa's chip suppliers, AWS's server manufacturers) have negligible impact on Chime's business risk profile given its size and lack of manufacturing."
+}

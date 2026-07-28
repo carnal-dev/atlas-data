@@ -1,0 +1,70 @@
+{
+  "ticker": "SSYS",
+  "name": "Stratasys",
+  "identity": {
+    "sector": "Advanced materials (3D printing)",
+    "theme": "Advanced materials",
+    "country": "USA",
+    "tags": [
+      "🐢"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 8.17,
+    "sharesOutM": 86.1,
+    "cashM": 238,
+    "debtM": 0,
+    "revenueTtmM": 570,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 6-K",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 60,
+      "techMoat": 60,
+      "capitalAllocation": 50,
+      "financialHealth": 65,
+      "dilutionRisk": 60,
+      "manufacturing": 60,
+      "competitivePosition": 65,
+      "insiderOwnership": 35,
+      "govtTailwinds": 35,
+      "executionRisk": 45,
+      "valuation": 60
+    },
+    "differentiators": {
+      "replacementRisk": 60,
+      "realityCheck": 58,
+      "civImportance": 65
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.28,
+      "pUp10x": 0.05,
+      "pLoss": 0.2
+    }
+  },
+  "thesis": {
+    "summary": "Polymer 3D-printing leader. Real ~$570M revenue, net-cash, but a mature, flat market that has long disappointed. Cheap (P/S ~1.2x).",
+    "risks": "Mature/flat AM market · Tariff & legal costs",
+    "confidence": "High",
+    "runway": "cash $238M, no debt",
+    "catalyst": {
+      "text": "Polymer-AM demand; cost cuts; defense/aero & dental applications",
+      "window": "2026",
+      "type": "Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

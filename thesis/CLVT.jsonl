@@ -1,0 +1,46 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"CLVT","oneLiner":"Engine candidate: move 7.6%, vol 10.8x, -55.3% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"patent-data-supplier-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure-oligopoly","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"data-source-renewal-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ai-disruption-threat","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"open-data-competition","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"content-access-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"academic-budget-cycles","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"open-access-disruption","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"ip-market-activity","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Content agreements stable with major publishers","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Elsevier or others terminate or demand unfavorable terms"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Customers continue to pay for premium analytics","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"Shift to free open-source alternatives or budget cuts"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Cloud infrastructure costs manageable","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Significant price increases or migration failures"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"IP filings maintain current levels","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Global recession reduces patent applications"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Clarivate stock will recover to above $3.00 within 12 months as subscription renewals hold and new products gain traction.","dueDate":"2027-06-29","resolutionCriterion":"Stock price closes above $3.00 on NYSE any day within 12 months.","confidence":0.3,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"patent-data-supplier-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cloud-infrastructure-oligopoly"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"data-source-renewal-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ai-disruption-threat"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"open-data-competition"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"content-access-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"cloud-infrastructure"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"academic-budget-cycles"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"open-access-disruption"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"ip-market-activity"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Clarivate Q2 2026 earnings (August) will show revenue growth 2-4% YoY, in line with guidance, and reaffirm full-year outlook.","dueDate":"2026-08-29","resolutionCriterion":"Reported revenue growth within 2-4% range and no change to FY guidance","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Clarivate's supply chain is data-centric: it depends on publisher and patent office content, cloud infrastructure, and customer willingness to pay for premium analytics. Key fragility lies in content "}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"software-margins","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cybersecurity","kind":"dependency","source":"engine"}

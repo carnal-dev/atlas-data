@@ -1,0 +1,71 @@
+{
+  "ticker": "AAOI",
+  "name": "Applied Optoelectronics",
+  "identity": {
+    "sector": "Semiconductors (optical)",
+    "theme": "Semiconductors",
+    "country": "USA",
+    "tags": [
+      "💡",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 138.82,
+    "sharesOutM": 70.3,
+    "cashM": 449,
+    "debtM": 125,
+    "revenueTtmM": 456,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 55,
+      "capitalAllocation": 50,
+      "financialHealth": 60,
+      "dilutionRisk": 40,
+      "manufacturing": 65,
+      "competitivePosition": 50,
+      "insiderOwnership": 40,
+      "govtTailwinds": 35,
+      "executionRisk": 50,
+      "valuation": 35
+    },
+    "differentiators": {
+      "replacementRisk": 62,
+      "realityCheck": 62,
+      "civImportance": 72
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.33,
+      "pUp10x": 0.09,
+      "pLoss": 0.25
+    }
+  },
+  "thesis": {
+    "summary": "Vertically integrated optical transceivers riding AI-datacenter demand. Rev +51%; still loss-making.",
+    "risks": "Competition · Lumpy · Valuation",
+    "confidence": "High",
+    "runway": "cash $449M",
+    "catalyst": {
+      "text": "AI-datacenter optical transceiver ramp; hyperscaler design wins",
+      "window": "2026",
+      "type": "Customer / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

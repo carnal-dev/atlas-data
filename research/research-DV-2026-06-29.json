@@ -1,0 +1,110 @@
+{
+  "summary": "DoubleVerify is a digital media measurement and analytics platform. Its supply chain is primarily data access and platform integrations, with key dependencies on major ad platforms like Meta and TikTok. The recent expansion of DV Authentic AdVantage to these platforms is a positive catalyst, but the company's reliance on ad spending and platform cooperation creates fragility.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "Ad platform integrations (Meta, TikTok, LinkedIn, etc.)",
+        "whyNeeded": "Core to DV's measurement and verification services; without access to platform data, DV cannot operate.",
+        "concentration": "High (few major platforms dominate digital ad spend)",
+        "fragility": "High (platforms can change APIs, terms, or cut access unilaterally)"
+      },
+      {
+        "node": "Cloud infrastructure (AWS, GCP, Azure)",
+        "whyNeeded": "Hosts DV's software platform and processes large volumes of ad data.",
+        "concentration": "Medium (three major providers, but switching costs are moderate)",
+        "fragility": "Medium (outages or cost increases could impact margins)"
+      },
+      {
+        "node": "Data sources (third-party data for brand safety, fraud detection)",
+        "whyNeeded": "Enhances DV's analytics and AI models.",
+        "concentration": "Low (many potential data providers)",
+        "fragility": "Low"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "Ad platform API access",
+        "why": "If Meta, TikTok, or LinkedIn restrict or revoke API access, DV's core product is severely impaired."
+      },
+      {
+        "node": "Global ad spending cycle",
+        "why": "DV's revenue is tied to ad spend; a recession or shift to non-digital channels would reduce demand."
+      }
+    ],
+    "customers": [
+      {
+        "node": "Advertisers and agencies (brands, holding companies)",
+        "why": "Direct buyers of DV's measurement and verification services."
+      },
+      {
+        "node": "Ad platforms (indirect, as partners)",
+        "why": "Platforms may use DV's tools to attract advertisers, but they are also potential competitors."
+      }
+    ],
+    "geographic": "Primarily US and global markets; no single country concentration beyond US.",
+    "substitutes": [
+      "Competing verification platforms (Integral Ad Science, Oracle Moat)",
+      "In-house measurement by ad platforms (e.g., Meta's own tools)",
+      "Alternative attribution methods (e.g., econometric modeling)"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "advertising-cycle",
+      "kind": "dependency"
+    },
+    {
+      "tag": "customer-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cybersecurity",
+      "kind": "dependency"
+    },
+    {
+      "tag": "software-margins",
+      "kind": "theme"
+    }
+  ],
+  "bearCase": [
+    "Ad platforms (Meta, TikTok) develop or acquire competing verification tools, cutting DV out.",
+    "Global ad spending declines due to recession, reducing DV's revenue and growth.",
+    "Regulatory changes (e.g., privacy laws) limit data availability, impairing DV's AI products.",
+    "DV's AI products (Neura) fail to gain adoption or pricing power, leading to margin compression."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "Continued access to major ad platforms (Meta, TikTok, LinkedIn)",
+      "breaksIf": "Any major platform restricts API access or builds competing in-house solution."
+    },
+    {
+      "assumption": "Global ad spending grows or stays stable",
+      "breaksIf": "A recession or structural shift reduces digital ad budgets significantly."
+    },
+    {
+      "assumption": "DV's AI products (DV Neura) drive adoption and pricing power",
+      "breaksIf": "Neura fails to differentiate or customers do not see incremental value."
+    },
+    {
+      "assumption": "No material regulatory headwind on ad tracking",
+      "breaksIf": "New privacy regulations (e.g., GDPR expansion, US federal law) limit data collection."
+    }
+  ],
+  "prediction": {
+    "statement": "DV will report Q2 2026 earnings in early August 2026, with revenue growth of 10-15% YoY, driven by expansion on Meta and TikTok.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Actual Q2 2026 revenue growth rate vs. prior year; if within 10-15%, prediction holds.",
+    "confidence": 0.65
+  },
+  "gaps": [
+    "No detailed financials or customer concentration data on file.",
+    "No information on DV's specific cloud provider or contract terms.",
+    "No data on competitive market share vs. Integral Ad Science."
+  ],
+  "verifyThese": [
+    "Check DV's latest 10-K for customer concentration (top 10 customers % of revenue).",
+    "Verify if any ad platform has recently changed API terms affecting DV.",
+    "Check Q2 2026 earnings date and consensus estimates."
+  ],
+  "diminishingReturns": "Stopped at ad platform dependency and ad spending cycle; deeper hops (e.g., cloud provider's chip supply) are immaterial for DV's investment thesis."
+}

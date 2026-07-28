@@ -1,0 +1,72 @@
+{
+  "ticker": "LUNR",
+  "name": "Intuitive Machines",
+  "identity": {
+    "sector": "Space (lunar/cislunar)",
+    "theme": "Space",
+    "country": "USA",
+    "tags": [
+      "🛰️",
+      "🚀",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "N",
+    "isException": false
+  },
+  "market": {
+    "price": 19.78,
+    "sharesOutM": 159.4,
+    "cashM": 231,
+    "debtM": 0,
+    "revenueTtmM": 950,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 / 2026 guide",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 65,
+      "capitalAllocation": 55,
+      "financialHealth": 58,
+      "dilutionRisk": 40,
+      "manufacturing": 70,
+      "competitivePosition": 65,
+      "insiderOwnership": 45,
+      "govtTailwinds": 82,
+      "executionRisk": 55,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 78,
+      "realityCheck": 65,
+      "civImportance": 78
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.42,
+      "pUp10x": 0.12,
+      "pLoss": 0.2
+    }
+  },
+  "thesis": {
+    "summary": "Lunar landers + cislunar infrastructure, NASA's lead CLPS provider. Record revenue (~$900M-1B guide), positive adj EBITDA, $1B backlog.",
+    "risks": "Lander mission risk · Dilution · Lumpy",
+    "confidence": "High",
+    "runway": "cash $231M, adj-EBITDA+",
+    "catalyst": {
+      "text": "NASA CLPS task orders; lunar landers; Lanteris integration; $1B backlog",
+      "window": "2026-27",
+      "type": "NASA / Launch"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

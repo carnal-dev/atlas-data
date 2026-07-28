@@ -1,0 +1,124 @@
+{
+  "summary": "CapsoVision's capsule endoscopy devices depend on a narrow set of CMOS image sensor suppliers (Sony/Samsung/Hynix), creating single-source fragility. The company faces concentration risk in both upstream inputs and downstream GI procedure volumes, with limited product diversification. Near-term stability hinges on sensor supply continuity and reimbursement trends.",
+  "supplyChain": {
+    "inputs": [
+      {
+        "node": "CMOS image sensors",
+        "whyNeeded": "Core imaging component for CapsoCam capsules",
+        "concentration": "High (3 global suppliers, medical-grade adds barriers)",
+        "fragility": "High (single-source risk; any disruption halts production)"
+      },
+      {
+        "node": "Batteries (custom coin cells)",
+        "whyNeeded": "Power for capsule operation and wireless transmission",
+        "concentration": "Moderate (few specialty battery makers)",
+        "fragility": "Medium (alternative suppliers exist but require re-qualification)"
+      },
+      {
+        "node": "ASICs / wireless transmitters",
+        "whyNeeded": "Data processing and transmission from capsule",
+        "concentration": "Moderate (custom designs, limited fab options)",
+        "fragility": "Medium (long lead times, but multiple foundries possible)"
+      }
+    ],
+    "chokepoints": [
+      {
+        "node": "CMOS sensor supply from Sony/Samsung/Hynix",
+        "why": "No qualified backup; medical certification locks in supplier"
+      },
+      {
+        "node": "Final assembly location (likely Asia)",
+        "why": "Geopolitical or logistics shock could halt output"
+      }
+    ],
+    "customers": [
+      {
+        "node": "Gastroenterology clinics and hospitals",
+        "why": "Primary buyers; procedure volume drives demand"
+      },
+      {
+        "node": "Distributors (e.g., McKesson, Cardinal)",
+        "why": "Channel intermediaries; concentration risk if few distributors"
+      }
+    ],
+    "geographic": [
+      "US-based HQ; likely sensor sourcing from Japan/Korea; assembly possibly in China/Taiwan; sales concentrated in US and Europe"
+    ],
+    "substitutes": [
+      "Given Imaging (Medtronic) PillCam, Olympus capsule systems, traditional endoscopy"
+    ]
+  },
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "kind": "dependency"
+    },
+    {
+      "tag": "semiconductors",
+      "kind": "dependency"
+    },
+    {
+      "tag": "supply-chain-china",
+      "kind": "geopolitical"
+    },
+    {
+      "tag": "single-asset-concentration",
+      "kind": "dependency"
+    },
+    {
+      "tag": "cash-runway-risk",
+      "kind": "dependency"
+    },
+    {
+      "tag": "fda-approval-binary",
+      "kind": "dependency"
+    },
+    {
+      "tag": "dilution-risk",
+      "kind": "dependency"
+    }
+  ],
+  "bearCase": [
+    "CMOS sensor shortage or allocation cut forces production halt, missing revenue guidance.",
+    "Competitor Given Imaging launches superior capsule, eroding market share and pricing.",
+    "Reimbursement cuts for capsule endoscopy reduce procedure volumes and sales.",
+    "Cash burn accelerates; company needs dilutive equity offering at low stock price."
+  ],
+  "loadBearing": [
+    {
+      "assumption": "CMOS sensor supply remains stable and uncut",
+      "breaksIf": "Sony/Samsung/Hynix allocate capacity away from medical or face own supply issues"
+    },
+    {
+      "assumption": "No major competitive product launch in capsule endoscopy",
+      "breaksIf": "Medtronic or Olympus releases next-gen capsule with better imaging or lower cost"
+    },
+    {
+      "assumption": "Reimbursement rates for capsule endoscopy hold steady",
+      "breaksIf": "CMS or private payers reduce coverage or payment levels"
+    },
+    {
+      "assumption": "Manufacturing in Asia faces no trade or logistics disruption",
+      "breaksIf": "Tariffs, port closures, or geopolitical conflict interrupt assembly"
+    }
+  ],
+  "prediction": {
+    "statement": "CapsoVision Q2 2026 earnings (Aug 2026) will show revenue growth <5% YoY due to sensor supply constraints and flat procedure volumes.",
+    "horizonMonths": 2,
+    "resolutionCriterion": "Reported Q2 revenue growth vs prior year; if <5% then prediction correct.",
+    "confidence": 0.6
+  },
+  "gaps": [
+    "No supplier names or contracts on file",
+    "No manufacturing location details",
+    "No customer concentration data",
+    "No financial statements (cash, debt, margins)"
+  ],
+  "verifyThese": [
+    "Confirm CapsoVision's CMOS sensor supplier(s) and any second-source plans",
+    "Check manufacturing location (likely China/Taiwan) and tariff exposure",
+    "Review latest 10-K for revenue breakdown and cash runway",
+    "Assess competitive landscape: Given Imaging market share trends"
+  ],
+  "diminishingReturns": "Stopped at CMOS sensor and battery suppliers; deeper hops into raw materials (silicon, lithium) do not change the single-source fragility picture for this medical device company."
+}

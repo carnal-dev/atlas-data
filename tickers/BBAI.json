@@ -1,0 +1,71 @@
+{
+  "ticker": "BBAI",
+  "name": "BigBear.ai",
+  "identity": {
+    "sector": "Defense / AI software",
+    "theme": "Defense",
+    "country": "USA",
+    "tags": [
+      "🏛",
+      "📈"
+    ]
+  },
+  "position": {
+    "held": "Y",
+    "isException": false
+  },
+  "market": {
+    "price": 3.51,
+    "sharesOutM": 477.0,
+    "cashM": 437,
+    "debtM": 18,
+    "revenueTtmM": 160,
+    "asOf": "2026-06-26",
+    "source": "Q1'26 10-Q",
+    "provenance": {}
+  },
+  "scores": {
+    "factors": {
+      "tam": 75,
+      "techMoat": 35,
+      "capitalAllocation": 40,
+      "financialHealth": 50,
+      "dilutionRisk": 25,
+      "manufacturing": 10,
+      "competitivePosition": 35,
+      "insiderOwnership": 30,
+      "govtTailwinds": 70,
+      "executionRisk": 35,
+      "valuation": 45
+    },
+    "differentiators": {
+      "replacementRisk": 18,
+      "realityCheck": 42,
+      "civImportance": 45
+    },
+    "flags": {
+      "bankruptcyRisk": false
+    },
+    "earInputs": {
+      "pUp3x": 0.28,
+      "pUp10x": 0.07,
+      "pLoss": 0.35
+    }
+  },
+  "thesis": {
+    "summary": "AI decision-intelligence software. The anti-software guardrail test case — capped, lands D.",
+    "risks": "Software moat · Dilution",
+    "confidence": "High",
+    "runway": ">2 yrs",
+    "catalyst": {
+      "text": "New DoD/DHS contract awards; margin & cash trajectory",
+      "window": "2026",
+      "type": "DoD / Earnings"
+    },
+    "profile": ""
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-26"
+  }
+}

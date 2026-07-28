@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"ELE","oneLiner":"Engine candidate: move 7.7%, vol 15.8x, -39.5% drawdown [drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"gold-price-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration-risk","kind":"bottleneck","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-access","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"index-inclusion-liquidity-boost","kind":"theme","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Gold price remains above $2000/oz (or equivalent support level).","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Gold drops below $1800 due to dollar strength or recession demand collapse."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"Underlying mines operate at planned production levels.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"A key mine suspends operations due to accident, strike, or depletion."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"Capital markets remain open for royalty acquisitions.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Credit tightens or equity markets close for small-cap issuers."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"Index inclusion and NCIB provide price support.","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"Passive flows reverse or buyback is suspended due to cash constraints."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"ELE will trade below $14.00 within 12 months due to gold price correction and single-asset revenue miss.","dueDate":"2027-06-29","resolutionCriterion":"Closing price < $14.00 on any day before 2027-07-01.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"gold-price-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"single-asset-concentration-risk"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"capital-markets-access"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"index-inclusion-liquidity-boost"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"theme","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Next quarterly earnings (Q2 2026) will show revenue growth of 5-10% YoY, driven by higher gold price and steady production.","dueDate":"2026-09-29","resolutionCriterion":"Reported revenue vs prior year same quarter; growth >5% confirms thesis.","confidence":0.65,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Elemental Royalty is a gold-focused royalty and streaming company. Its supply chain is minimal (no mines, no processing) but its revenue depends entirely on gold prices and operator production. The ke"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"gold","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"interest-rate-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"inflation-sensitivity","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"single-asset-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"capital-markets-access","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"external-financing","kind":"dependency","source":"engine"}

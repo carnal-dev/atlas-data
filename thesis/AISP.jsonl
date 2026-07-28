@@ -1,0 +1,37 @@
+{"type":"ThesisOpened","at":"2026-06-29","ticker":"AISP","oneLiner":"Engine candidate: move -10.9%, vol 6.0x, -68.1% drawdown [move8%+vol3x drawdown+vol3x]","timeHorizon":"1-2y"}
+{"type":"TagAdded","at":"2026-06-29","tag":"engine-candidate","kind":"theme","source":"engine"}
+{"type":"ConvictionSet","at":"2026-06-29","level":0,"because":["engine-opened candidate, not yet curated"]}
+{"type":"TagAdded","at":"2026-06-29","tag":"gpu-supply-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"us-defense-spending","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"government-contract-dependency","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"chinese-sensor-tariffs","kind":"geopolitical","source":"engine"}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-1","text":"Fortune 100 contract expands or renews","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-1","condition":"Customer switches to competitor or reduces scope; no follow-on orders."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-2","text":"GPU supply remains adequate for small customers","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-2","condition":"NVIDIA prioritizes hyperscalers; AISP faces allocation cuts or higher costs."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-3","text":"US government surveillance spending continues to grow","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-3","condition":"Federal budget sequestration or policy shift away from AI surveillance."}
+{"type":"AssumptionAdded","at":"2026-06-29","id":"eng-a-2026-06-29-4","text":"No major security breach or product failure","confidence":"medium","category":"supply-chain"}
+{"type":"InvalidationAdded","at":"2026-06-29","id":"eng-inv-2026-06-29-4","condition":"A high-profile vulnerability or data leak erodes trust and sales."}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"AISP stock will trade above $4.00 within 12 months if it announces at least one additional seven-figure contract with a government or enterprise customer.","dueDate":"2027-06-29","resolutionCriterion":"Stock price reaches $4.00 or higher on any trading day within 12 months from today, AND a press release confirms a new seven-figure contract.","confidence":0.35,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"gpu-supply-concentration"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"us-defense-spending"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"government-contract-dependency"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"chinese-sensor-tariffs"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-1","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-2","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-3","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"eng-a-2026-06-29-4","kind":"dependency","source":"engine"}
+{"type":"PredictionMade","at":"2026-06-29","id":"eng-pred-2026-06-29","statement":"Airship AI reports Q2 2026 earnings in August 2026; revenue will show sequential growth driven by the Fortune 100 contract, but operating loss will persist.","dueDate":"2026-08-29","resolutionCriterion":"Q2 2026 revenue exceeds Q1 2026 ($2.5M est.) and gross margin stays above 60%; if revenue declines or margin drops below 50%, prediction fails.","confidence":0.55,"source":"engine"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"engine-candidate"}
+{"type":"ThesisReframed","at":"2026-06-29","oneLiner":"Airship AI is a small-cap surveillance software vendor with a recent Fortune 100 contract win. Its supply chain is light (software-centric) but depends on GPU availability for AI inference and on U.S."}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-1"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-2"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-3"}
+{"type":"TagRemoved","at":"2026-06-29","tag":"eng-a-2026-06-29-4"}
+{"type":"TagAdded","at":"2026-06-29","tag":"gpu-supply","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"defense-spending","kind":"theme","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"software-margins","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"customer-concentration","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-06-29","tag":"cash-runway-risk","kind":"dependency","source":"engine"}
+{"type":"TagAdded","at":"2026-07-02T06:59:35.324Z","tag":"cloud-infrastructure","kind":"dependency","source":"engine"}
